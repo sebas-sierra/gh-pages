@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sebas-sierra/gh-pages.git/static/css/main.073c9b0a.css",
+    "main.js": "/sebas-sierra/gh-pages.git/static/js/main.838802c6.js",
+    "static/js/787.c0245b8d.chunk.js": "/sebas-sierra/gh-pages.git/static/js/787.c0245b8d.chunk.js",
+    "static/media/logo.svg": "/sebas-sierra/gh-pages.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sebas-sierra/gh-pages.git/index.html",
+    "main.073c9b0a.css.map": "/sebas-sierra/gh-pages.git/static/css/main.073c9b0a.css.map",
+    "main.838802c6.js.map": "/sebas-sierra/gh-pages.git/static/js/main.838802c6.js.map",
+    "787.c0245b8d.chunk.js.map": "/sebas-sierra/gh-pages.git/static/js/787.c0245b8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.838802c6.js"
+  ]
+}
