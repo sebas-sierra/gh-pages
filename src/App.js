@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Aca comienza el camino del desarrollador react.
+          Esto es un testing de GitHub-pages para armar un portfolio
         </p>
         <a
           className="App-link"
