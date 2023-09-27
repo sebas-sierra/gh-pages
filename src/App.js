@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
+      <Header/>
+      <Main/>
+      <Footer/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>GitHub - pages</h1>
