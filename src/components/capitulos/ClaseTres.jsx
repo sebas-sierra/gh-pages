@@ -2,7 +2,7 @@ import React from 'react'
 
 const ClaseTres = () => {
   return (
-    <div>ClaseTresss</div>
+    <div>ClaseTres</div>
   )
 }
 
