@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import NavBar from './NavBar';
 
 const Footer = () => {
   return (
-    <div><p>Footer</p></div>
+    <footer>
+      {/* <NavBar isInHeader = {false}/> */}
+      <NavBar/>
+    </footer>
   )
 }
 
