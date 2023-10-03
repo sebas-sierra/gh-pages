@@ -5,15 +5,19 @@ import Col from 'react-bootstrap/Col';
 
 import ClaseTres from './capitulos/ClaseTres';
 import ClaseCuatro from './capitulos/ClaseCuatro';
+import ClaseCinco from './capitulos/ClaseCinco';
+import ClaseSeis from './capitulos/ClaseSeis';
+
 const Main = () => {
   return (
     <Container className='main'>
         <Row>
           <Col sm={8}>
             <h1>Main</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio vero enim eveniet perspiciatis neque architecto a pariatur recusandae molestiae harum accusantium, minima, cumque magnam asperiores veritatis provident? Quas, dolor.</p>
             <ClaseTres/>
             <ClaseCuatro/>
+            <ClaseCinco/>
+            <ClaseSeis/>
           </Col>
         </Row>
     </Container>
