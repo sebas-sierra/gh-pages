@@ -20,15 +20,12 @@ const Main = () => {
     <Container className='main'>
         <Row>
           <Col sm={8}>
-              <h1>Main </h1>
+            <h1>Main</h1>
             <Routes>
               <Route path='/capitulos/clasetres' element={<ClaseTres/>} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro/>} />
               <Route path='/capitulos/clasecinco' element={<ClaseCinco/>} stock={10} onAdd={onAdd} />
               <Route path='/capitulos/claseseis' element={<ClaseSeis/>} />
-              
-              
-              
             </Routes>
           </Col>
         </Row>
