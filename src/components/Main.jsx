@@ -25,12 +25,12 @@ const Main = () => {
           <Col sm={8}>
             <h1>Main</h1>
             <Routes>
-              <Route path='capitulos/clasetres' element={<ClaseTres/>} />
-              <Route path='capitulos/clasecuatro' element={<ClaseCuatro/>} />
-              <Route path='capitulos/clasecinco' element={<ClaseCinco/>} stock={10} onAdd={onAdd} />
-              <Route path='capitulos/claseseis/productos' element={<ClaseSeis/>} />
-              <Route path='capitulos/clasesiete' element={<ClaseSiete/>} />
-              <Route path='capitulos/claseocho' element={<ClaseOcho/>} />
+              <Route path='/capitulos/clasetres' element={<ClaseTres/>} />
+              <Route path='/capitulos/clasecuatro' element={<ClaseCuatro/>} />
+              <Route path='/capitulos/clasecinco' element={<ClaseCinco/>} stock={10} onAdd={onAdd} />
+              <Route path='/capitulos/claseseis/productos' element={<ClaseSeis/>} />
+              <Route path='/capitulos/clasesiete' element={<ClaseSiete/>} />
+              <Route path='/capitulos/claseocho' element={<ClaseOcho/>} />
               {/* <Route path='capitulos/clasenueve' element={<ClaseNueve/>} /> */}
             </Routes>
           </Col>
