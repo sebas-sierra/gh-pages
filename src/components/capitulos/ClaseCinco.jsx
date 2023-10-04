@@ -6,20 +6,24 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-const ClaseCinco = ({}) => {
+const ClaseCinco = ({stock, onAdd}) => {
     const [ cantidad, setCantidad ] = useState(1);
     const sumar = () => {
-
-    }
+        if (cantidad < stock) {
+            setCantidad(cantidad + 1)
+        }
+    };
 
     const restar = () => {
-
-    }
+        if (cantidad > 1) {
+            setCantidad(cantidad - 1)
+        }
+    };
 
     const reset = () => {
         setCantidad(1);
+    };
 
-    }
   return (
     <div>
         <Card className="mb-2">
@@ -49,7 +53,7 @@ const ClaseCinco = ({}) => {
                     - Los componentes y sus ciclos de vida, esto abarca el proceso a traves del cual un componente se monta (se renderiza en pantalla), se actualiza (se vuelve a renderizar debido a un cambio de PROP o de estado) y se desmonta.
                 </Card.Text>
                 
-                <EjemploState/>
+                {/* <EjemploState/> */}
                 <Card.Text>
                     El hook useEffect sirve para ejecutar codigo despues del renderizado de mi componente, su funcionamiento es similar al metodo 'asincronia' de JS, pero no lo es. Me sirve para escribir codigo que se tienen que ejecutar luego del renderizado de mi componente.<br/><br/>
                     El Hook useEffect() que recibe dos parametros: - uno es una funcion de callBack - y el otro (que puede ir o no) es un array de dependencias, que puede estar vacio o no. Si el array NO EXISTE, la funcion callBack se ejecuta cada vez que se renderiza el componente. Si el Array esta vacio se ejecutara solo UNA vez. y si el array de dependencias incluye la dependencia, entonces se ejecutara cada vez que detecte un cambio de estado en ella.<br/><br/>

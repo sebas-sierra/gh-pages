@@ -16,14 +16,14 @@ const NavBar = () => {
           <Nav.Link href='/pokeapi'>PokeApi</Nav.Link>
           <Nav.Link href='/itemdetail'>ItemDetail</Nav.Link>
           <NavDropdown title='Clases' id='basic-nav-dropdown'>
-            <NavDropdown.Item href='/clasetres'>Clase 3</NavDropdown.Item>
-            <NavDropdown.Item href='/clasecuatro'>Clase 4</NavDropdown.Item>
-            <NavDropdown.Item href='/clasecinco'>Clase 5</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/clasetres'>Clase 3</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/clasecuatro'>Clase 4</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/clasecinco'>Clase 5</NavDropdown.Item>
             <NavDropdown.Divider/>
-            <NavDropdown.Item href='/claseseis/productos'>Clase 6</NavDropdown.Item>
-            <NavDropdown.Item href='/clasesiete'>Clase 7</NavDropdown.Item>
-            <NavDropdown.Item href='/claseocho'>Clase 8</NavDropdown.Item>
-            <NavDropdown.Item href='/clasenueve'>Clase 9</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/claseseis/productos'>Clase 6</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/clasesiete'>Clase 7</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/claseocho'>Clase 8</NavDropdown.Item>
+            <NavDropdown.Item href='capitulos/clasenueve'>Clase 9</NavDropdown.Item>
           </NavDropdown>
 
           {/* {isInHeader 
