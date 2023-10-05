@@ -7,11 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <BrowserRouter basename={'/gh-pages'}>
+    <BrowserRouter basename={'/'}>
       <Header/>
       <Main/>
       <Footer/>
-      </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
