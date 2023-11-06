@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { products } from '../../mock/products';
 
 const ItemListContainer = () => {
-  const [ Item, setItem ] = useState ([]);
+  const [ items, setItems ] = useState ([]);
   
   useEffect (()=>{
     const getProducts = () => {
@@ -17,7 +17,7 @@ const ItemListContainer = () => {
 
   getProducts()
   .then((res) => {
-    setItem(res);
+    setItems(res);
   })
   .catch((error) => {
     console.log('res', error);
@@ -27,19 +27,9 @@ const ItemListContainer = () => {
 
   return (
     <>
-    <p>PRODUCTOS</p>
-    <ItemList/>
-    {Item.map((producto) => {
-        return (
-          <div>
-            <img src={producto.img} width="200px" alt="" />
-            <article>
-              <h2>{producto.title}</h2>
-              <h3>${producto.price} .-</h3>
-            </article>
-          </div>
-        )
-      })}
+    <p>ITEMLIST CONTAINER</p>
+    <ItemList items={items}/>
+    
     </>
   )
 }
