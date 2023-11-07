@@ -1,16 +1,18 @@
 import React from 'react';
-import Item from './Item'
+import Item from './Item';
 
-const ItemList = ({items}) => {
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+const ItemList = ({ items }) => {
   return (
     <>
-    <p>ITEMLIST</p>
-
-    {items.map((producto) => {
-        return <Item producto={producto} key={producto.id}/>;
-      })}
-   
-    
+      <p>ITEMLIST</p>
+      <Row xs={1} md={2} className='g-4'>
+        {items.map((producto) => {
+          return (<Col><Item producto={producto} key={producto.id}/></Col>);
+        })}
+      </Row>
     </>
   )
 }
