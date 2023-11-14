@@ -16,6 +16,8 @@ const ClaseNueve = () => {
               <li>Automaticos - Los eventos se disparan con programacion en un momento 'X' determinado por el desarrollador.</li>
               <li>Manual - Interaccion del usuario con la UI, por ejemplo un usuario haciendo click en un boton.</li>
             </ul>
+            <p>El evento de UI mas facil de identificar es el Click.</p>
+            <p>Que es un EventListener?: Es un patron de diseño que sirve para escuchar cuando un algo ocurre sobre algun elemento y desencadena la ejecucion de una accion en consecuencia.</p>
 
             <p>Podemos hablar de dos metodos de manipulacion de formularios dentro de React Js:</p>
             <ul>

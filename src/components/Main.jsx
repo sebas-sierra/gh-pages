@@ -8,7 +8,9 @@ import ClaseCinco from './capitulos/ClaseCinco';
 import ClaseSeis from './capitulos/ClaseSeis';
 import ClaseSiete from './capitulos/ClaseSiete';
 import ClaseOcho from './capitulos/ClaseOcho';
-import ClaseNueve from './capitulos/ClaseNueve'
+import ClaseNueve from './capitulos/ClaseNueve';
+import ClaseDiez from './capitulos/ClaseDiez';
+
 import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
 import { Routes, Route } from 'react-router-dom'
@@ -37,6 +39,7 @@ const Main = () => {
               <Route path='/capitulos/clasesiete' element={<ClaseSiete/>} />
               <Route path='/capitulos/claseocho' element={<ClaseOcho/>} />
               <Route path='/capitulos/clasenueve' element={<ClaseNueve/>} />
+              <Route path='/capitulos/clasediez' element={<ClaseDiez/>} />
             </Routes>
           </Col>
         </Row>
