@@ -20,7 +20,8 @@ const ClaseDiez = () => {
                         <li>Un CONTEXT puede contener valores, funciones, objetos o referencias. Este hook nos sirve para almecenar la data que necesita la app para renderizarse correctamente. Pero para poder tener un codigo limpio y ordenado es fundamental crear lo que sera nuestro Contexto en un archivo independiente, desde el CONTEXTO distribuiremos la data con nuestra App la requiera.</li>
                         <li>El PROVIDER es el que distribuye la info guardada en nuestro Contexto hacia los distintos componentes de nuestra App que la soliciten. Para que los componentes y sus hijos accedan a la info tienen que estar envueltos por el componente Provider.</li>
                         <li>Como CONTEXT es un componente externo al componente APP no puedo pasarle valores a traves de "value". Para solucionar esto lo que tenemos que hacer es crear un componente Provider dentro del que vamos a retornar un componente '.Provider' al que si vamos a poder pasar valores. <br />
-                        De esta manera al contar con un componente que nos retorna un '.Provider' no podemos pasar nada usando el value. Ahora para </li>
+                        De esta manera al contar con un componente que nos retorna un '.Provider' no podemos pasar nada usando el value. Ahora para pasar valores y funciones a los componentes que funcionaran dentro de mi contexto vamos a usar los Children. <br />
+                        Ya sabemos que en React cuando envuelvo con un componente otros componentes, estos componentes 'hijo' llegan al componente 'padre' a travez de una PROP llamada CHILDREN.</li>
                     </ul>
                 </Card.Text>
             </Card.Body>

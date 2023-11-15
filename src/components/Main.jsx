@@ -10,6 +10,7 @@ import ClaseSiete from './capitulos/ClaseSiete';
 import ClaseOcho from './capitulos/ClaseOcho';
 import ClaseNueve from './capitulos/ClaseNueve';
 import ClaseDiez from './capitulos/ClaseDiez';
+import ClaseOnce from './capitulos/ClaseOnce';
 
 import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
@@ -40,6 +41,7 @@ const Main = () => {
               <Route path='/capitulos/claseocho' element={<ClaseOcho/>} />
               <Route path='/capitulos/clasenueve' element={<ClaseNueve/>} />
               <Route path='/capitulos/clasediez' element={<ClaseDiez/>} />
+              <Route path='/capitulos/claseonce' element={<ClaseOnce/>} />
             </Routes>
           </Col>
         </Row>

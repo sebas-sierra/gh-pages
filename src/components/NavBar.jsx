@@ -26,6 +26,7 @@ const NavBar = () => {
             <NavDropdown.Item href='/gh-pages/#/capitulos/clasenueve'>Clase 9</NavDropdown.Item>
             <NavDropdown.Item href='/gh-pages/#/capitulos/prod'>Productos</NavDropdown.Item>
             <NavDropdown.Item href='/gh-pages/#/capitulos/clasediez'>Clase 10</NavDropdown.Item>
+            <NavDropdown.Item href='/gh-pages/#/capitulos/claseonce'>Clase 11</NavDropdown.Item>
           </NavDropdown>
 
           {/* {isInHeader 
