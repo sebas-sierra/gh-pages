@@ -11,6 +11,9 @@ import ClaseOcho from './capitulos/ClaseOcho';
 import ClaseNueve from './capitulos/ClaseNueve';
 import ClaseDiez from './capitulos/ClaseDiez';
 import ClaseOnce from './capitulos/ClaseOnce';
+import ClaseDoce from './capitulos/ClaseDoce';
+import ClaseTrece from './capitulos/ClaseTrece';
+import ClaseCatorce from './capitulos/ClaseCatorce';
 
 import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
@@ -28,7 +31,7 @@ const Main = () => {
     <Container className='main'>
         <Row>
           <Col sm={8}>
-            <h1>Main</h1>
+            <h1>Main *</h1>
             <Routes>
               <Route path='/capitulos/clasetres' element={<ClaseTres/>} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro/>} />
@@ -42,6 +45,9 @@ const Main = () => {
               <Route path='/capitulos/clasenueve' element={<ClaseNueve/>} />
               <Route path='/capitulos/clasediez' element={<ClaseDiez/>} />
               <Route path='/capitulos/claseonce' element={<ClaseOnce/>} />
+              <Route path='/capitulos/clasedoce' element={<ClaseDoce/>} />
+              <Route path='/capitulos/clasetrece' element={<ClaseTrece/>} />
+              <Route path='/capitulos/clasecatorce' element={<ClaseCatorce/>} />
             </Routes>
           </Col>
         </Row>
