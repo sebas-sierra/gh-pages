@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
+import ImagenesRs from './capitulos/ImagenesRs';
 import ClaseTres from './capitulos/ClaseTres';
 import ClaseCuatro from './capitulos/ClaseCuatro';
 import ClaseCinco from './capitulos/ClaseCinco';
@@ -20,6 +21,7 @@ import ItemListContainer from './capitulos/ItemListContainer';
 import { Routes, Route } from 'react-router-dom'
 import React from 'react';
 
+
 const Main = () => {
 
   const onAdd = (cantidad) => {
@@ -33,6 +35,7 @@ const Main = () => {
           <Col sm={8}>
             <h1>Main *</h1>
             <Routes>
+              <Route path='/capitulos/imagenesrs' element={<ImagenesRs/>} />
               <Route path='/capitulos/clasetres' element={<ClaseTres/>} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro/>} />
               <Route path='/capitulos/clasecinco' element={<ClaseCinco/>} stock={10} onAdd={onAdd} />
