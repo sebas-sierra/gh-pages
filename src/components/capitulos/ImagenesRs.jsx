@@ -42,25 +42,27 @@ const ImagenesRs = () => {
         </ul>
 
         <p>Instagram</p>
+        <h4>Post</h4>
+        <Row xs={1} md={3} className="g-4">
+          {imagen.map((imagen) => (
+          <Col key={imagen.id}>
+            <Card>
+              <Card.Img variant="top" src={imagen.img} />
+              <Card.Body>
+                <Card.Title>{imagen.title}</Card.Title>
+                <Card.Text>aspect ratio: {imagen.aspectRatio}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>))}
+        </Row>
+        
         <ul>
           <li>Post</li>
           
 
     
 
-        <Row xs={1} md={3} className="g-4">
-      {imagen.map((imagen) => (
-        <Col key={imagen.id}>
-          <Card>
-            <Card.Img variant="top" src={imagen.img} />
-            <Card.Body>
-              <Card.Title>{imagen.title}</Card.Title>
-              <Card.Text>aspect ratio: {imagen.aspectRatio}</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+        
 <li>Video</li>
           <li>storys</li>
         </ul>
