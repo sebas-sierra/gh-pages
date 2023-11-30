@@ -15,6 +15,7 @@ import ClaseOnce from './capitulos/ClaseOnce';
 import ClaseDoce from './capitulos/ClaseDoce';
 import ClaseTrece from './capitulos/ClaseTrece';
 import ClaseCatorce from './capitulos/ClaseCatorce';
+import UninstallVSC from './capitulos/UninstallVSC';
 
 import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
@@ -51,6 +52,7 @@ const Main = () => {
               <Route path='/capitulos/clasedoce' element={<ClaseDoce/>} />
               <Route path='/capitulos/clasetrece' element={<ClaseTrece/>} />
               <Route path='/capitulos/clasecatorce' element={<ClaseCatorce/>} />
+              <Route path='/capitulos/desinstalarvsc' element={<UninstallVSC/>}/>
             </Routes>
           </Col>
         </Row>

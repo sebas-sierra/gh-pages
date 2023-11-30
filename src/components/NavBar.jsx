@@ -16,6 +16,7 @@ const NavBar = () => {
           <Nav.Link href='/pokeapi'>PokeApi</Nav.Link>
           <Nav.Link href='/itemdetail'>ItemDetail</Nav.Link>
           <Nav.Link href='/gh-pages/#/capitulos/imagenesrs'>Redes Sociales</Nav.Link>
+          <Nav.Link href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</Nav.Link>
           <NavDropdown title='Clases' id='basic-nav-dropdown'>
             <NavDropdown.Item href='/gh-pages/#/capitulos/clasetres'>Clase 3</NavDropdown.Item>
             <NavDropdown.Item href='/gh-pages/#/capitulos/clasecuatro'>Clase 4</NavDropdown.Item>

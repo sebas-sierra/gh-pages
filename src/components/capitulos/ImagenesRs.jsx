@@ -44,10 +44,10 @@ const ImagenesRs = () => {
         <p>Instagram</p>
         <h4>Post</h4>
         <ul>
-          <li>Las publicaciones de Instagram pueden ser cuadradas, horizontales o verticales. Todas las imágenes se recortarán en un cuadrado en el feed.</li>
+          <li>Las publicaciones de Instagram pueden ser cuadradas, verticales u horizontales. Todas las imágenes se recortarán en un cuadrado en el feed.</li>
           <li>El tamaño ideal para publicaciones cuadradas es de 1080 px por 1080 px en una relación de aspecto de 1:1.</li>
-          <li>Para publicaciones horizontales, usa una imagen de 1200 px por 628 px, con una relación de aspecto de 1,91:1.</li>
           <li>Las imágenes verticales deben tener un tamaño de 1080 px por 1350 px con una relación de aspecto de 4:5.</li>
+          <li>Para publicaciones horizontales, usa una imagen de 1200 px por 628 px, con una relación de aspecto de 1,91:1.</li>
         </ul>
         
         <Row xs={1} md={3} className="g-4">
