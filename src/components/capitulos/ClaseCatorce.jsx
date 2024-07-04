@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Card from 'react-bootstrap/Card';
 
 const ClaseCatorce = () => {
   return (
-    <div>ClaseCatorce </div>
+    <div>
+      <Card>
+        <Card.Header>Clase 14 - Workshop</Card.Header>
+        <Card.Body>
+          <Card.Title></Card.Title>
+          <Card.Text></Card.Text>
+        </Card.Body>
+      </Card>
+    </div>
   )
 }
 

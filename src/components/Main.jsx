@@ -16,18 +16,21 @@ import ClaseDoce from './capitulos/ClaseDoce';
 import ClaseTrece from './capitulos/ClaseTrece';
 import ClaseCatorce from './capitulos/ClaseCatorce';
 import UninstallVSC from './capitulos/UninstallVSC';
-
-import ItemListContainer from './capitulos/ItemListContainer';
+import Catalogo from './capitulos/Catalogo';
+import ItemDetailContainer from './capitulos/ItemDetailContainer';
+import Cart from './cart/Cart';
+// import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
 import { Routes, Route } from 'react-router-dom'
 import React from 'react';
 
 
+
 const Main = () => {
 
-  const onAdd = (cantidad) => {
-    console.log('Funciona' + cantidad + 'unidades');
-  }
+  // const onAdd = (cantidad) => {
+  //   console.log('Funciona' + cantidad + 'unidades');
+  // }
 
 
   return (
@@ -39,11 +42,14 @@ const Main = () => {
               <Route path='/capitulos/imagenesrs' element={<ImagenesRs/>} />
               <Route path='/capitulos/clasetres' element={<ClaseTres/>} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro/>} />
-              <Route path='/capitulos/clasecinco' element={<ClaseCinco/>} stock={10} onAdd={onAdd} />
+              <Route path='/capitulos/clasecinco' element={<ClaseCinco/>}  />
               <Route path='/capitulos/claseseis/productos' element={<ClaseSeis/>} >
 
               </Route>
-              <Route path='/capitulos/prod' element={ <ItemListContainer/> } />
+              <Route path='/capitulos/prod' element={ <Catalogo/> } />
+              <Route path='/capitulos/prod/category/:categoryName' element={ <Catalogo/> } />
+              
+              <Route path='/capitulos/itemdetail/:idProd' element={ <ItemDetailContainer/> } />
               <Route path='/capitulos/clasesiete' element={<ClaseSiete/>} />
               <Route path='/capitulos/claseocho' element={<ClaseOcho/>} />
               <Route path='/capitulos/clasenueve' element={<ClaseNueve/>} />
@@ -53,6 +59,7 @@ const Main = () => {
               <Route path='/capitulos/clasetrece' element={<ClaseTrece/>} />
               <Route path='/capitulos/clasecatorce' element={<ClaseCatorce/>} />
               <Route path='/capitulos/desinstalarvsc' element={<UninstallVSC/>}/>
+              <Route path='/cart' element={<Cart/>}/>
             </Routes>
           </Col>
         </Row>

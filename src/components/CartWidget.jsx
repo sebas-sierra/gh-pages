@@ -1,8 +1,14 @@
-import React from 'react'
+import { React, useContext} from 'react';
+import { CartContext } from '../context/CartContext';
+import Button from 'react-bootstrap/Button';
 
 const CartWidget = () => {
+  const { totalUnidades } = useContext(CartContext);
   return (
-    <div>CartWidget</div>
+    <div>
+      <Button href='/gh-pages/#/cart'>CartWidget</Button>
+      <span>{totalUnidades()}</span>
+    </div>
   )
 }
 

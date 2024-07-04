@@ -9,8 +9,7 @@ const ClaseOnce = () => {
             <Card.Body>
                 <Card.Title></Card.Title>
                 <Card.Text>
-                  <p>Existen una serie de tecnicas para hacer que el renderizado de algunos componentes este atado a que se cumplan <br /> 
-                     determinadas condiciones. Es decir que puedo pedir a mi aplicacion que renderice solo algunos nodos de un arbol o de otro haciendo uso de condicionales.
+                  <p>Existen una serie de tecnicas para hacer que el renderizado de algunos componentes este atado a que se cumplan determinadas condiciones. Es decir que puedo pedir a mi aplicacion que renderice solo algunos nodos de un arbol o de otro haciendo uso de condicionales.
                   </p>
                   <p>Flujo de reconciliacion</p>
                   <p>A veces se producen sin intencion y causan bugs o perdida no intencionada del estado, dando inestabilidad.</p>

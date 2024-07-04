@@ -47,7 +47,7 @@ const ImagenesRs = () => {
           <li>Las publicaciones de Instagram pueden ser cuadradas, verticales u horizontales. Todas las imágenes se recortarán en un cuadrado en el feed.</li>
           <li>El tamaño ideal para publicaciones cuadradas es de 1080 px por 1080 px en una relación de aspecto de 1:1.</li>
           <li>Las imágenes verticales deben tener un tamaño de 1080 px por 1350 px con una relación de aspecto de 4:5.</li>
-          <li>Para publicaciones horizontales, usa una imagen de 1200 px por 628 px, con una relación de aspecto de 1,91:1.</li>
+          <li>Para publicaciones apaisadas (horizontales), usa una imagen de 1080px por 566px, con una relación de aspecto de 1,91:1.</li>
         </ul>
         
         <Row xs={1} md={3} className="g-4">
@@ -64,14 +64,14 @@ const ImagenesRs = () => {
         </Row>
         <h4>Video</h4>
         <ul>
-          <li>Puedes subir vídeos que tengan el mismo tamaño que las publicaciones de imágenes que se encuentran arriba; que su tamaño esté entre una relación de aspecto 1,91:1 a 4:5.</li>
-          <li>El tamaño de vídeo horizontal ideal es una relación de aspecto de 16:9 porque ese es el formato en el que graba tu smartphone cuando se gira hacia un lado, por lo que tu vídeo aparecerá de forma más natural cuando se mantenga en su tamaño original.</li>
-          <li>Asegúrate de que tus vídeos no tengan más de 4 GB.</li>
+          <li>Se puede postear vídeos que tengan el mismo tamaño que los post de imágenes que se detallan arriba; que su tamaño de la relación de aspecto puede variar entre 1,91:1 y 4:5.</li>
+          <li>El tamaño de vídeo horizontal ideal es una relación de aspecto de 16:9 porque ese es el formato en el que graba tu smartphone, por lo que tu vídeo aparecerá de forma más natural cuando se mantenga en su tamaño original.</li>
+          <li>Asegúrate de que tus vídeos no pesen más de 4 GB.</li>
           <li>Las publicaciones de vídeo pueden durar hasta 60 segundos.</li>
         </ul>
         <h4>Stories</h4>
         <ul>
-          <li>Si bien las imágenes se pueden recortar y dimensionar manualmente para ajustarlas a una historia, el tamaño recomendado para mostrarse a pantalla completa con contenido es de 1080 px por 1920 px (una relación de aspecto de 9:16).</li>
+          <li>Si bien las imágenes se pueden recortar y dimensionar manualmente para ajustarlas a una historia, el tamaño recomendado para mostrar el contenido a pantalla completa  es de 1080px por 1920px (relación de aspecto de 9:16).</li>
           <li>Esto se aplica tanto a las fotos como a los vídeos.</li>
           <li>Las imágenes se mostrarán durante cinco segundos y los vídeos se mostrarán en incrementos de 15 segundos. Puedes grabar un vídeo por un minuto completo que se dividirá en cuatro partes de 15 segundos, pero después de un minuto, deberás comenzar a grabar nuevamente.</li>
         </ul>
