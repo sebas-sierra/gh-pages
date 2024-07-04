@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.db798329.css",
-    "main.js": "/gh-pages/static/js/main.0517cf42.js",
+    "main.css": "/gh-pages/static/css/main.440163bd.css",
+    "main.js": "/gh-pages/static/js/main.183b404a.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
+    "static/media/avtarlogo.png": "/gh-pages/static/media/avtarlogo.038060027ccede124577.png",
+    "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
+    "static/media/cast1.jpg": "/gh-pages/static/media/cast1.357ee3dea8745342a8e9.jpg",
+    "static/media/cast2.jpg": "/gh-pages/static/media/cast2.1e96a37512a3111c2415.jpg",
+    "static/media/cast5.jpg": "/gh-pages/static/media/cast5.ee250bd26a08c85dca89.jpg",
+    "static/media/cast3.jpg": "/gh-pages/static/media/cast3.ee777720bb4beb52e436.jpg",
     "index.html": "/gh-pages/index.html",
-    "main.db798329.css.map": "/gh-pages/static/css/main.db798329.css.map",
-    "main.0517cf42.js.map": "/gh-pages/static/js/main.0517cf42.js.map",
+    "main.440163bd.css.map": "/gh-pages/static/css/main.440163bd.css.map",
+    "main.183b404a.js.map": "/gh-pages/static/js/main.183b404a.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db798329.css",
-    "static/js/main.0517cf42.js"
+    "static/css/main.440163bd.css",
+    "static/js/main.183b404a.js"
   ]
 }
