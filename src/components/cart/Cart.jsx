@@ -1,8 +1,9 @@
 import { React, useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
+import { Button } from 'react-bootstrap';
 
 const Cart = () => {
-    const { cart, deleteOne, deleteAll } = useContext(CartContext);
+    const { cart, deleteOne, deleteAll, totalPrecio } = useContext(CartContext);
     return (
         <div>
             <h3>aca voy a mostrar los elementos enviados al cart por la funcion onAdd</h3>
@@ -13,13 +14,16 @@ const Cart = () => {
                     <img src={prod.img} alt={prod.title} width="180px" />
                     <div>
                         <h3>{prod.title}</h3>
-                        <h3>{prod.cantidad}</h3>
+                        <h4>Cant. de unidades: {prod.cantidad}</h4>
                         <button onClick={() => deleteOne(prod.id)}>Eliminar</button>
                     </div>
                 </div>)
             })}
-            <h3>TOTAL: $.-</h3>
+            <h3>TOTAL: $.- <span>{totalPrecio()}</span></h3>
             <button onClick={deleteAll}>Vaciar el carrito</button>
+            <Button href='/gh-pages/#/checkout'>Checkout</Button>
+            <button>checkout</button>
+            
         </div>
     )
 }

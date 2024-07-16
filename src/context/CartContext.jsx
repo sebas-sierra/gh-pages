@@ -53,10 +53,24 @@ const CartProvider = ({children}) => {
         return count
 
      }
+
+    // const totalPrecio = () => 1000;
+
+    const totalPrecio = () => {
+        let total = 0;
+        const copia = [...cart];
+        copia.forEach((prod) => {
+            total = total + (prod.price*prod.cantidad)
+
+        })
+        return total
+
+    };
+
     console.log(cart);
 
     return (
-        <CartContext.Provider value={{cart, addToCart, deleteAll, deleteOne, totalUnidades}}>
+        <CartContext.Provider value={{cart, addToCart, deleteAll, deleteOne, totalUnidades, totalPrecio}}>
             {children}
         </CartContext.Provider>
         )

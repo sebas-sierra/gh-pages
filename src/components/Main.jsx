@@ -19,6 +19,7 @@ import UninstallVSC from './capitulos/UninstallVSC';
 import Catalogo from './capitulos/Catalogo';
 import ItemDetailContainer from './capitulos/ItemDetailContainer';
 import Cart from './cart/Cart';
+import FormA from './FormA';
 // import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
 import { Routes, Route } from 'react-router-dom'
@@ -60,6 +61,7 @@ const Main = () => {
               <Route path='/capitulos/clasecatorce' element={<ClaseCatorce/>} />
               <Route path='/capitulos/desinstalarvsc' element={<UninstallVSC/>}/>
               <Route path='/cart' element={<Cart/>}/>
+              <Route path='/checkout' element={<FormA/>}/>
             </Routes>
           </Col>
         </Row>
