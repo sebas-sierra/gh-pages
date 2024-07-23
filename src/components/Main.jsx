@@ -25,10 +25,7 @@ import FormA from './FormA';
 import { Routes, Route } from 'react-router-dom'
 import React from 'react';
 
-
-
 const Main = () => {
-
   // const onAdd = (cantidad) => {
   //   console.log('Funciona' + cantidad + 'unidades');
   // }

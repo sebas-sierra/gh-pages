@@ -10,16 +10,19 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons';
 import CartProvider from './context/CartContext';
-
+import ThemeProvider from './context/ThemeContext';
 function App() {
+
   return (
   <HashRouter>
+    <ThemeProvider>
     <CartProvider>  
     
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Footer />
     </CartProvider>
+    </ThemeProvider>
   </HashRouter>
     
   );
