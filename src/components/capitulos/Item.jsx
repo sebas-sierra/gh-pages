@@ -32,8 +32,9 @@ const Item = ({ producto }) => {
             <img src={producto.img} width="80px" alt="" variant="top" />
           </div>
           <div className='details'>
-            <img src={avtarlogo} className="logo" alt="logo"/>
-            <h3>Dirigida por James Cameron</h3>
+            {/* <img src={avtarlogo} className="logo" alt="logo"/> */}
+            <h1>{producto.title}</h1>
+            <h2>${producto.price}.-</h2>
             <div className='rating'>
               <FontAwesomeIcon icon="fa-solid fa-star" />
               <FontAwesomeIcon icon="fa-solid fa-star" />
@@ -44,7 +45,7 @@ const Item = ({ producto }) => {
               <span> 4 / 5</span>
             </div>
             <div className='tags'>
-              <span>Sci-fi</span>
+              <span>{producto.category}</span>
               <span>Action</span>
             </div>
             <div className='info'>

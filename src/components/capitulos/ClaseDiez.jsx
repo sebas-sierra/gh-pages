@@ -24,8 +24,10 @@ const ClaseDiez = () => {
                         De esta manera al contar con un componente que nos retorna un '.Provider' no podemos pasar nada usando el value. Ahora para pasar valores y funciones a los componentes que funcionaran dentro de mi contexto vamos a usar los Children. <br />
                         Ya sabemos que en React cuando envuelvo con un componente otros componentes, estos componentes 'hijo' llegan al componente 'padre' a travez de una PROP llamada CHILDREN.</li>
                     </ul>
-                    <Link to={'https://www.youtube.com/watch?v=iQrnojbuLUE&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=83'} >Curso React: 77. Context API - Haciendo una APP MultiIDIOMA SIN Context - jonmircha</Link>
-                    <Link to={'https://www.youtube.com/watch?v=oOMk7RIPgOg'} >69. Firestore: Listando los primeros posts | Firebase | React en español</Link>
+                    <Link to={'https://www.youtube.com/watch?v=iQrnojbuLUE&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=83'} >Curso React: 77. Context API - Haciendo una APP MultiIDIOMA SIN Context - jonmircha</Link><br />
+                    <Link to={'https://www.youtube.com/watch?v=oOMk7RIPgOg'} >69. Firestore: Listando los primeros posts | Firebase | React en español</Link><br />
+                    <Link to={'https://stackoverflow.com/questions/70717326/react-bootstrap-form-switch-button'} >react-bootstrap form switch button </Link><br />
+                    <Link to={'https://www.youtube.com/watch?v=VDtV7-SV64c'} >Light / Dark Mode Toggle In React Tutorial</Link><br />
                 </Card.Text>
             </Card.Body>
         </Card>

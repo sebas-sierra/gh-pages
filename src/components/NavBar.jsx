@@ -11,6 +11,7 @@ import { ThemeContext } from '../context/ThemeContext';
 
 const NavBar = () => {
   const { theme, handleTheme, texts, handleLanguage } = useContext(ThemeContext)
+  const themeMode = theme === 'light' ? 'light' : 'dark';
   return (
     /*<Navbar expand='lg' className={isInHeader ? 'bg-body-tertiary' : 'footer'}>*/
     <Navbar className={theme} expand='lg'>
@@ -19,7 +20,8 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
-            <Nav.Link href='/pokeapi'>PokeApi</Nav.Link>
+            {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
+            <Nav.Link href='/resume'>Curriulum Vitae</Nav.Link>
             <Nav.Link href='/itemdetail'>ItemDetail</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/imagenesrs'>Redes Sociales</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</Nav.Link>
@@ -46,13 +48,13 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetrece'>Clase 13</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecatorce'>Clase 14</NavDropdown.Item>
             </NavDropdown>
+            
             <Form.Select size="sm" name="language" onChange={handleLanguage}> 
               <option value="esp">esp</option>
               <option value="eng">eng</option>
             </Form.Select>
             <Form>
-            <Form.Check inline type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={'claro'}/>
-            <Form.Check inline type="switch" name="theme" id="dark" onClick={handleTheme} value="dark" label={'oscuro'}/>
+              <Form.Check inline type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
             </Form>
 
             {/* <input type="radio" name="theme" id="light" onClick={handleTheme} value="light"/>

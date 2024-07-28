@@ -22,10 +22,10 @@ const ThemeProvider = ({children})  => {
   
     const handleTheme = (e) => {
       console.log(e.target.value);
-      if (e.target.value === 'light') {
-        setTheme('light')
-      } else {
+      if (theme === 'light') {
         setTheme('dark')
+      } else {
+        setTheme('light')
       }
     }
   

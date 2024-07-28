@@ -24,6 +24,7 @@ import FormA from './FormA';
 // import ClaseNueve from './capitulos/ClaseNueve';
 import { Routes, Route } from 'react-router-dom'
 import React from 'react';
+import Resume from './Resume';
 
 const Main = () => {
   // const onAdd = (cantidad) => {
@@ -37,6 +38,7 @@ const Main = () => {
           <Col sm={8}>
             <h1>Main *</h1>
             <Routes>
+              <Route path='/resume' element={<Resume/>} />
               <Route path='/capitulos/imagenesrs' element={<ImagenesRs/>} />
               <Route path='/capitulos/clasetres' element={<ClaseTres/>} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro/>} />
