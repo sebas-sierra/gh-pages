@@ -21,8 +21,8 @@ const NavBar = () => {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
-            <Nav.Link href='/resume'>Curriulum Vitae</Nav.Link>
-            <Nav.Link href='/itemdetail'>ItemDetail</Nav.Link>
+            <Nav.Link href='/gh-pages/#/resume'>Curriulum Vitae</Nav.Link>
+            <Nav.Link href='/gh-pages/#/itemdetail'>ItemDetail</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/imagenesrs'>Redes Sociales</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</Nav.Link>
             <NavDropdown title='Clases' id='basic-nav-dropdown'>
