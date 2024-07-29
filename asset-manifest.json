@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gh-pages/static/css/main.bd18a2a0.css",
-    "main.js": "/gh-pages/static/js/main.697b96bd.js",
+    "main.js": "/gh-pages/static/js/main.d9516f7d.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/avtarlogo.png": "/gh-pages/static/media/avtarlogo.038060027ccede124577.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
@@ -11,11 +11,11 @@
     "static/media/cast3.jpg": "/gh-pages/static/media/cast3.ee777720bb4beb52e436.jpg",
     "index.html": "/gh-pages/index.html",
     "main.bd18a2a0.css.map": "/gh-pages/static/css/main.bd18a2a0.css.map",
-    "main.697b96bd.js.map": "/gh-pages/static/js/main.697b96bd.js.map",
+    "main.d9516f7d.js.map": "/gh-pages/static/js/main.d9516f7d.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd18a2a0.css",
-    "static/js/main.697b96bd.js"
+    "static/js/main.d9516f7d.js"
   ]
 }
