@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext'
 
 const Resume = () => {
+  const {texts} = useContext (ThemeContext)
   return (
     <div>
         <h2>Perfil</h2>
+        <p>{texts.nombreReferencia}</p>
         <p>Graphic designer, born in Lomas de Zamora, Buenos Aires, Argentina.
 Graduated as a Graphic Designer at Faculty of Architecture, Design and Urbanism
 (FADU - UBA) in 2011.</p>

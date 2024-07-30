@@ -18,8 +18,10 @@ const ClaseSiete = () => {
             <p>Para resolver este problema, Javascript nos propone usar un 'return' de algo dentro del '.then' de esta forma el proximo '.then' va a interpretar que su rol es resolver la promesa anterior.</p>
             <p>Ahora si, despues de resolver la promesa y haber traido la info solicitada puedo guardarla en un state y  ejecutar un metodo map para poder renderizarla en el navegador.</p>
             <p>Fetch es quiza la forma mas sencilla de solicitar informacion, por defecto fetch es un metodo para obtener informacion es decir hacer un GET desde una URL especificada por nosotros.</p>
+            <a href="https://www.freecodecamp.org/espanol/news/how-to-consume-rest-apis-in-react-a-beginners-guide/">Guia como consumir rest API's</a><br />
             <a href="http://fakestoreapi.com">fakestoreapi.com</a><br />
             <a href="http://rickandmortyapi.com">rickandmortyapi.com</a>
+            
             </Card.Text>
         </Card.Body>
       </Card>

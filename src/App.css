@@ -169,3 +169,6 @@
 .movies-card .details .cast ul li img {
   max-width: 100%;
 }
+
+/* bootstrap personazilado */
+.form-select { width: auto;}
