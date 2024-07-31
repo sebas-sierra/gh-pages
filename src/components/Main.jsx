@@ -35,7 +35,6 @@ const Main = () => {
   return (
     <Container className='main'>
         <Row>
-          <Col sm={8}>
             <h1>Main *</h1>
             <Routes>
               <Route path='/resume' element={<Resume/>} />
@@ -62,7 +61,8 @@ const Main = () => {
               <Route path='/cart' element={<Cart/>}/>
               <Route path='/checkout' element={<FormA/>}/>
             </Routes>
-          </Col>
+          {/* <Col sm={8}>
+          </Col> */}
         </Row>
     </Container>
   )
