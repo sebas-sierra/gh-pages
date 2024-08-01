@@ -1,8 +1,7 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Row, Col, Card, Button } from 'react-bootstrap';
 
 import avtarlogo from '../../assets/img/movies/avatar/avtarlogo.png';
 import cast1 from '../../assets/img/movies/avatar/cast1.jpg';
@@ -16,13 +15,13 @@ const Item = ({ producto }) => {
   return (
     <div>
       <p>ITEM</p>
-      <Card key={producto.id}>
+      <Card key={producto.id} className="media position-relative">
         <Card.Img src={producto.img} width="200px" alt="" variant="top"></Card.Img>
         <Card.Body>
           <Card.Title>{producto.title}</Card.Title>
           <Card.Text>${producto.price} .-</Card.Text>
-          <Button>Ver más</Button>
-          <Link to={`/capitulos/itemdetail/${producto.id}`} >Ver Detalle</Link>
+          <Button className="stretched-link" href={`/gh-pages/#/capitulos/itemdetail/${producto.id}` }>Ver más</Button>
+          <Card.Link  >Ver Detalle</Card.Link>
         </Card.Body>
       </Card>
 

@@ -15,8 +15,8 @@ const ItemDetail = ({item}) => {
   return (
     <Row>
       <p>ITEMDETAIL</p>
-      <Col><img src={item.img} width="400px" alt={item.title}/></Col>
-      <Col>
+      <Col xs={4}><img src={item.img} width="100%" alt={item.title}/></Col>
+      <Col xs={8}>
         <h2>{item.title}</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique suscipit maiores commodi laborum numquam est obcaecati deleniti velit neque voluptate assumenda, illum cum totam quaerat quos quo vitae labore.
             Placeat neque, itaque libero pariatur, rerum, doloribus nihil similique minus assumenda maiores aut hic amet corporis repellendus. Eligendi libero accusamus fugit atque minus aut reiciendis, perferendis nobis, animi odio nostrum.</p>

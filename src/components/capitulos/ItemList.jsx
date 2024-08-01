@@ -8,7 +8,7 @@ const ItemList = ({ items }) => {
   return (
     <>
       <p>ITEMLIST</p>
-      <Row xs={1} md={2} className='g-4'>
+      <Row xs={4} md={3} className='g-4'>
         {items.map((producto) => {
           return (<Col><Item producto={producto} key={producto.id}/></Col>);
         })}
