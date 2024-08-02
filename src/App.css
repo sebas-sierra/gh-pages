@@ -172,3 +172,7 @@
 
 /* bootstrap personazilado */
 .form-select { width: auto;}
+
+img.rounded-start.card-img.img-fluid {
+  border-radius: 0;
+}
