@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.668dfddd.css",
-    "main.js": "/gh-pages/static/js/main.8d88a1c0.js",
+    "main.css": "/gh-pages/static/css/main.e06d284c.css",
+    "main.js": "/gh-pages/static/js/main.99581549.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/avtarlogo.png": "/gh-pages/static/media/avtarlogo.038060027ccede124577.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
@@ -10,12 +10,12 @@
     "static/media/cast5.jpg": "/gh-pages/static/media/cast5.ee250bd26a08c85dca89.jpg",
     "static/media/cast3.jpg": "/gh-pages/static/media/cast3.ee777720bb4beb52e436.jpg",
     "index.html": "/gh-pages/index.html",
-    "main.668dfddd.css.map": "/gh-pages/static/css/main.668dfddd.css.map",
-    "main.8d88a1c0.js.map": "/gh-pages/static/js/main.8d88a1c0.js.map",
+    "main.e06d284c.css.map": "/gh-pages/static/css/main.e06d284c.css.map",
+    "main.99581549.js.map": "/gh-pages/static/js/main.99581549.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.668dfddd.css",
-    "static/js/main.8d88a1c0.js"
+    "static/css/main.e06d284c.css",
+    "static/js/main.99581549.js"
   ]
 }
