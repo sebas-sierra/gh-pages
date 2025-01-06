@@ -1,13 +1,19 @@
 import { React, useContext} from 'react';
 import { CartContext } from '../context/CartContext';
-import Button from 'react-bootstrap/Button';
+import { Badge, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CartWidget = () => {
   const { totalUnidades } = useContext(CartContext);
   return (
     <div>
-      <Button href='/gh-pages/#/cart'>CartWidget</Button>
-      <span>{totalUnidades()}</span>
+      <Button href='/gh-pages/#/cart' variant="dark">
+        <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+        <Badge bg="primary" className='ms-3' pill>
+          {totalUnidades()}
+        </Badge>
+      </Button>
+      {/* <span>{totalUnidades()}</span> */}
     </div>
   )
 }

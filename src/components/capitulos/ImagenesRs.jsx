@@ -75,7 +75,7 @@ const ImagenesRs = () => {
           <li>Esto se aplica tanto a las fotos como a los vídeos.</li>
           <li>Las imágenes se mostrarán durante cinco segundos y los vídeos se mostrarán en incrementos de 15 segundos. Puedes grabar un vídeo por un minuto completo que se dividirá en cuatro partes de 15 segundos, pero después de un minuto, deberás comenzar a grabar nuevamente.</li>
         </ul>
-
+        <Card.Img variant="top" src={imagenes.img1} />
 
         {/* <Row xs={1} md={3} className="g-4">
           <Col>

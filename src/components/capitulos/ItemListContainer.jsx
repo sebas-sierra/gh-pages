@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getDocs, query, where } from 'firebase/firestore';
 import { collectionProd } from '../../services/firebaseConfig';
+import { Button, Col} from 'react-bootstrap';
+import { Link, Outlet } from 'react-router-dom';
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
@@ -151,10 +153,20 @@ const ItemListContainer = () => {
   }
 
   return (
-    <>
-      <p>ITEMLIST CONTAINER</p>
+    <Col>
+      <br /><br />   
+      <Button href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
+      <Button href='/gh-pages/#/capitulos/prod/category/decoracion'>Decoracion</Button>
+      <Button href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
+      <br /><br />
+      <Link to={'productos'} >Todos</Link>
+      <Link to={'/capitulos/prod/category/furniture'} >Furniture</Link>
+      <Link to={'/capitulos/prod/category/decoracion'} >Decoracion</Link>
+      <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link>
+      <br /><br />
+      <Outlet/>
       <ItemList items={items} />
-    </>
+    </Col>
   )
 }
 

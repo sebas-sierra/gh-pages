@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import {Link} from 'react-router-dom'
 
 const ClaseOnce = () => {
   return (
@@ -23,9 +24,18 @@ const ClaseOnce = () => {
                   <p>useEffect es usado para optimizar el renderizado y la performance de un componente.</p>
                   <p>useMemo y useCallback son usados para memorizar valores y funciones. De esta manera evitamos que...</p>
                   <p>Usando React-memo puedo decirle a React que solo haga re-render cuando una propiedad especifica cambie.</p>
+                  <p>REACT SPINNERS - 23*44</p>
+                  <Link to={'https://www.npmjs.com/package/react-spinners'} >https://www.npmjs.com/package/react-spinners</Link><br />
 
                 </Card.Text>
             </Card.Body>
+        </Card>
+        <Card>
+          <Card.Header>Clase 11 - Rendering Condicional - After class / Repaso</Card.Header>
+          <Card.Body>
+            <Card.Title></Card.Title>
+            <Card.Text></Card.Text>
+          </Card.Body>
         </Card>
     </div>
   )

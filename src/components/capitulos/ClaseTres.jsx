@@ -1,30 +1,82 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
+import {Col} from 'react-bootstrap'
 
 const ClaseTres = () => {
   return (
-    <div>
+    <Col sm={8}>
       <Card className="mb-2">
         <Card.Header>Clase 3</Card.Header>
         <Card.Body>
+          <Card.Title>Archivos dentro de la carpeta de mi proyecto:</Card.Title>
+          <Card.Text>
+              <ul>
+                <li>Node Modules</li>
+                <li>Public 
+                  <ul>
+                    <li>robots.txt - su uso esta destinado a temas de SEO</li>
+                    <li>index.html</li>
+                    <li>manifest.json</li>
+                  </ul>
+                </li>
+                <li>src 
+                  <ul>
+                    <li>index.js - Trae todo lo que necesitamos desde la libreria de React e indica el punto de partida desde donde se va a empezar a renderizar nuestra aplicacion.</li>
+                    <li>App.js - Es el archivo donde vamos a codear nuestra aplicacion</li>
+                    <li>index.css</li>
+                    <li>App.css</li>
+                    <li>reportWebVitals.js</li>
+                    <li>setipTest.js</li>
+
+                  </ul>
+                </li>
+                <li>gitignore - detalla los archivos que NO seran subidos al repositorio remoto almomento de hacer un push</li>
+                <li>package-lock.json</li>
+                <li>package.json - contiene detalle de las librerias y dependencias que voy instalando en el proyecto y los scripts que puedo correr desde la consola terminal</li>
+                <li>README.md - detalles e informacion de la aplicacion que estoy elaborando, de que se trata la app, herramientas usadas, video explicativo y documentacion en general. Carta de presentacion para recruiters.</li>
+                </ul>
+            <p>El archivo index.js es el archivo en el que nace nuestra aplicacion. Este archivo importa la libreria de React, importa la hoja de estilos .css, tb importa el DOM de React para poder renderizar en el navegador nuestro proyecto y el reportWebVitals.js del que podemos prescindir por el momento y eliminarlo. Tambien podemos eliminar el <code>React.StrictMode</code> que nos genera un doble chequeo cuando trabajamos haciendo console.log</p>
+            <p>React trabaja con WebPack que es un empaquetador que se encarga de tomar todos los archivos .js y demas, que configuran nuestro proyecto y nos devuelve una aplicacion funcional de forma automatica.</p>
+
+
+          </Card.Text>
 
           {/* <Card.Title>El txt a mi derecha llega por PROPS o- {props.saludo}</Card.Title> */}
-          <Card.Title>El txt a mi derecha llega por PROPS o-</Card.Title>
+          <Card.Title>Componentes y funciones en React</Card.Title>
           <Card.Text>
-            - Todos los componentes son funciones. <br />
-            - Todos los componentes se escriben con la inicial en mayuscula. <br />
-            - Todos los componentes deben retornar algo. <br />
-            - Todos los componentes deben retornar un solo elemento. <br />
-            - Todos los componentes retornan JSX (Que es JSX? - Javascript + XML) <br />
+            <p>La principal ventaja que nos ofrece React es la posibilidad de modularizar nuestra aplicacion en distintos componentes, estos componentes siguen una serie de reglas basica:</p>
+            <ul>
+              <li>Todos los componentes son basicamente funciones.</li>
+              <li>Todos los componentes se escriben con la inicial en mayuscula.</li>
+              <li>Todos los componentes deben retornar algo.</li>
+              <li>Todos los componentes deben retornar un solo elemento.</li>
+              <li>Todos los componentes retornan JSX (Que es JSX? - Javascript + XML).</li>
+            </ul>
+            <p>Al momento de armar nuestra app podriamos dividirla en distintos componentes siguiendo nuestro layout; por ejemplo Header, Navbar, Footer, etc. Tambien podriamos dividir la aplicacion en componentes de acuerdo a la logica de funcionalidad que plantee para el proyecto, por ejemplo un componente Card con contenido dinamico y de esta manera reutilizar codigo. Toda nuestra aplicacion va a estar contenida por la carpeta SRC.</p>
+            <p>Bajandola extension 'ES7 React/Reduxs/React Native Sn' podemos hacer uso del atajo <code>rafce</code> podemos crear de manera automatica la estructura basica de un componente.</p>
+            <p>Para que eleditor reconosca todos los archivos de JS como Html hay que asocialos con la opcion 'Javascript React current association'.</p>
+            <p>Diferencia entre export defaul y export nombrado, como importarlos dentro de nuestro proyecto. Un componente de React solo admite un export default, si necesitamos exportar mas elementos es necesario el uso de export nombrado.</p>
+          </Card.Text>
+
+          <Card.Title>Metodos para incorporacion de CSS</Card.Title>
+          <Card.Text>
+            <ul>
+              <li>CSS tradicional con archivo independiente .css</li>
+              <li>CSS en modulos</li>
+              <li>CSS inline</li>
+              <li>Escribiendo los estilos CSS directamente al archivo jsx</li>
+            </ul>
           </Card.Text>
 
           <Card.Title>SASS</Card.Title>
           <Card.Text>
-            1- Dentro de mi carpeta 'src' creo mi archivo de SASS con el nombre 'style.scss' <br />
-            2- Ahora necesitamos importar el archivo 'style.scss' dentro de nuestro componente 'App.js' <br />
-            3- En caso de no tener instalada la libreria SASS vamos a ver un mensaje de error en pantalla "Module error, cannot find Module Sass" para solucionar este error procedemos a instalar SASS. Para instalarlo frenamos la consola y ejecutamos el siguiente codigo 'npm install sass' <br />
-            4- Ya podemos crear estilos CSS dividos en 'modulos' usando SASS. Para hacerlo podemos crear una carpeta 'styles' y dentro de ella guardamos nuestros modulos colocando siempre un guion-bajo como primer letra dentro del nombre de cada modulo, por ejemplo '_header.scss'<br />
-            5- Para poder ver los cambios de estilo que vamos haciendo tenemos que importar los modulos dentro de la hoja principal, nuestro 'archivo global' que se llama 'styles.scss', por ejemplo para importar nuestro modulo '_header.scss' alojado en la carpeta 'styles' tenemos que añadir la siguiente linea "@import 'styles/header'; " al archivo SASS principal, en este caso 'Styles.scss'<br />
+            <ul>
+              <li>1- Dentro de mi carpeta 'src' creo mi archivo de SASS con el nombre 'style.scss'.</li>
+              <li>2- Ahora necesitamos importar el archivo 'style.scss' dentro de nuestro componente 'App.js'.</li>
+              <li>3- En caso de no tener instalada la libreria SASS vamos a ver un mensaje de error en pantalla "Module error, cannot find Module Sass" para solucionar este error procedemos a instalar SASS. Para instalarlo frenamos la consola y ejecutamos el siguiente codigo 'npm install sass'.</li>
+              <li>4- Ya podemos crear estilos CSS dividos en 'modulos' usando SASS. Para hacerlo podemos crear una carpeta 'styles' y dentro de ella guardamos nuestros modulos colocando siempre un guion-bajo como primer letra dentro del nombre de cada modulo, por ejemplo '_header.scss'.</li>
+              <li>5- Para poder ver los cambios de estilo que vamos haciendo tenemos que importar los modulos dentro de la hoja principal, nuestro 'archivo global' que se llama 'styles.scss', por ejemplo para importar nuestro modulo '_header.scss' alojado en la carpeta 'styles' tenemos que añadir la siguiente linea "@import 'styles/header'; " al archivo SASS principal, en este caso 'Styles.scss'</li>
+            </ul>
           </Card.Text>
 
           <Card.Title>Bootstrap - React Bootstrap</Card.Title>
@@ -109,7 +161,7 @@ const ClaseTres = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-  </div>
+  </Col>
   )
 }
 

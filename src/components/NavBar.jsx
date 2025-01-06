@@ -14,7 +14,7 @@ const NavBar = () => {
   const themeMode = theme === 'light' ? 'light' : 'dark';
   return (
     /*<Navbar expand='lg' className={isInHeader ? 'bg-body-tertiary' : 'footer'}>*/
-    <Navbar className={theme} expand='lg'>
+    <Navbar className={theme} expand='lg' mb-2>
       <Container>
         <Navbar.Brand href='/gh-pages/#/'>{texts.headerTitle}</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -26,6 +26,8 @@ const NavBar = () => {
             <Nav.Link href='/gh-pages/#/capitulos/imagenesrs'>Redes Sociales</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</Nav.Link>
             <NavDropdown title='Clases' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/claseuno'>Clase 1</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/clasedos'>Clase 2</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetres'>Clase 3</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecuatro'>Clase 4</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecinco'>Clase 5</NavDropdown.Item>
@@ -47,14 +49,15 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasedoce'>Clase 12</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetrece'>Clase 13</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecatorce'>Clase 14</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/glosario'>Glosario</NavDropdown.Item>
             </NavDropdown>
             
             <Form.Select size="sm" name="language" onChange={handleLanguage}> 
               <option value="esp">esp</option>
               <option value="eng">eng</option>
             </Form.Select>
-            <Form>
-              <Form.Check inline type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
+            <Form >
+              <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
             </Form>
 
             {/* <input type="radio" name="theme" id="light" onClick={handleTheme} value="light"/>

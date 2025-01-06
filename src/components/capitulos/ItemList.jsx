@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 const ItemList = ({ items }) => {
   return (
     <>
-      <p>ITEMLIST </p>
+      {/* <p>ITEMLIST </p> */}
       <Row xs={4} md={3} className='g-4'>
         {items.map((producto) => {
           return (<Col><Item producto={producto} key={producto.id}/></Col>);
