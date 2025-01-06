@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.e06d284c.css",
-    "main.js": "/gh-pages/static/js/main.a2608ec5.js",
+    "main.css": "/gh-pages/static/css/main.7f8db803.css",
+    "main.js": "/gh-pages/static/js/main.e56a2c85.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
-    "static/media/avtarlogo.png": "/gh-pages/static/media/avtarlogo.038060027ccede124577.png",
+    "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
+    "static/media/perfil-cv.png": "/gh-pages/static/media/perfil-cv.8b364fcd0d1e34e43173.png",
+    "static/media/tag-cv.png": "/gh-pages/static/media/tag-cv.3820ae5811395d1497ce.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
     "static/media/cast1.jpg": "/gh-pages/static/media/cast1.357ee3dea8745342a8e9.jpg",
     "static/media/cast2.jpg": "/gh-pages/static/media/cast2.1e96a37512a3111c2415.jpg",
     "static/media/cast5.jpg": "/gh-pages/static/media/cast5.ee250bd26a08c85dca89.jpg",
     "static/media/cast3.jpg": "/gh-pages/static/media/cast3.ee777720bb4beb52e436.jpg",
+    "static/media/Adobe_Photoshop_CC_icon.svg": "/gh-pages/static/media/Adobe_Photoshop_CC_icon.21b3c1e00213c9613773022511f98503.svg",
+    "static/media/Adobe_XD_CC_icon.svg": "/gh-pages/static/media/Adobe_XD_CC_icon.d42e60c4655af5aa02c5367d68ddafa1.svg",
+    "static/media/Adobe_After_Effects_CC_icon.svg": "/gh-pages/static/media/Adobe_After_Effects_CC_icon.24de22641b65e50453ee9a3f2efa9ac4.svg",
+    "static/media/Figma-logo.svg": "/gh-pages/static/media/Figma-logo.97a8ebde854bdd2ade523d5cc58f30c6.svg",
+    "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
+    "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "index.html": "/gh-pages/index.html",
-    "main.e06d284c.css.map": "/gh-pages/static/css/main.e06d284c.css.map",
-    "main.a2608ec5.js.map": "/gh-pages/static/js/main.a2608ec5.js.map",
+    "main.7f8db803.css.map": "/gh-pages/static/css/main.7f8db803.css.map",
+    "main.e56a2c85.js.map": "/gh-pages/static/js/main.e56a2c85.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e06d284c.css",
-    "static/js/main.a2608ec5.js"
+    "static/css/main.7f8db803.css",
+    "static/js/main.e56a2c85.js"
   ]
 }
