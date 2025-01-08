@@ -2,7 +2,7 @@
 export const translations = {
     esp: {
         nombreReferencia: "texto",
-        headerTitle: "Menu de la store",
+        headerTitle: "Inicio",
         biop0: "Diseñador Gráfico Independiente",
         biop1: "Antes de finalizar mis estudios en la UBA (Universidad de Buenos Aires), comencé mi carrera profesional como diseñador gráfico en la Biblioteca Nacional de Maestros (BNM), institución perteneciente al Ministerio de Educación de la Nacion, ademas en el año 2006 empece a colaborar como ayudante de catedra en la materia Morfologia II de la catedra Pescio de la carrera de DG de la FADU.",
         biop2: "Principalmente con un perfil orientado a la producción de piezas gráficas impresas para reforzar la identidad gráfica, material destinado a los usuarios y para las diferentes actividades de capacitación organizadas por la institución. Luego, con el tiempo, la confianza y la experiencia, mis tareas fueron mutando a la creación de banners estáticos y animados para el sitio web de esta institución y algunos de sus subproyectos. Posteriormente, con conocimientos adquiridos en HTML y CSS, comencé a participar en el desarrollo del aspecto gráfico de varios productos web y a colaborar en el desarrollo de la interfaz de usuario para el sitio web principal de la institución.",
@@ -59,7 +59,7 @@ export const translations = {
     },
     eng: {
         nombreReferencia: "text",
-        headerTitle: "Store's menu",
+        headerTitle: "Home",
         biop0: "Freelance Graphic Designer",
         biop1: "Before finishing my studies at the UBA (University of Buenos Aires), I began my professional career as a graphic designer at the 'Biblioteca Nacional de Maestros' also known as BNM (Teacher’s National Library). This institution belongs to 'Ministerio Nacional de Educación'(National’s Education Ministry).",
         biop2: "Mainly with a profile oriented to the production of printed graphic pieces to reinforce the graphic identity, material intended for users and for the different training activities organized by the institution. Then, with time, confidence and experience, my tasks were mutating to the creation of static and animated banners for this institution's website and some of its sub-proyects. Later, with knowledge acquired in HTML and CSS, I began to participate in the development of the graphic aspect of several web products and to collaborate in the development of the user interface for the institution's main website.",

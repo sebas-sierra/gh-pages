@@ -14,17 +14,31 @@ const Item = ({ producto }) => {
   return (
     <div>
       {/* <p>ITEM</p> */}
-      <Card key={producto.id} >
+      <Card key={producto.id} className='movies-card' >
+        <div  className='poster'>
         <Card.Img src={producto.img} width="200px" alt="" variant="top"></Card.Img>
-        <Card.Body>
-          <Badge bg="success">{producto.category}</Badge>
+        </div>
+        <Card.Body className='details'>
+          
           <Card.Title>{producto.title}</Card.Title>
           <Card.Text>${producto.price} .-</Card.Text>
+          <div className='rating'>
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-regular fa-star" />
+              <span> 4 / 5</span>
+          </div>
+            <Badge bg="success">{producto.category}</Badge>
+            <div className='info'>
+              <p>Corporis amet ex qui reprehenderit laboriosam nostrum eligendi fugiat? Quae, consectetur omnis, officia blanditiis commodi odio fugiat at vel quas voluptate eligendi.</p>
+            </div>
           <Button className="stretched-link" href={`/gh-pages/#/capitulos/itemdetail/${producto.id}` }>Ver más</Button>
         </Card.Body>
       </Card>
 
-      <div>
+      {/* <div>
         <div className='movies-card'>
 
           <div className='poster'>
@@ -66,7 +80,7 @@ const Item = ({ producto }) => {
           </div>
 
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

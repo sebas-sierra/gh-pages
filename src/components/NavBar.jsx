@@ -9,7 +9,7 @@ import CartWidget from './CartWidget';
 import { ThemeContext } from '../context/ThemeContext';
 
 
-const NavBar = () => {
+const NavBar = ({}) => {
   const { theme, handleTheme, texts, handleLanguage } = useContext(ThemeContext)
   const themeMode = theme === 'light' ? 'light' : 'dark';
   return (
@@ -21,11 +21,11 @@ const NavBar = () => {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
-            <Nav.Link href='/gh-pages/#/resume'>Curriulum Vitae</Nav.Link>
-            <Nav.Link href='/gh-pages/#/itemdetail'>ItemDetail</Nav.Link>
+            <Nav.Link href='/gh-pages/#/resume'>Curriculum Vitae</Nav.Link>
+            <Nav.Link href='/gh-pages/#/capitulos/prod'>Store</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/imagenesrs'>Redes Sociales</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</Nav.Link>
-            <NavDropdown title='Clases' id='basic-nav-dropdown'>
+            <NavDropdown title='Apuntes React' id='basic-nav-dropdown'>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseuno'>Clase 1</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasedos'>Clase 2</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetres'>Clase 3</NavDropdown.Item>
@@ -36,14 +36,14 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasesiete'>Clase 7</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseocho'>Clase 8</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasenueve'>Clase 9</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/capitulos/prod'>Productos</NavDropdown.Item>
+              {/* <NavDropdown.Item href='/gh-pages/#/capitulos/prod'>Productos</NavDropdown.Item>
 
               <NavDropdown.Item href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/prod/category/decoracion'>Decoracion</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/prod/category/mesas'>Mesa</NavDropdown.Item>
               <Link to={'/capitulos/prod/category/furniture'} >Furniture</Link>
               <Link to={'/capitulos/prod/category/decoracion'} >Decoracion</Link>
-              <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link>
+              <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link> */}
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasediez'>Clase 10</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseonce'>Clase 11</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasedoce'>Clase 12</NavDropdown.Item>

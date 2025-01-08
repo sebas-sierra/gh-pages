@@ -15,7 +15,7 @@ const ItemListContainer = () => {
   // const valor = useParams();
   // console.log(valor.categoryName);
 
-  const [loading, setLoading] = useState(true);
+  const [ loading, setLoading ] = useState(true);
   const { categoryName } = useParams();
 
   useEffect(() => {
@@ -156,12 +156,12 @@ const ItemListContainer = () => {
     <Col>
       <br /><br />   
       <Button href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
-      <Button href='/gh-pages/#/capitulos/prod/category/decoracion'>Decoracion</Button>
+      <Button href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
       <Button href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
       <br /><br />
       <Link to={'productos'} >Todos</Link>
       <Link to={'/capitulos/prod/category/furniture'} >Furniture</Link>
-      <Link to={'/capitulos/prod/category/decoracion'} >Decoracion</Link>
+      <Link to={'/capitulos/prod/category/decoracion'} >Objetos</Link>
       <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link>
       <br /><br />
       <Outlet/>

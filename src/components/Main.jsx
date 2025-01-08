@@ -40,7 +40,6 @@ const Main = () => {
 
   return (
     <>
-    <Carusel/>
     <Container className='main'>
         <Row>
             {/* <h1>Main *</h1> */}
