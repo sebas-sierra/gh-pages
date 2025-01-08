@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.7f8db803.css",
-    "main.js": "/gh-pages/static/js/main.e56a2c85.js",
+    "main.css": "/gh-pages/static/css/main.ad886f1d.css",
+    "main.js": "/gh-pages/static/js/main.dbc61824.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/perfil-cv.png": "/gh-pages/static/media/perfil-cv.8b364fcd0d1e34e43173.png",
@@ -18,12 +18,12 @@
     "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "index.html": "/gh-pages/index.html",
-    "main.7f8db803.css.map": "/gh-pages/static/css/main.7f8db803.css.map",
-    "main.e56a2c85.js.map": "/gh-pages/static/js/main.e56a2c85.js.map",
+    "main.ad886f1d.css.map": "/gh-pages/static/css/main.ad886f1d.css.map",
+    "main.dbc61824.js.map": "/gh-pages/static/js/main.dbc61824.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f8db803.css",
-    "static/js/main.e56a2c85.js"
+    "static/css/main.ad886f1d.css",
+    "static/js/main.dbc61824.js"
   ]
 }
