@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Col } from 'react-bootstrap';
 
 const ClaseTrece = () => {
   return (
-    <div>
+    <Col sm={8}>
       <Card>
         <Card.Header>Clase 13 - Firebase 2</Card.Header>
         <Card.Body>
@@ -12,7 +12,7 @@ const ClaseTrece = () => {
         </Card.Body>
 
       </Card>
-    </div>
+    </Col>
   )
 }
 

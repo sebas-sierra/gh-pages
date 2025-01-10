@@ -1,14 +1,14 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Col } from 'react-bootstrap';
 
 const ClaseOcho = () => {
   return (
-    <div>
-        <Card>
-            <Card.Header>Clase 8 - Rutas - react-router-dom</Card.Header>
-            <Card.Body>
-              <Card.Title></Card.Title>
-              <Card.Text>
+    <Col sm={8}>
+      <Card>
+        <Card.Header>Clase 8 - Rutas - react-router-dom</Card.Header>
+        <Card.Body>
+          <Card.Title></Card.Title>
+          <Card.Text>
             <a href="http://reactrouter.com/en/main">React-router-dom </a> En este link se encuentra toda la documentacion sobre la libreria de rutas de React. <br />
             <p>Por defecto React no cuenta con un mecanismo de navegacion integrado, el routing se maneja como una dependencia aparte. Existen distintas soluciones, react-router-dom es una de ellas.</p><br />
             <p>1- Corremos el comando de instalacion "npm install react-router-dom" </p>
@@ -28,12 +28,10 @@ const ClaseOcho = () => {
             <p>3- Definimos los parametros dinamicos. <br /> Dentro de nuestra aplicacion podemos tener tanto rutas estaticas como rutas dinamicas. <br />Para esto la libreria react-router-dom nos proporciona el Hook 'useParams'. Cuando definimos una ruta (en el parametro 'path' dentro del componente 'Route') podemos usar ':' + 'nombre de una variable' de esta manera react va a leer nuestra variable como un parámetro dinámico. </p>
             <p>Entonces ahora sabiendo que 'useParams' lee el parametro dinamico desde nuestra URL podemos filtrar el array que nos devuelve el fetch y renderizar solo los objetos que indiquemos en cada parametro dinamico dentro del componente indicado en el parametro 'element' de nuestro componente 'route'.</p>
             <p>Dentro del componente donde hacemos el fetch definimos una variable usando 'nombre de una variable' = useParams() </p>
-
-            
-              </Card.Text>
-            </Card.Body>
-        </Card>
-    </div>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
   )
 }
 

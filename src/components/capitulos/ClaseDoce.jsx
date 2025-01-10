@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Col } from 'react-bootstrap';
 
 const ClaseDoce = () => {
   return (
-    <div>
+    <Col sm={8}>
       <Card>
         <Card.Header>Clase 12 - Firebase 1</Card.Header>
         <Card.Body>
@@ -13,7 +13,7 @@ const ClaseDoce = () => {
         
         
       </Card>
-    </div>
+    </Col>
   )
 }
 

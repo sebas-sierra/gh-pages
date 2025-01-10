@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ClaseDiez = () => {
   return (
-    <div>
+    <Col sm={8}>
         <Card>
             <Card.Header>Clase 10 - Context </Card.Header>
             <Card.Body>
@@ -31,7 +31,7 @@ const ClaseDiez = () => {
                 </Card.Text>
             </Card.Body>
         </Card>
-    </div>
+    </Col>
   )
 }
 

@@ -33,8 +33,10 @@ const ImagenesRs = () => {
   
 
   return (
-    <div>
-        <p>Imagenes para Redes Sociales</p>
+    <Col sm={8}>
+      <Card>
+        <Card.Header>Imagenes para Redes Sociales</Card.Header>
+        <Card.Body>
         <ul>
             <li>Instagram</li>
             <li>Twitch</li>
@@ -117,8 +119,9 @@ const ImagenesRs = () => {
           <li>Labels Bar - Elementos que van entre escenas para mostrar por ejemplo nuevos seguidores o zocalos.</li>
           <li>Seteo de proyecto 1080p., 1920px x 1080px., 300dpi, RGB 16Bits </li>
         </ul>
-        <p>Whatsapp</p>
-    </div>
+        <p>Whatsapp</p></Card.Body>
+        </Card>
+      </Col>
   )
 }
 

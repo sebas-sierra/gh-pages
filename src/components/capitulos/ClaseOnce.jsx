@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Col } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
 const ClaseOnce = () => {
   return (
-    <div>
-        <Card>
+    <Col sm={8}>
+      <Card>
             <Card.Header>Clase 11 - Rendering Condicional</Card.Header>
             <Card.Body>
                 <Card.Title></Card.Title>
@@ -37,7 +37,7 @@ const ClaseOnce = () => {
             <Card.Text></Card.Text>
           </Card.Body>
         </Card>
-    </div>
+      </Col>
   )
 }
 

@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 
 const ClaseSiete = () => {
   return (
-    <div>
+    <Col sm={8}>
         <Card className="mb-2">
         <Card.Header>CLASE 7 - Consumiendo APIs</Card.Header>
         <Card.Body>
@@ -25,7 +25,7 @@ const ClaseSiete = () => {
             </Card.Text>
         </Card.Body>
       </Card>
-    </div>
+    </Col>
   )
 }
 

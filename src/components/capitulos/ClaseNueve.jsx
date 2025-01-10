@@ -1,11 +1,12 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
 
 const ClaseNueve = () => {
   return (
-    <div>
-        <Card>
+    <Col sm={8}>
+      <Card>
         <Card.Header>Clase 9 - Eventos / Formularios </Card.Header>
         
         <Card.Body>
@@ -33,20 +34,19 @@ const ClaseNueve = () => {
             
             {/* <FormA/>
             <FormB/> */}
-            </Card.Text>
+          </Card.Text>
 
-            <Card.Title>Como traer data desde un componente hijo a un componente padre.</Card.Title>
-            <Card.Text>
-              <p>Siempre que hacemos un addEventListener sobre un elemento este queda guardado en la memoria. Para eliminarlo hay que remover el EventListener.</p>
-              <p>STATE UPLIFTING - State Uplifting es el metodo usado para enviar informacion de un componente hijo a un componente padre. El metodo funciona como las PROPS pero no son PROPS! Las PROPS sirven únicamente para pasar data de PADRE a HIJO.</p>
-              <p>Recordemos que en JS al momento de declarar una funcion, el argumento con el que trabajara dicha funcion sera desconocido hasta que, hagamos efectiva la ejecusion de la funcion asignandole un parametro, 'parametro' que sera recibido por la funcion como un 'argumento' y lo usara para ejecutar la logica que contenga.</p>
-              <p>Si podemos enviar informacion desde un Componente Hijo a un Componente Padre esto me permite por ejemplo ejecutar funciones con el uso de condicionales if/ else y /o condicionales ternarios para poder crear funciones condicionales.</p>
-              <p>STOP PROPAGATION - Ejemplo del uso de Stop Propagation con un Boton de Favoritos</p>
-            </Card.Text>
-          
+          <Card.Title>Como traer data desde un componente hijo a un componente padre.</Card.Title>
+          <Card.Text>
+            <p>Siempre que hacemos un addEventListener sobre un elemento este queda guardado en la memoria. Para eliminarlo hay que remover el EventListener.</p>
+            <p>STATE UPLIFTING - State Uplifting es el metodo usado para enviar informacion de un componente hijo a un componente padre. El metodo funciona como las PROPS pero no son PROPS! Las PROPS sirven únicamente para pasar data de PADRE a HIJO.</p>
+            <p>Recordemos que en JS al momento de declarar una funcion, el argumento con el que trabajara dicha funcion sera desconocido hasta que, hagamos efectiva la ejecusion de la funcion asignandole un parametro, 'parametro' que sera recibido por la funcion como un 'argumento' y lo usara para ejecutar la logica que contenga.</p>
+            <p>Si podemos enviar informacion desde un Componente Hijo a un Componente Padre esto me permite por ejemplo ejecutar funciones con el uso de condicionales if/ else y /o condicionales ternarios para poder crear funciones condicionales.</p>
+            <p>STOP PROPAGATION - Ejemplo del uso de Stop Propagation con un Boton de Favoritos</p>
+          </Card.Text>
         </Card.Body>
       </Card>
-    </div>
+    </Col>
   )
 }
 

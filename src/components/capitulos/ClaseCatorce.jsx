@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Col } from 'react-bootstrap';
 
 const ClaseCatorce = () => {
   return (
-    <div>
+    <Col sm={8}>
       <Card>
         <Card.Header>Clase 14 - Workshop</Card.Header>
         <Card.Body>
@@ -11,7 +11,7 @@ const ClaseCatorce = () => {
           <Card.Text></Card.Text>
         </Card.Body>
       </Card>
-    </div>
+    </Col>
   )
 }
 

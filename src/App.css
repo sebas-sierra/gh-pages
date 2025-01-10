@@ -127,6 +127,75 @@
   padding-left: 0rem;
 }
 
+.footer-logos img {
+  width: 5%;
+}
+
+.footer-logos .switch-logos a {
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+}
+
+.footer-logos .switch-logos .react{
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736452497/logos/React-icon-gris_dyiy8v.svg");
+  background-size: "cover";
+  background-repeat: no-repeat;
+}
+
+.footer-logos .switch-logos .react:hover {
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736448882/logos/React-icon_b11trw.svg");
+}
+
+.footer-logos .switch-logos .sass{
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736452497/logos/Sass_Logo_Color-gris_nbswjn.svg");
+  background-size: "cover";
+  background-repeat: no-repeat;
+}
+
+.footer-logos .switch-logos .sass:hover {
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736448209/logos/Sass_Logo_Color_sorri8.svg");
+}
+
+.footer-logos .switch-logos .html{
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736452496/logos/HTML5_logo_black-gris_v1aqhg.svg");
+  background-size: "cover";
+  background-repeat: no-repeat;
+}
+
+.footer-logos .switch-logos .html:hover {
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736458512/logos/HTML5_logo_black-color_rgh290.svg");
+}
+
+.footer-logos .switch-logos .bustrap{
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459163/logos/Bootstrap_logo-gris_abafjp.svg");
+  background-size: "cover";
+  background-repeat: no-repeat;
+}
+
+.footer-logos .switch-logos .bustrap:hover {
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459163/logos/Bootstrap_logo_xttx3t.svg");
+}
+
+.footer-logos .switch-logos .css{
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736452498/logos/CSS3_logo_and_wordmark-gris_rolann.svg");
+  background-size: "cover";
+  background-repeat: no-repeat;
+}
+
+.footer-logos .switch-logos .css:hover {
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459414/logos/CSS3_logo_and_wordmark_xgtypc.svg");
+}
+
+.footer-logos .switch-logos .fontawesome{
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459627/logos/Font_Awesome_logomark_blue-gris_z10oxy.svg");
+  background-size: "cover";
+  background-repeat: no-repeat;
+}
+
+.footer-logos .switch-logos .fontawesome:hover {
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459627/logos/Font_Awesome_logomark_blue_b0ee0n.svg");
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -161,7 +230,7 @@
   /* width: 300px;
   height: 400px; */
   border-radius: 8px;
-  box-shadow: 15px 15px 35px #000;
+  box-shadow: 15px 15px 35px #ccc;
   overflow: hidden;
   position: relative;
   border: 0px;
@@ -198,7 +267,7 @@
 
 .movies-card .details {
   position: absolute;
-  bottom: -240px;
+  bottom: -190px;
   left: 0;
   padding: 20px;
   width: 100%;
@@ -252,7 +321,7 @@
 
 .movies-card .details .info {
   color: #fff;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .movies-card .details .cast {

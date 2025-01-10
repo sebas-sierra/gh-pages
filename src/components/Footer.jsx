@@ -50,7 +50,16 @@ const Footer = () => {
         </Col>
       </Row>
       <Row>
-      <div className='footer-logos'><a href="">logo 1</a><a href="">logo 2</a><a href="">logo 3</a><a href="">logo 4</a></div>
+      <div className='footer-logos'>
+        <div className='switch-logos' >
+          <a href="" className='react'></a>
+          <a href="" className='html'></a>
+          <a href="" className='bustrap'></a>
+          <a href="" className='css'></a>
+          <a href="" className='sass'></a>
+          <a href="" className='fontawesome'></a>
+        </div>
+      </div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ut blanditiis minus minima tempore nostrum ab natus provident sed aliquid? Vero alias nisi, voluptas amet fugiat dolores minima sequi cumque.</p>
 
       </Row>
