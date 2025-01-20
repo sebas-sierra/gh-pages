@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.89bb8b50.css",
-    "main.js": "/gh-pages/static/js/main.6c4ce77c.js",
+    "main.css": "/gh-pages/static/css/main.c90fdf96.css",
+    "main.js": "/gh-pages/static/js/main.b702c841.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/perfil-cv.png": "/gh-pages/static/media/perfil-cv.8b364fcd0d1e34e43173.png",
@@ -16,14 +16,14 @@
     "static/media/Adobe_After_Effects_CC_icon.svg": "/gh-pages/static/media/Adobe_After_Effects_CC_icon.24de22641b65e50453ee9a3f2efa9ac4.svg",
     "static/media/Figma-logo.svg": "/gh-pages/static/media/Figma-logo.97a8ebde854bdd2ade523d5cc58f30c6.svg",
     "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
-    "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "index.html": "/gh-pages/index.html",
-    "main.89bb8b50.css.map": "/gh-pages/static/css/main.89bb8b50.css.map",
-    "main.6c4ce77c.js.map": "/gh-pages/static/js/main.6c4ce77c.js.map",
+    "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
+    "main.c90fdf96.css.map": "/gh-pages/static/css/main.c90fdf96.css.map",
+    "main.b702c841.js.map": "/gh-pages/static/js/main.b702c841.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89bb8b50.css",
-    "static/js/main.6c4ce77c.js"
+    "static/css/main.c90fdf96.css",
+    "static/js/main.b702c841.js"
   ]
 }
