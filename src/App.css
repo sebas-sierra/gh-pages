@@ -132,9 +132,10 @@
 }
 
 .footer-logos .switch-logos a {
-  height: 60px;
-  width: 100px;
+  height: 40px;
+  width: 64px;
   display: inline-block;
+  background-position: center;
 }
 
 .footer-logos .switch-logos .react{
@@ -168,13 +169,13 @@
 }
 
 .footer-logos .switch-logos .bustrap{
-  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459163/logos/Bootstrap_logo-gris_abafjp.svg");
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736525507/logos/Bootstrap_logo-gris_wvmffr.svg");
   background-size: "cover";
   background-repeat: no-repeat;
 }
 
 .footer-logos .switch-logos .bustrap:hover {
-  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459163/logos/Bootstrap_logo_xttx3t.svg");
+  background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736525504/logos/Bootstrap_logo_igwbu2.svg");
 }
 
 .footer-logos .switch-logos .css{

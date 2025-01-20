@@ -50,7 +50,9 @@ const Footer = () => {
         </Col>
       </Row>
       <Row>
+        
       <div className='footer-logos'>
+        <p>Este sitio fue construido usando las siguientes tecnologias:</p>
         <div className='switch-logos' >
           <a href="" className='react'></a>
           <a href="" className='html'></a>

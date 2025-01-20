@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel, Image } from 'react-bootstrap'
+import VideoPlayer from './VideoPlayer'
 
 const Home = () => {
   return (
@@ -29,6 +30,8 @@ const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        <VideoPlayer width={960} height={540}/>
+        
     </div>
   )
 }

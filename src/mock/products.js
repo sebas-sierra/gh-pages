@@ -31,4 +31,20 @@ export const products = [
         category: 'mesas',
         img: 'https://res.cloudinary.com/dw4lpeb7n/image/upload/v1684528265/de-taller/tanqueta_yrrrf0.jpg',
     },
+    {
+        id: 5,
+        title: 'Bateas',
+        price: 250800,
+        stock: 3,
+        category: 'furniture',
+        img: 'https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736371794/de-taller/bateas_td1kle.jpg',
+    },
+    {
+        id: 6,
+        title: 'Armario',
+        price: 320000,
+        stock: 0,
+        category: 'furniture',
+        img: 'https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736364011/de-taller/armario2_sq8qk1.jpg',
+    },
 ]
