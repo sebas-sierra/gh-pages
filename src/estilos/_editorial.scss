@@ -87,23 +87,34 @@
         font-size: small;
     }
 
+    .titulo {
+        font-size: x-large;
+
+    }
+
     .dedicatoria {
         margin: 1rem 0rem;    
     }
     .italica {
         margin: 3rem 0rem;
-        font-size: small;
+        font-size: large;
      }
 
     .texto-decorrido {
         text-align: justify;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         text-indent: 2rem;
     }
     .frst-pa::first-letter {
-        font-size: 3rem;
+        font-size: 2.5rem;
         // font-weight: 700;
         line-height: 2.4rem;
+    }
+    .img-centrada img{
+        width: 90%;
+    }
+    .dedicatoria, .buffon {
+        font-size: 0.9rem;
     }
 
 }
