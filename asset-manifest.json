@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.45f5f628.css",
-    "main.js": "/gh-pages/static/js/main.f35c673b.js",
+    "main.css": "/gh-pages/static/css/main.bb4ca804.css",
+    "main.js": "/gh-pages/static/js/main.2b07d8e0.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/cartuchos-0.png": "/gh-pages/static/media/cartuchos-0.d648c5ccc30635d365c4.png",
@@ -24,8 +24,9 @@
     "static/media/triptico-areas-0.jpg": "/gh-pages/static/media/triptico-areas-0.4c86a35a054bdd601a8a.jpg",
     "static/media/triptico-insti-0.jpg": "/gh-pages/static/media/triptico-insti-0.485e115ba6a63ac00dd3.jpg",
     "static/media/portfolio-dibujos.png": "/gh-pages/static/media/portfolio-dibujos.6ece1557d6d91126fc56.png",
-    "static/media/carcel.png": "/gh-pages/static/media/carcel.d799f6f25302d7b41ecb.png",
+    "static/media/carcel.png": "/gh-pages/static/media/carcel.2f2c6931dd17411fe26b.png",
     "static/media/tag-cv.png": "/gh-pages/static/media/tag-cv.3820ae5811395d1497ce.png",
+    "static/media/logo-mansilla.png": "/gh-pages/static/media/logo-mansilla.f22ccc4d2eef0a4a3f79.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
     "static/media/cast1.jpg": "/gh-pages/static/media/cast1.357ee3dea8745342a8e9.jpg",
     "static/media/cast2.jpg": "/gh-pages/static/media/cast2.1e96a37512a3111c2415.jpg",
@@ -38,12 +39,12 @@
     "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
-    "main.45f5f628.css.map": "/gh-pages/static/css/main.45f5f628.css.map",
-    "main.f35c673b.js.map": "/gh-pages/static/js/main.f35c673b.js.map",
+    "main.bb4ca804.css.map": "/gh-pages/static/css/main.bb4ca804.css.map",
+    "main.2b07d8e0.js.map": "/gh-pages/static/js/main.2b07d8e0.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45f5f628.css",
-    "static/js/main.f35c673b.js"
+    "static/css/main.bb4ca804.css",
+    "static/js/main.2b07d8e0.js"
   ]
 }
