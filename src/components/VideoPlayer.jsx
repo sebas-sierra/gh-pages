@@ -2,17 +2,16 @@ import React from 'react'
 import { useEffect, useRef } from 'react'
 
 const VideoPlayer = (props) => {
-    const {width, height } = props;
+    const { width, height } = props;
     const cloudinaryRef = useRef();
     const videoRef = useRef();
     useEffect(() => {
-        if ( cloudinaryRef.current )return;
+      if ( cloudinaryRef.current )return;
         cloudinaryRef.current = window.cloudinary;
         cloudinaryRef.current.videoPlayer( videoRef.current, {
-            cloud_name: 'dw4lpeb7n'
+          cloud_name: 'dw4lpeb7n'
         })
-
-    }, []);
+      }, []);
   return (
     <div><video
     ref={videoRef}

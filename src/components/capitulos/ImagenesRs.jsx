@@ -1,46 +1,41 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { imagenes } from '../../assets/imagenes';
-
-
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { Badge, Card, Col, Row } from 'react-bootstrap';
 
 const ImagenesRs = () => {
-  const [ imagen, setImagenes ]= useState ([]);
+  const [imagen, setImagenes] = useState([]);
 
-  useEffect (() =>{
+  useEffect(() => {
     const getImagenes = () => {
-      return new Promise ((res, rej) => {
-        setTimeout(() => { 
+      return new Promise((res, rej) => {
+        setTimeout(() => {
           res(imagenes);
-        }, 3000 );
+        }, 3000);
       });
     };
 
-    getImagenes ()
-    .then ((res) => {
-      setImagenes(res);
-    })
-    .catch ((error) => {
-      console.log('res', error)
+    getImagenes()
+      .then((res) => {
+        setImagenes(res);
+      })
+      .catch((error) => {
+        console.log('res', error)
 
-    });
+      });
 
   }, []);
 
-  
+
 
   return (
-    <Col sm={8}>
-      <Card>
-        <Card.Header>Imagenes para Redes Sociales</Card.Header>
-        <Card.Body>
+    <Card>
+      <Card.Header><Badge pill bg="secondary">Anexo</Badge><h1>Imagenes para Redes Sociales</h1></Card.Header>
+      <Card.Body>
         <ul>
-            <li>Instagram</li>
-            <li>Twitch</li>
-            <li>Whatsapp</li>
+          <li>Instagram</li>
+          <li>Twitch</li>
+          <li>Whatsapp</li>
         </ul>
 
         <p>Instagram</p>
@@ -51,18 +46,18 @@ const ImagenesRs = () => {
           <li>Las imágenes verticales deben tener un tamaño de 1080 px por 1350 px con una relación de aspecto de 4:5.</li>
           <li>Para publicaciones apaisadas (horizontales), usa una imagen de 1080px por 566px, con una relación de aspecto de 1,91:1.</li>
         </ul>
-        
+
         <Row xs={1} md={3} className="g-4">
           {imagen.map((imagen) => (
-          <Col key={imagen.id}>
-            <Card>
-              <Card.Img variant="top" src={imagen.img} />
-              <Card.Body>
-                <Card.Title>{imagen.title}</Card.Title>
-                <Card.Text>aspect ratio: {imagen.aspectRatio}</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>))}
+            <Col key={imagen.id}>
+              <Card>
+                <Card.Img variant="top" src={imagen.img} />
+                <Card.Body>
+                  <Card.Title>{imagen.title}</Card.Title>
+                  <Card.Text>aspect ratio: {imagen.aspectRatio}</Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>))}
         </Row>
         <h4>Video</h4>
         <ul>
@@ -120,8 +115,7 @@ const ImagenesRs = () => {
           <li>Seteo de proyecto 1080p., 1920px x 1080px., 300dpi, RGB 16Bits </li>
         </ul>
         <p>Whatsapp</p></Card.Body>
-        </Card>
-      </Col>
+    </Card>
   )
 }
 

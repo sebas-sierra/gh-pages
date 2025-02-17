@@ -4,7 +4,7 @@ import { products } from '../../mock/products';
 import { useParams } from 'react-router-dom';
 import { collectionProd, db } from '../../services/firebaseConfig';
 import { doc, getDoc } from 'firebase/firestore';
-
+import { Button } from 'react-bootstrap';
 
 const ItemDetailContainer = () => {
   const [ item, setItem ] = useState({});
@@ -58,10 +58,11 @@ const ItemDetailContainer = () => {
   }
 
   return (
+    <>breadcrumb<Button href='/gh-pages/#/capitulos/prod' variant="secondary" size="sm">Volver</Button>
     <div style={{backgroundColor: "lightblue", marginTop: "20px", padding: "20px", borderRadius: "15px"}}>
-      <p >ITEMDETAIL CONTAINER</p>
       <ItemDetail item={item}/>
     </div>
+    </>
   )
 }
 

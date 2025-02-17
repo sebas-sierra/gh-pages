@@ -1,11 +1,11 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 
 const ClaseOcho = () => {
   return (
-    <Col sm={8}>
+    
       <Card>
-        <Card.Header>Clase 8 - Rutas - react-router-dom</Card.Header>
+        <Card.Header><Badge pill bg="secondary">Clase Nº 8 </Badge><h1>Rutas - react-router-dom</h1></Card.Header>
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>
@@ -31,7 +31,7 @@ const ClaseOcho = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-    </Col>
+    
   )
 }
 

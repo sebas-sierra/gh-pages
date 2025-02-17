@@ -1,12 +1,11 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
-import {Col} from 'react-bootstrap'
+import { Badge, Card } from 'react-bootstrap'
 
 const ClaseTres = () => {
   return (
-    <Col sm={8}>
+    
       <Card className="mb-2">
-        <Card.Header>Clase 3</Card.Header>
+        <Card.Header><Badge pill bg="secondary">Clase Nº 3 </Badge><h1>Estructura de archivos, CSS, Bootstrap framework & GitHub</h1></Card.Header>
         <Card.Body>
           <Card.Title>Archivos dentro de la carpeta de mi proyecto:</Card.Title>
           <Card.Text>
@@ -156,12 +155,22 @@ const ClaseTres = () => {
             <li>' git clone URL ' clona el repo de la nube a nuestra computadora.</li>
             <li>' git clone URL -b nombre-de-la-rama -single-branch' clona solo la rama que le indicamos en nuestra computadora.</li>
           </ul>
+        </Card.Text>
 
-          <p>Queda pendiente como añadir googlefonts en un proyecto de React</p>
+        <Card.Title>Google Fonts</Card.Title>
+        <Card.Text>
+          <p>Existen tres formas de añadir Google Fonts a nuestro proyecto:</p>
+          <ul>
+            <li>Usando el link-tag de googleFonts en la etiqueta head de nuestro archivo App.js</li>
+            <li>Instalando styled-components library desde la consola en nuestro proyecto.</li>
+            <li>Haciendo uso del @import para importar directamente la fuente a nuestro archivo css.</li>
+          </ul>
+          <a href="https://www.geeksforgeeks.org/how-to-use-google-fonts-in-reactjs/">Ver +</a><br />
+          <a href='https://www.google.com'>link a combinaciones de googleFonts</a>
         </Card.Text>
       </Card.Body>
     </Card>
-  </Col>
+  
   )
 }
 

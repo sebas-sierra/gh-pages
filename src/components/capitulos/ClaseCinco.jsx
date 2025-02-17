@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-
-
-import { Card, Col } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -27,9 +25,9 @@ const ClaseCinco = ({ onAdd}) => {
     };
 
   return (
-    <Col sm={8}>
+    
         <Card className="mb-2">
-            <Card.Header>CLASE 5 - Componentes II - Estados y Ciclos de vida</Card.Header>
+            <Card.Header><Badge pill bg="secondary">Clase Nº 5 </Badge><h1>Componentes II - Estados y Ciclos de vida</h1></Card.Header>
             <Card.Body>
                 <Card.Title>Introduccion a Eventos en React</Card.Title>
                 <Card.Text>
@@ -75,11 +73,14 @@ const ClaseCinco = ({ onAdd}) => {
                     <Button disable={cantidad === stock} onClick={sumar} variant="outline-secondary">+</Button>
                     <Button onClick={reset} variant="outline-secondary">Reset</Button>
                     <Button onClick={restar} variant="outline-secondary">-</Button>
-                    <Button onClick={() => { onAdd(cantidad) }} variant="outline-secondary">Agregar al carrito</Button>
-                    <p>cantidad:</p><Form.Control
+                    
+                    <InputGroup.Text>Cantidad:</InputGroup.Text>
+                    <Form.Control
                         placeholder={cantidad}
                         aria-label="Recipient's username with two button addons"
                     />
+                    
+                    {/* <Button onClick={() => { onAdd(cantidad) }} variant="outline-secondary">Agregar al carrito</Button> */}
                 </InputGroup>
                 
                 <Card.Text>
@@ -95,8 +96,8 @@ const ClaseCinco = ({ onAdd}) => {
                         <li>uno es una funcion de callBack</li>
                         <li>y el otro (que puede ir o no) es un array de dependencias, que puede estar vacio o no. Existen tres formas de utilizar el array de dependencias:
                             <ul>
-                                <li>Si el array NO EXISTE, la funcion callBack se ejecutadespues delprimer renderizado y cada vez que se renderize el componente.</li>
-                                <li>Si el Array esta vacio se ejecutara solo UNA vez. Se renderiza mi componente y luego se ejecuta mi useEffect, esto n0o resulta utilpara hacer llamadas a APIs externas.</li>
+                                <li>Si el array NO EXISTE, la funcion callBack se ejecuta despues del primer renderizado y cada vez que se renderize el componente.</li>
+                                <li>Si el Array esta vacio se ejecutara solo UNA vez. Se renderiza mi componente y luego se ejecuta mi useEffect, esto no resulta util para hacer llamadas a APIs externas.</li>
                                 <li>Y si el array de dependencias incluye la dependencia, entonces se ejecutara cada vez que detecte un cambio de estado en ella.</li>
                             </ul>
                         </li>
@@ -106,7 +107,7 @@ const ClaseCinco = ({ onAdd}) => {
                 </Card.Text>
             </Card.Body>
         </Card>
-    </Col>
+    
   )
 }
 

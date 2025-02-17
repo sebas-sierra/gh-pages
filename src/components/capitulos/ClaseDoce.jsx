@@ -1,19 +1,15 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 
 const ClaseDoce = () => {
   return (
-    <Col sm={8}>
-      <Card>
-        <Card.Header>Clase 12 - Firebase 1</Card.Header>
-        <Card.Body>
-          <Card.Title></Card.Title>
-          <Card.Text></Card.Text>
-        </Card.Body>
-        
-        
-      </Card>
-    </Col>
+    <Card>
+      <Card.Header><Badge pill bg="secondary">Clase Nº 12 </Badge><h1>Firebase 1</h1></Card.Header>
+      <Card.Body>
+        <Card.Title>Configuracion de una base de datos en Firebase</Card.Title>
+        <Card.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus, autem ex voluptatum dicta unde asperiores excepturi doloribus enim cumque saepe facilis quia corporis amet aspernatur modi voluptatem dolore quibusdam.</Card.Text>
+      </Card.Body>
+    </Card>
   )
 }
 

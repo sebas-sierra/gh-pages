@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
-import { Button, Badge, Col, Image, Row, ListGroup, ListGroupItem, Card, CardBody, Figure} from 'react-bootstrap'
+import { Badge, Col, Image, Row, ListGroup, Card } from 'react-bootstrap'
 import Bio from './resume/Bio'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import illustrator from '../assets/img/logos-software/Adobe_Illustrator_CC_icon.svg';
@@ -10,8 +10,7 @@ import indesign from '../assets/img/logos-software/Adobe_InDesign_CC_icon.svg';
 import adobexd from '../assets/img/logos-software/Adobe_XD_CC_icon.svg';
 import figma from '../assets/img/logos-software/Figma-logo.svg';
 import puertagif from '../assets/img/imagenes/paralaweb 2.gif'
-
-
+import Trabajos from './resume/Trabajos';
 
 const Resume = () => {
   const {texts} = useContext (ThemeContext);
@@ -25,14 +24,19 @@ const Resume = () => {
 
   if (loading) {
     return (
-      <div>
-        <h1>Loading...</h1>
-      </div>
+      <>
+        <Row className="justify-content-md-center">
+          <Col md={1}></Col>
+          <Col md={8}><h1>Loading...</h1></Col>
+          <Col md={1}></Col>
+        </Row>
+      </>
     )
   }
   
   return (
     <Row>
+      <Col md={1}></Col>
       <Col>
       <ListGroup className='list-group-cv'>
         <ListGroup.Item >
@@ -44,7 +48,7 @@ const Resume = () => {
                   <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
                   <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
                   <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
-                  <ListGroup.Item className='list-group-cv-separador'><h6>#Hasta que lo hagas consciente,lo inconsciente dirigira tu vida y lo llamaras 'destino'. - Carl Jung.</h6></ListGroup.Item>
+                  <ListGroup.Item className='list-group-cv-separador'><h6>#Hasta que lo hagas consciente,lo inconsciente dirigira tu vida y lo llamaras 'destino'. - C. Jung</h6></ListGroup.Item>
                 </ListGroup>
               </div>
             </Col>
@@ -191,8 +195,19 @@ const Resume = () => {
             </Col>
           </Row>
         </ListGroup.Item>
+
+        {/* componente trabajos */}
+        <ListGroup.Item className='list-group-cv-header'>
+          <div className='round-div me-2'><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" /></div><h4 className='cv-header-h4'>Trabajos</h4>
+        </ListGroup.Item>
+
+        <ListGroup.Item>
+            <Trabajos/>          
+        </ListGroup.Item>
+
       </ListGroup>
       </Col>
+      <Col md={1}></Col>
     </Row>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Badge, Card  } from 'react-bootstrap';
 
 const ClaseCuatro = () => {
   return (
-    <Col sm={8}>
+    
       <Card className="mb-2">
-        <Card.Header>CLASE 4 - Componentes I - Props</Card.Header>
+        <Card.Header><Badge pill bg="secondary">Clase Nº 4 </Badge><h1>Componentes I / Props & Children</h1></Card.Header>
         <Card.Body>
+          
           <Card.Title>La principal ventaja de React</Card.Title>
           <Card.Text>
             <p>La principal ventaja al momento de trabajar con React es la posibilidad que nos da de crear aplicaciones completas de manera modular gracias al uso de COMPONENTES sin importar que sean de mediana o alta complejidad. Esto es lo que se conoce como 'Diseño Modular', es decir que los componentes nos permiten separar la intefaz de usuario en piezas independientes, reutilizables y pensar en cada componente de forma aislada.</p>
@@ -61,7 +62,7 @@ const ClaseCuatro = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-    </Col>
+    
   )
 }
 

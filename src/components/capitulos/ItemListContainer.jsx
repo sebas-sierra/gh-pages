@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getDocs, query, where } from 'firebase/firestore';
 import { collectionProd } from '../../services/firebaseConfig';
-import { Button, Col} from 'react-bootstrap';
+import { Button, Col, Row} from 'react-bootstrap';
 import { Link, Outlet } from 'react-router-dom';
 
 const ItemListContainer = () => {
@@ -28,8 +28,8 @@ const ItemListContainer = () => {
         .then((res) => {
           //console.log(res.docs)
           const products = res.docs.map((prod) => {
-            console.log(prod);
-            console.log(prod.data());
+            // console.log(prod);
+            // console.log(prod.data());
             return {
               id: prod.id,
               ...prod.data(),
@@ -146,27 +146,40 @@ const ItemListContainer = () => {
 
   if (loading) {
     return (
-      <div>
-        <h1>Loading...</h1>
-      </div>
+      <>
+        <Row className="justify-content-md-center">
+          <Col md={1}></Col>
+          <Col md="auto"><h1>Loading...</h1></Col>
+          <Col md={1}></Col>
+        </Row>
+      </>
     )
   }
 
   return (
-    <Col>
-      <br /><br />   
-      <Button href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
-      <Button href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
-      <Button href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
-      <br /><br />
-      <Link to={'productos'} >Todos</Link>
+    <>
+    <Row className="justify-content-md-center">
+    <Col md={1}></Col>
+    <Col md="auto">
+      <br />
+      <div className="d-flex gap-2 mb-2">
+      <Button variant="outline-primary" href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
+      <Button variant="outline-primary" href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
+      <Button variant="outline-primary" href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
+      </div>   
+      <br />
+      {/* <Link to={'/capitulos/prod'} >Todos</Link>
       <Link to={'/capitulos/prod/category/furniture'} >Furniture</Link>
       <Link to={'/capitulos/prod/category/decoracion'} >Objetos</Link>
       <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link>
-      <br /><br />
+      <br /><br /> */}
       <Outlet/>
-      <ItemList items={items} />
+      
     </Col>
+    <Col md={1}></Col>
+    </Row>
+    <ItemList items={items} />
+    </>
   )
 }
 

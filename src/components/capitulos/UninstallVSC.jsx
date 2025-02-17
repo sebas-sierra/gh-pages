@@ -1,11 +1,10 @@
 import React from 'react'
-import { Card, Col } from 'react-bootstrap'
+import { Badge, Card } from 'react-bootstrap'
 
 const UninstallVSC = () => {
   return (
-    <Col sm={8}>
       <Card>
-        <Card.Header>Como desinstalar completamente VSCode de una Mac</Card.Header>
+        <Card.Header><Badge pill bg="secondary">Anexo </Badge><h1>Como desinstalar completamente VSCode de una Mac</h1></Card.Header>
         <Card.Body>
           <ul>
             <li>1.	Cerra completamente VSCode</li>
@@ -24,8 +23,7 @@ const UninstallVSC = () => {
           </ul>
         </Card.Body>
       </Card>
-    </Col>
-  )
+      )
 }
 
 export default UninstallVSC

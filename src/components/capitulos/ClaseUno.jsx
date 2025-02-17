@@ -1,12 +1,12 @@
 import React from 'react';
-import { Col, Card } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ClaseUno = () => {
   return (
-    <Col sm={8}>
+    
         <Card className="mb-2">
-            <Card.Header>Clase 1</Card.Header>
+          <Card.Header><Badge pill bg="secondary">Clase Nº 1 </Badge><h1>Introducción a React</h1></Card.Header>
             <Card.Body>
               <p>Bootstrap no es un Framework, sino una Libreria. Esto es lo que lo diferencia de Angular o NextJs que es un framework que usa la libreria de ReactJs, por ejemplo puedo tener un proyecto de JS vanilla e instalarle ReactJs.</p>
             <Card.Title>Add code snippets in HTML</Card.Title>
@@ -33,7 +33,7 @@ const ClaseUno = () => {
             </Card.Body>
 
         </Card>
-    </Col>
+    
   )
 }
 

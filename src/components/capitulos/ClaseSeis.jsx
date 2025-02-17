@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
-
-import { Card, Col } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 const ClaseSeis = () => {
   return (
-    <Col sm={8}>
       <Card className="mb-2">
-            <Card.Header>Clase 6 - Promises: Asincronia y MAP</Card.Header>
+            <Card.Header><Badge pill bg="secondary">Clase Nº 6 </Badge><h1>Promises: Asincronia y MAP</h1></Card.Header>
             <Card.Body>
                 <Card.Title>Promesa - Poniendo en uso el Hook useEffect</Card.Title>
         
@@ -54,7 +52,7 @@ const ClaseSeis = () => {
                 
             </Card.Body>
         </Card>
-    </Col>
+
   )
 }
 

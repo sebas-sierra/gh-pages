@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.editorial {
+
+    font-family: "lora", serif;
+    font-size: x-large;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-top {
+    border-top: 0.4em #000 solid!important;
+    opacity: 0.6!important;
+}
+
+.border-top-span{
+    padding-bottom: 30px;
+    position:relative;
+    top:1px;
+    display:inline-block;
+    border-bottom:1px solid #000;
+}
+.genero {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.titulo {
+    font-family: "lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.dedicatoria {
+    margin: 2rem 0rem;
+    font-family: "lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.italica {
+    margin: 5rem 0rem;
+    font-family: "Libre Bodoni", serif;
+    font-size: x-large;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;    
+}
+
+.buffon {
+    font-family: "lora", serif;
+    font-weight: 700;
+    text-align: right;
+}
+.align-content {
+    text-align: right;
+}
+.texto-decorrido {
+    text-align: justify;
+    font-size: 1.6rem;
+    text-indent: 6rem;
+}
+.frst-pa::first-letter {
+    font-size: 3.2rem;
+    // font-weight: 700;
+    line-height: 2.4rem;
+}
+.img-centrada {
+    margin: 5rem 0;
+}
+.img-centrada img{
+    width: 40%;
+}
+
+@media (max-width: 575.98px) {
+    .editorial {
+
+        font-family: "lora", serif;
+        font-size: small;
+    }
+
+    .dedicatoria {
+        margin: 1rem 0rem;    
+    }
+    .italica {
+        margin: 3rem 0rem;
+        font-size: small;
+     }
+
+    .texto-decorrido {
+        text-align: justify;
+        font-size: 1.4rem;
+        text-indent: 2rem;
+    }
+    .frst-pa::first-letter {
+        font-size: 3rem;
+        // font-weight: 700;
+        line-height: 2.4rem;
+    }
+
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Col, Card } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 
 const ClaseDos = () => {
   return (
-    <Col sm={8}>
+    
     <Card className="mb-2">
-      <Card.Header>Clase 2</Card.Header>
+      <Card.Header><Badge pill bg="secondary">Clase Nº 2 </Badge><h1>Como crear un proyecto en React</h1></Card.Header>
       
       <Card.Body>
         <Card.Title>Etapas que interfieren en el funcionamiento de ReactJs </Card.Title>
@@ -64,7 +64,7 @@ const ClaseDos = () => {
       </Card.Text>
       </Card.Body>
     </Card>
-    </Col>
+    
   )
 }
 

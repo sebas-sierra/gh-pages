@@ -4,13 +4,13 @@ import { getDocs } from 'firebase/firestore';
 import { collectionProd } from '../../services/firebaseConfig';
 
 const Carusel = () => {
-    const [items, setItems] = useState([]);
+  const [ items, setItems ] = useState([]);
   useEffect (() => {
     getDocs(collectionProd)
         .then((res) => {
           //console.log(res.docs)
           const products = res.docs.map((prod) => {
-            console.log(prod);
+            // console.log(prod);
             console.log(prod.data());
             return {
               id: prod.id,
@@ -26,13 +26,13 @@ const Carusel = () => {
         // .finally(() => {
         //   setLoading(false);
         // });
-  })
+  }, [])
   return (
     <>
         <Carousel>
         {items.map((producto) => {
           return (
-            <Carousel.Item>
+            <Carousel.Item key={producto.id}>
                 <Image src={producto.img} className="d-block w-100 h-25"/>
                 <Carousel.Caption>
                     <h3>{producto.title}</h3>
