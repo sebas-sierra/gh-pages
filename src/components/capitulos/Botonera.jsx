@@ -5,7 +5,7 @@ const Botonera = () => {
   return (
     <Row>
         <Col></Col>
-        <Col xs={10} md={8} className='align-content'><Button>Publicacion anotada</Button> <Button>Publicacion original</Button></Col>
+        <Col xs={10} md={8} className='align-content'><Button className="mb-2">Publicacion anotada</Button> <Button className="mb-2">Publicacion original</Button></Col>
         <Col></Col>
     </Row>
   )
