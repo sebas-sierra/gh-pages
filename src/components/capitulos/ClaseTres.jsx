@@ -154,6 +154,16 @@ const ClaseTres = () => {
             <li>' git pull ' nos trae toda la rama a nuestro proyecto, desde el repo en la nube al local. Hace un 'git fetch' y un 'git merge' al mismo tiempo.</li>
             <li>' git clone URL ' clona el repo de la nube a nuestra computadora.</li>
             <li>' git clone URL -b nombre-de-la-rama -single-branch' clona solo la rama que le indicamos en nuestra computadora.</li>
+            <hr />
+            <li>Para crear una nueva rama debes ejecutar <code>' git branch nombre-de-la-rama '</code></li>
+            <li>Para ubicarnos en esa rama y  para poder trabajar en ella, ejecutar: <code>' git switch nombre-de-la-rama '</code> o <code>' git checkout nombre-de-la-rama '</code></li>
+            <li>Para empujar la rama al servidor remoto: 
+              <ul>
+                <li>agregar los archivos al stage <code>' git add . '</code></li>
+                <li>comittear los archivos <code>' git commit -m 'nombre-del-commit '</code></li>
+                <li>para pushear los archivos ejecuta  <code>' git push -u origin nombre-de-la-rama '</code></li>
+              </ul>
+            </li>
           </ul>
         </Card.Text>
 

@@ -23,34 +23,22 @@ const TripAreas = () => {
                     <Carousel>
                         <Carousel.Item>
                             <Image src={tripAreasA} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripAreasB} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripAreasC} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripAreasD} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
                     </Carousel>
                 </Modal.Body>

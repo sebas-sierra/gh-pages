@@ -1,4 +1,19 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Anton');
+/* body {
+  background-color: #e5e5f7;
+opacity: 0.8;
+background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444cf7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444cf7 2px, #e5e5f7 2px) -1px 0;
+background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+} */
+/* body {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z'  stroke-width='1' stroke='%236b6966ff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-224,-56)' fill='url(%23a)'/></svg>")} */
+body {
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+  .App {
   text-align: center;
 }
 
@@ -6,7 +21,60 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.list-group-cv-grilla {
+  padding: 0rem;
+  padding-top: 1rem;
+}
+.w3-col {
+  float: left;
+}
+.w3-col.m4 {
+  width: 33.33333%;
+}
+.w3-col.m5 {
+  width: 41.66666%;
+}
+.w3-col.m7 {
+  width: 58.33333%;
+}
+.w3-col.m8 {
+  width: 66.66666%;
+}
+.dibujo-btn img {
+  background-image: url("assets/img/imagenes/portfolio-dibujos-oscuro.png") ;
+  background-size: cover;
+}
+.dibujo-btn img:hover {
+  background-image: url("assets/img/imagenes/portfolio-dibujos.png") ;
+  background-size: cover;
+}
+.detaller-btn img {
+  background-image: url("assets/img/imagenes/portfolio-detaller-oscuro.png") ;
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+.detaller-btn img:hover {
+  background-image: url("assets/img/imagenes/portfolio-detaller-color.png") ;
+  background-size: cover;
+}
+.prode-btn img {
+  background-image: url("assets/img/imagenes/portfolio-prode-oscuro.png") ;
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+.prode-btn img:hover {
+  background-image: url("assets/img/imagenes/portfolio-prode-color.png") ;
+  background-size: cover;
+}
+.blueberries-btn img {
+  background-image: url("assets/img/imagenes/portfolio-blueberries-oscuro.png") ;
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+.blueberries-btn img:hover {
+  background-image: url("assets/img/imagenes/portfolio-blueberries-color.png") ;
+  background-size: cover;
+}
 /* .mt-8 {
   padding-top: 10rem!important;
 }
@@ -239,6 +307,15 @@
 .footer-logos .switch-logos .fontawesome:hover {
   background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459627/logos/Font_Awesome_logomark_blue_b0ee0n.svg");
 }
+
+.portfolio-titulo {
+  font-family: anton;
+}
+
+.hstack-reverse {
+  flex-direction: row-reverse;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

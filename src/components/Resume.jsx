@@ -201,7 +201,7 @@ const Resume = () => {
           <div className='round-div me-2'><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" /></div><h4 className='cv-header-h4'>Trabajos</h4>
         </ListGroup.Item>
 
-        <ListGroup.Item>
+        <ListGroup.Item className='list-group-cv-grilla'>
             <Trabajos/>          
         </ListGroup.Item>
 

@@ -26,15 +26,16 @@ const NavBar = () => {
     /*<Navbar expand='lg' className={isInHeader ? 'bg-body-tertiary' : 'footer'}>*/
     <Navbar fixed="top" className={theme} expand='lg' mb-2>
       <Container>
-        <Navbar.Brand href='/gh-pages/#/'>{texts.headerTitle}</Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='me-auto'>
+        {/* comentada la navbrand <Navbar.Brand href='/gh-pages/#/'>{texts.headerTitle}</Navbar.Brand> */}
+        <Navbar.Toggle aria-controls='navbarScroll' />
+        <Navbar.Collapse id='navbarScroll' >
+          <Nav className='me-auto' navbarScroll>
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
-            <Nav.Link href='/gh-pages/#/resume'>Curriculum Vitae</Nav.Link>
+            {/* <Nav.Link href='/gh-pages/#/resume'>Curriculum Vitae</Nav.Link> */}
+            <Nav.Link href='/gh-pages/#/'>Curriculum Vitae</Nav.Link>
             <Nav.Link href='/gh-pages/#/capitulos/prod'>Store</Nav.Link>
             
-            <NavDropdown title='Apuntes React' id='basic-nav-dropdown'>
+            <NavDropdown title='Apuntes React' id='navbarScrollingDropdown'>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseuno'>Clase 1 / Intro</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasedos'>Clase 2 / Crear proyecto</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetres'>Clase 3 / Archivos y librerias</NavDropdown.Item>
@@ -59,9 +60,11 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetrece'>Clase 13 / Firebase 2</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecatorce'>Clase 14 / Workshop</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href='/gh-pages/#/capitulos/editorial'>Editorial</NavDropdown.Item><NavDropdown.Item href='/gh-pages/#/capitulos/glosario'>Glosario</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/glosario'>Glosario</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/imagenesrs'>Redes Sociales</NavDropdown.Item>
-            <NavDropdown.Item href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/customhooks'>Custom Hooks</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/githubpages'>GitHub-Pages</NavDropdown.Item>
             <NavDropdown.Divider />
             
             </NavDropdown>
@@ -73,15 +76,10 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>Editorial para web</NavDropdown.Item>
             </NavDropdown>
             
-            <Form.Select size="sm" name="language" onChange={handleLanguage}> 
-              <option value="esp">esp</option>
-              <option value="eng">eng</option>
-            </Form.Select>
-            <Form >
-              <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
-            </Form>
+            
 
             {/* <input type="radio" name="theme" id="light" onClick={handleTheme} value="light"/>
             <label htmlFor="light">Claro</label>
@@ -98,9 +96,19 @@ const NavBar = () => {
 
 
           </Nav>
+          <Nav>
+            <Form.Select size="sm" name="language" onChange={handleLanguage}> 
+              <option value="esp">esp</option>
+              <option value="eng">eng</option>
+            </Form.Select>
+            <Form >
+              <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
+            </Form>
+            {show ? <CartWidget/> : <h4></h4>}
+          </Nav>
         </Navbar.Collapse>
         
-        {show ? <CartWidget/> : <h4>Comprar</h4>}
+        
         
        
         

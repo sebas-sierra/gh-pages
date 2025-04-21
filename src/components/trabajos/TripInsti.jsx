@@ -23,26 +23,17 @@ const TripInsti = () => {
                     <Carousel>
                         <Carousel.Item>
                             <Image src={tripInstiA} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                           
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripInstiB} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                                
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripInstiC} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                     </Carousel>

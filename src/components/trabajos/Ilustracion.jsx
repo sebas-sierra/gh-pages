@@ -1,11 +1,18 @@
 import React, { useState } from 'react'
-import cartuchos from '../../assets/img/portfolio/cartuchos-3.png';
-import { Button, Card, Carousel, Image, Modal, Nav } from 'react-bootstrap'
-import cartuchosA from '../../assets/img/portfolio/cartuchos-3.png';
-import cartuchosB from '../../assets/img/portfolio/cartuchos-2.png';
-import cartuchosC from '../../assets/img/portfolio/cartuchos-1.png';
-import cartuchosD from '../../assets/img/portfolio/cartuchos-0.png';
+import cartuchos from '../../assets/img/portfolio/ilustracion/cartuchos-4.png';
+import { Button, Card, Carousel, Image, Modal, Row, Nav } from 'react-bootstrap'
+import cartuchosA from '../../assets/img/portfolio/ilustracion/cartuchos-3.png';
+import cartuchosB from '../../assets/img/portfolio/ilustracion/cartuchos-2.png';
+import cartuchosC from '../../assets/img/portfolio/ilustracion/cartuchos-1.png';
+import cartuchosD from '../../assets/img/portfolio/ilustracion/cartuchos-0.png';
 
+import surocultoA from '../../assets/img/portfolio/ilustracion/sur-oculto.png';
+import surocultoB from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup-1.png';
+import surocultoC from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup-2.png';
+
+import skate from '../../assets/img/portfolio/ilustracion/montania-skate.png';
+
+import { Badge, Stack } from 'react-bootstrap'
 const Ilustracion = () => {
   const [show, setShow] = useState(false);
 
@@ -13,17 +20,74 @@ const Ilustracion = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <>
-    <h1>Ilustración</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
-      
-    <Card>
-      <Card.Header>Ilustración</Card.Header>
-      <Card.Body>
-        <img src={cartuchos} onClick={handleShow} width="100%" height="250px" overflow="hidden"/>
-        <Modal show={show} onHide={handleClose}>
+    <div>
+      <h1>Ilustración</h1>
+      <p>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
+      <Row>
+        <div class="w3-row">
+          <div class="w3-col m8">
+            <img src={surocultoA} onClick={handleShow} width="100%" overflow="hidden"/>
+          </div>
+          <div class="w3-col m4" style={{paddingTop: "200px"}}>
+          <h2 className='portfolio-titulo' >Sur Oculto</h2>
+          <hr />
+          <Stack direction="horizontal" gap={2}>
+            <Badge pill bg="dark"> ilustracion digital </Badge>
+            <Badge pill bg="dark"> photoshop </Badge>
+          </Stack><br />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
+        </div>
+      </div>
+    </Row>
+
+    <Row>
+      <div class="w3-row">
+        <div class="w3-col m5" style={{paddingTop: "200px"}}>
+          <h2  className='portfolio-titulo text-end'>Ultimos Cartuchos</h2>
+          <hr />
+          <Stack direction="horizontal" gap={2} className="hstack-reverse">
+            <Badge pill bg="dark"> boceto a lapiz </Badge>
+            <Badge pill bg="dark"> ilustracion digital </Badge>
+            <Badge pill bg="dark"> photoshop </Badge>
+          </Stack><br />
+          <p className='text-end'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
+        </div>
+        <div class="w3-col m7">
+          <img src={cartuchos} alt='' style={{width:"100%"}}/>
+        </div>
+      </div>
+    </Row>
+
+    <Row>
+      <div class="w3-row">
+        <div class="w3-col m7">
+          <img src={skate} alt='' style={{width:"100%"}}/>
+        </div>
+        <div class="w3-col m5" style={{paddingTop: "200px"}}>
+          <h2  className='portfolio-titulo'>Skate</h2>
+          <hr />
+          <Stack direction="horizontal" gap={2}>
+            <Badge pill bg="dark"> boceto a lapiz </Badge>
+            <Badge pill bg="dark"> ilustracion digital </Badge>
+            <Badge pill bg="dark"> photoshop </Badge>
+          </Stack><br />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
+        </div>
+      </div>
+    </Row>
+
+    
+        <Modal size="lg" show={show} onHide={handleClose}>
           <Modal.Body >
             <Carousel>
+              <Carousel.Item>
+                <Image src={surocultoB} className="d-block w-100" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <Image src={surocultoC} className="d-block w-100" />
+              </Carousel.Item>
+
               <Carousel.Item>
                 <Image src={cartuchosA} className="d-block w-100" />
                 <Carousel.Caption>
@@ -31,6 +95,7 @@ const Ilustracion = () => {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
               </Carousel.Item>
+
               <Carousel.Item>
                 <Image src={cartuchosB} className="d-block w-100" />
                 <Carousel.Caption>
@@ -38,6 +103,7 @@ const Ilustracion = () => {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
               </Carousel.Item>
+
               <Carousel.Item>
                 <Image src={cartuchosC} className="d-block w-100" />
                 <Carousel.Caption>
@@ -45,6 +111,7 @@ const Ilustracion = () => {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
               </Carousel.Item>
+
               <Carousel.Item>
                 <Image src={cartuchosD} className="d-block w-100" />
                 <Carousel.Caption>
@@ -52,15 +119,11 @@ const Ilustracion = () => {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
               </Carousel.Item>
+
             </Carousel>
           </Modal.Body>
         </Modal>
-        <Card.Text>
-        <p text-indent= "5em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </>
+    </div>
   )
 }
 

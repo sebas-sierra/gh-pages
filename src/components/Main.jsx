@@ -28,7 +28,7 @@ import Prode from './trabajos/Prode';
 import Bnm from './trabajos/Bnm';
 import DeTaller from './trabajos/DeTaller';
 import Ilustracion from './trabajos/Ilustracion';
-import Editorial from './capitulos/Editorial';
+import Editorial from './trabajos/Editorial';
 // import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
 import { Routes, Route } from 'react-router-dom'
@@ -36,6 +36,8 @@ import React, { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import Resume from './Resume';
 import Glosario from './capitulos/Glosario';
+import CustomHooks from './capitulos/CustomHooks';
+import GithubPages from './capitulos/GithubPages';
 // import { useContext } from 'react';
 
 
@@ -55,8 +57,9 @@ const Main = () => {
           <Col md={8}>
             {/* <h1>Main *</h1> */}
             <Routes>
-              <Route path='/' element={<Home />} />
-              {/* <Route path='/resume' element={<Resume />} /> */}
+              {/* ruta para renderizar la home <Route path='/' element={<Home />} /> */}
+              
+              
               <Route path='/capitulos/imagenesrs' element={<ImagenesRs />} />
               <Route path='/capitulos/claseuno' element={<ClaseUno />} />
               <Route path='/capitulos/clasedos' element={<ClaseDos />} />
@@ -84,18 +87,22 @@ const Main = () => {
               <Route path='/trabajos/bnm' element={<Bnm />} />
               <Route path='/trabajos/detaller' element={<DeTaller />} />
               <Route path='/trabajos/ilustracion' element={<Ilustracion />} />
+              <Route path='/trabajos/editorial' element={<Editorial />} />
               <Route path='/cart' element={<Cart />} />
               <Route path='/checkout' element={<FormA />} />
+              <Route path='/capitulos/customhooks' element={<CustomHooks />}/>
+              <Route path='/capitulos/githubpages' element={<GithubPages />}/>
               <Route path='/capitulos/itemdetail/:idProd' element={<ItemDetailContainer />} />
             </Routes>
           </Col>
           <Col md={1}></Col>
 
           <Routes>
-            <Route path='/resume' element={<Resume />} />
+            
+            <Route path='/' element={<Resume />} />
             <Route path='/capitulos/prod' element={<Catalogo />} />
             <Route path='/capitulos/prod/category/:categoryName' element={<Catalogo />} />
-            <Route path='/capitulos/editorial' element={<Editorial/>} />
+            
           </Routes>
         </Row>
       </Container>

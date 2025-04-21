@@ -22,26 +22,17 @@ const TripRepoA = () => {
                     <Carousel>
                         <Carousel.Item>
                             <Image src={tripRepoA} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripRepoB} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <Image src={tripRepoC} className="d-block w-100" />
-                            <Carousel.Caption>
-                                <h3>dvfvsz</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                            
                         </Carousel.Item>
 
                     </Carousel>

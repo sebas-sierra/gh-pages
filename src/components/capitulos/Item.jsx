@@ -13,6 +13,7 @@ import cast5 from '../../assets/img/movies/avatar/cast5.jpg';
 const Item = ({ producto }) => {
   return (
     <div>
+      
       {/* <p>ITEM</p> */}
       <Card key={producto.id} className='movies-card' >
         <div  className='poster'>
