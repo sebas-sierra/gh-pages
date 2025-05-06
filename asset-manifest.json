@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.766758ba.css",
-    "main.js": "/gh-pages/static/js/main.9b42b259.js",
+    "main.css": "/gh-pages/static/css/main.ab7e09fd.css",
+    "main.js": "/gh-pages/static/js/main.a74e0f67.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/cartuchos-0.png": "/gh-pages/static/media/cartuchos-0.d648c5ccc30635d365c4.png",
@@ -41,6 +41,7 @@
     "static/media/portfolio-dibujos-vacio.png": "/gh-pages/static/media/portfolio-dibujos-vacio.149be6c764fdd76b7351.png",
     "static/media/logo-mansilla.png": "/gh-pages/static/media/logo-mansilla.f22ccc4d2eef0a4a3f79.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
+    "static/media/de-taller-h.png": "/gh-pages/static/media/de-taller-h.f03fe744ca60763bfa3f.png",
     "static/media/cast1.jpg": "/gh-pages/static/media/cast1.357ee3dea8745342a8e9.jpg",
     "static/media/cast2.jpg": "/gh-pages/static/media/cast2.1e96a37512a3111c2415.jpg",
     "static/media/cast5.jpg": "/gh-pages/static/media/cast5.ee250bd26a08c85dca89.jpg",
@@ -52,12 +53,12 @@
     "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
-    "main.766758ba.css.map": "/gh-pages/static/css/main.766758ba.css.map",
-    "main.9b42b259.js.map": "/gh-pages/static/js/main.9b42b259.js.map",
+    "main.ab7e09fd.css.map": "/gh-pages/static/css/main.ab7e09fd.css.map",
+    "main.a74e0f67.js.map": "/gh-pages/static/js/main.a74e0f67.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.766758ba.css",
-    "static/js/main.9b42b259.js"
+    "static/css/main.ab7e09fd.css",
+    "static/js/main.a74e0f67.js"
   ]
 }
