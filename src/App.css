@@ -307,9 +307,24 @@ body {
 .footer-logos .switch-logos .fontawesome:hover {
   background-image: url("https://res.cloudinary.com/dw4lpeb7n/image/upload/v1736459627/logos/Font_Awesome_logomark_blue_b0ee0n.svg");
 }
+.vjs_video_3-dimensions {
+  width: 100%;
+  height: 480px;
+  margin: 120px 0px;
+}
+
+.presentacion {
+  padding: 0px 16px;
+}
 
 .portfolio-titulo {
   font-family: anton;
+  text-transform: uppercase;
+  padding: 12px 0px 28px 0px;
+}
+
+h1.portfolio-titulo, p.portfolio-bajada {
+  color: #7e7f80;
 }
 
 .hstack-reverse {
@@ -483,6 +498,10 @@ img.rounded-start.card-img.img-fluid {
   border-radius: 0;
 }
 
+.card.card-noborder {
+  border: none;
+}
+
 .aplication-logos {
     padding-right: calc(var(--bs-gutter-x) * .2);
     padding-left: calc(var(--bs-gutter-x) * .2);
@@ -491,5 +510,18 @@ img.rounded-start.card-img.img-fluid {
 @media (max-width: 767.98px) { 
   .list-group-cv .cv-header {
     position: relative;
+  }
+  .w3-col, .w3-col.m4, .w3-col.m5, .w3-col.m7, .w3-col.m8 {
+    float: none;
+    width: 100%;
+  }
+  .w3-col {
+    padding: 0px 16px;
+  }
+  .w3-col.m4, .w3-col.m5 {
+    padding-top: 15px!important;
+  }
+  .listgroupitem-padding, .listgroupcard-padding {
+    padding: 0px ;
   }
 }

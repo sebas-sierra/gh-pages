@@ -10,7 +10,7 @@ const Bio = () => {
     return (
         <>
             <Col md={5} >
-                <Card>
+                <Card className='card-noborder'>
                     <Card.Img src={perfil}></Card.Img>
                     <div style={{position:'relative', border:'0px'}}><Card.Img src={tag}></Card.Img><Button style={{position: 'absolute', right: '-20px', top: '260px'}}>Descargar CV formato PDF</Button></div>
                     {/* <Card.ImgOverlay>
@@ -24,21 +24,21 @@ const Bio = () => {
             </Col>
             <Col md={7} >
                 <ListGroup>
-                    <ListGroupItem>
+                    <ListGroupItem className='listgroupitem-padding'>
                         <h4>Biografia</h4>
-                        <Card>
-                            <Card.Body>
-                            <Card.Title>{texts.biop0}</Card.Title>
-                            <Card.Text>
-                            {texts.biop1}<br/><br/>
-                            {texts.biop2}<br/><br/>
-                            {texts.biop3}<br/><br/>
-                            {texts.biop4}<br/><br/>
-                            </Card.Text>
+                        <Card className='card-noborder'>
+                            <Card.Body  className='listgroupcard-padding'>
+                                <Card.Title>{texts.biop0}</Card.Title>
+                                <Card.Text>
+                                    {texts.biop1}<br/><br/>
+                                    {texts.biop2}<br/><br/>
+                                    {texts.biop3}<br/><br/>
+                                    {texts.biop4}<br/><br/>
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </ListGroupItem>
-                    <ListGroupItem>
+                    <ListGroupItem className='listgroupitem-padding'>
                         <Contacto/>
                     </ListGroupItem>
                 </ListGroup>                

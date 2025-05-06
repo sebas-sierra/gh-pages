@@ -15,30 +15,33 @@ import skate from '../../assets/img/portfolio/ilustracion/montania-skate.png';
 import { Badge, Stack } from 'react-bootstrap'
 const Ilustracion = () => {
   const [show, setShow] = useState(false);
+  const [showut, setShowut] = useState(false);
 
   const handleClose = () => setShow(false);
+  const handleCloseut = () => setShowut(false);
   const handleShow = () => setShow(true);
+  const handleShowut = () => setShowut(true);
 
   return (
-    <div>
-      <h1>Ilustración</h1>
-      <p>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
+    <div className='presentacion'>
+      <h1 className='portfolio-titulo'>Ilustración</h1>
+      <p className='portfolio-bajada'>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
       <Row>
         <div class="w3-row">
           <div class="w3-col m8">
             <img src={surocultoA} onClick={handleShow} width="100%" overflow="hidden"/>
           </div>
           <div class="w3-col m4" style={{paddingTop: "200px"}}>
-          <h2 className='portfolio-titulo' >Sur Oculto</h2>
-          <hr />
-          <Stack direction="horizontal" gap={2}>
-            <Badge pill bg="dark"> ilustracion digital </Badge>
-            <Badge pill bg="dark"> photoshop </Badge>
-          </Stack><br />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
+            <h2 className='portfolio-titulo' >Sur Oculto</h2>
+            <hr />
+            <Stack direction="horizontal" gap={2}>
+              <Badge pill bg="dark"> ilustracion digital </Badge>
+              <Badge pill bg="dark"> photoshop </Badge>
+            </Stack><br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
+          </div>
         </div>
-      </div>
-    </Row>
+      </Row>
 
     <Row>
       <div class="w3-row">
@@ -53,7 +56,7 @@ const Ilustracion = () => {
           <p className='text-end'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
         </div>
         <div class="w3-col m7">
-          <img src={cartuchos} alt='' style={{width:"100%"}}/>
+          <img src={cartuchos} onClick={handleShowut} alt='' style={{width:"100%"}}/>
         </div>
       </div>
     </Row>
@@ -87,7 +90,13 @@ const Ilustracion = () => {
               <Carousel.Item>
                 <Image src={surocultoC} className="d-block w-100" />
               </Carousel.Item>
+            </Carousel>
+          </Modal.Body>
+        </Modal>
 
+        <Modal size="lg" show={showut} onHide={handleCloseut}>
+          <Modal.Body >
+            <Carousel>
               <Carousel.Item>
                 <Image src={cartuchosA} className="d-block w-100" />
                 <Carousel.Caption>

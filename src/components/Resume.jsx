@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
-import { Badge, Col, Image, Row, ListGroup, Card } from 'react-bootstrap'
+import { Badge, Card, Col, Image, ListGroup, Row, Spinner } from 'react-bootstrap'
 import Bio from './resume/Bio'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import illustrator from '../assets/img/logos-software/Adobe_Illustrator_CC_icon.svg';
@@ -27,7 +27,7 @@ const Resume = () => {
       <>
         <Row className="justify-content-md-center">
           <Col md={1}></Col>
-          <Col md={8}><h1>Loading...</h1></Col>
+          <Col md={8} className="text-center" ><Spinner animation="grow" variant="secondary" /></Col>
           <Col md={1}></Col>
         </Row>
       </>

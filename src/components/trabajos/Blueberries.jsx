@@ -1,18 +1,17 @@
 import React from 'react';
 import VideoPlayer from '../VideoPlayer';
-import { Col, Row } from 'react-bootstrap'
+import { Badge, Col, Row } from 'react-bootstrap'
 
 const Blueberries = () => {
   return (
-    <Row className="justify-content-md-center">
-      <Col md={1}></Col>
-      <Col md="auto">
-        <h1>Blueberries</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
+    <div className='presentacion'>
+      <Badge pill bg="secondary"> animacion </Badge><br/>
+      <h1 className='portfolio-titulo'>Blueberries</h1>
+        <p className='portfolio-bajada'>Trabajo de animacion para BLUEBERRIES Grow & Garden, pieza de comunicacion animada para reproducir en diferentes resoluciones (smartphone y televisor).</p>
+        <p className='portfolio-bajada'>En este caso el cliente proporciono las ilustraciones, simplificando el desarrollo del proyecto en primera instancia en base a estas mismas ilustraciones se diseñaron las pantallas que formarian la animacion (storyboard).<br/> En segunda instancia, se ajustan las imagenes al formato requerido para la animacion incluyendo retoques a las imagenes originales para que el trabajo sea fluido, buscando optimizar las horas dedicadas a trabajar en los distintos softwares.<br/> Por ultimo la instancia de animacion, que tan placentera o tortuosa sea esta etapa depende exclusivamente de las etapas anteriores.</p>
         <VideoPlayer width={960} height={540}/>
-        </Col>
-        <Col md={1}></Col>
-    </Row>
+        
+    </div>
   )
 }
 

@@ -24,7 +24,7 @@ const NavBar = () => {
   
   return (
     /*<Navbar expand='lg' className={isInHeader ? 'bg-body-tertiary' : 'footer'}>*/
-    <Navbar fixed="top" className={theme} expand='lg' mb-2>
+    <Navbar fixed="top" className={theme} expand='lg' mb-2 >
       <Container>
         {/* comentada la navbrand <Navbar.Brand href='/gh-pages/#/'>{texts.headerTitle}</Navbar.Brand> */}
         <Navbar.Toggle aria-controls='navbarScroll' />

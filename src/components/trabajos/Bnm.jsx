@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Badge, Card, Stack } from 'react-bootstrap';
 
 import TripRepo from './TripRepo';
 import TripInsti from './TripInsti';
@@ -7,9 +7,10 @@ import TripAreas from './TripAreas';
 
 const Bnm = () => {
   return (
-    <>
-      <h1>BNM / Biblioteca Nacional de Maestros</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
+    <div className='presentacion'>
+      <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> diseño folleteria </Badge><Badge pill bg="secondary"> branding </Badge><Badge pill bg="secondary"> diseño institucional</Badge></Stack>
+      <h1 className='portfolio-titulo'>Biblioteca Nacional de Maestros</h1>
+      <p className='portfolio-bajada'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
       <Card>
         <Card.Header>BNM</Card.Header>
         <Card.Body>
@@ -18,7 +19,7 @@ const Bnm = () => {
           <TripAreas />
         </Card.Body>
       </Card>
-    </>
+    </div>
 
   )
 }
