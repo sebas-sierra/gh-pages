@@ -1,9 +1,10 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../context/ThemeContext'
-import { Button, Card, Col, Image, Row, ListGroup, ListGroupItem} from 'react-bootstrap'
+import { Button, Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap'
 import Contacto from './Contacto';
 import perfil from '../../assets/img/imagenes/perfil-cv.png';
 import tag from '../../assets/img/imagenes/tag-cv.png'
+import cv from '../../assets/files/ohdfi02463f.pdf'
 
 const Bio = () => {
     const {texts} = useContext (ThemeContext)
@@ -12,7 +13,12 @@ const Bio = () => {
             <Col md={5} >
                 <Card className='card-noborder'>
                     <Card.Img src={perfil}></Card.Img>
-                    <div style={{position:'relative', border:'0px'}}><Card.Img src={tag}></Card.Img><Button style={{position: 'absolute', right: '-20px', top: '260px'}}>Descargar CV formato PDF</Button></div>
+                    <div style={{position:'relative', border:'0px'}}>
+                        <Card.Img src={tag}></Card.Img>
+                        <Button style={{position: 'absolute', right: '-20px', top: '260px'}} href={cv} download='cv-sebastiansierra.pdf'>
+                            Descargar CV formato PDF
+                        </Button>
+                    </div>
                     {/* <Card.ImgOverlay>
                         <div className='img-overlay-cv'>
                         <Card.Title><h2>Sebastián Sierra</h2></Card.Title>

@@ -20,6 +20,7 @@ import ClaseTrece from './capitulos/ClaseTrece';
 import ClaseCatorce from './capitulos/ClaseCatorce';
 import UninstallVSC from './capitulos/UninstallVSC';
 import Catalogo from './capitulos/Catalogo';
+import Recursos from './capitulos/Recursos';
 import ItemDetailContainer from './capitulos/ItemDetailContainer';
 import Cart from './cart/Cart';
 import FormA from './FormA';
@@ -34,6 +35,7 @@ import Editorial from './trabajos/Editorial';
 import { Routes, Route } from 'react-router-dom'
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
+
 import Resume from './Resume';
 import Glosario from './capitulos/Glosario';
 import CustomHooks from './capitulos/CustomHooks';
@@ -82,6 +84,7 @@ const Main = () => {
               <Route path='/capitulos/clasecatorce' element={<ClaseCatorce />} />
               <Route path='/capitulos/glosario' element={<Glosario />} />
               <Route path='/capitulos/desinstalarvsc' element={<UninstallVSC />} />
+              <Route path='/capitulos/recursos' element={<Recursos />} />
               <Route path='/trabajos/blueberries' element={<Blueberries />} />
               <Route path='/trabajos/prode' element={<Prode />} />
               <Route path='/trabajos/bnm' element={<Bnm />} />

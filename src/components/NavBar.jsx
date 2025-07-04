@@ -65,7 +65,7 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/customhooks'>Custom Hooks</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/githubpages'>GitHub-Pages</NavDropdown.Item>
-            <NavDropdown.Divider />
+              <NavDropdown.Divider />
             
             </NavDropdown>
 
@@ -78,6 +78,8 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>Editorial para web</NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Link href='/gh-pages/#/capitulos/recursos'>Recursos</Nav.Link>
             
             
 

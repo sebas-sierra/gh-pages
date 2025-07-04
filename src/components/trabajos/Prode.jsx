@@ -1,14 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Badge, Stack } from 'react-bootstrap';
-
+import { Badge, Button, Col, Row, Stack } from 'react-bootstrap';
+import prode1 from '../../assets/img/portfolio/prode/prode-3.png';
+import prode2 from '../../assets/img/portfolio/prode/prode-2.png'
 const Prode = () => {
   return (
     <div className='presentacion'>
       <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> ux / ui </Badge><Badge pill bg="secondary"> coding</Badge></Stack>
-      <h1 className='portfolio-titulo'>Prode</h1>
-      <p className='portfolio-bajada'>Proyecto final para el curso de Javascript de CODERHOUSE. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
-      <Link to='https://sebas-sierra.github.io/entrega-final/'>link al prode</Link>
+      
+      <Row>
+        <Col md={4}>
+          <h1 className='portfolio-titulo'>Prode</h1>
+          <p className='portfolio-bajada'>Proyecto final para el curso de Javascript de CODERHOUSE.</p>
+          <Button variant="outline-primary" href='https://sebas-sierra.github.io/entrega-final/'>link al prode</Button>
+        </Col>
+        <Col md={8}><img src={prode1} width="100%" overflow="hidden"/></Col>
+      </Row>
+      
+      <img src={prode2} width="100%" overflow="hidden"/>
     </div>
   )
 }
