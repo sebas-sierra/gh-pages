@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gh-pages/static/css/main.ab7e09fd.css",
-    "main.js": "/gh-pages/static/js/main.a74e0f67.js",
+    "main.js": "/gh-pages/static/js/main.70de9e38.js",
     "static/js/787.c0245b8d.chunk.js": "/gh-pages/static/js/787.c0245b8d.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/cartuchos-0.png": "/gh-pages/static/media/cartuchos-0.d648c5ccc30635d365c4.png",
@@ -15,17 +15,21 @@
     "static/media/cartuchos-4.png": "/gh-pages/static/media/cartuchos-4.115d3fa6481e21a2693c.png",
     "static/media/sur-oculto-mockup-2.png": "/gh-pages/static/media/sur-oculto-mockup-2.c7258011344eb8f9d71b.png",
     "static/media/portfolio-blueberries-oscuro.png": "/gh-pages/static/media/portfolio-blueberries-oscuro.ba3fb528227327d2f025.png",
+    "static/media/Tienda_Kokiri_OoT.png": "/gh-pages/static/media/Tienda_Kokiri_OoT.1d40f5e845f87d3d5119.png",
+    "static/media/prode-2.png": "/gh-pages/static/media/prode-2.17c30862cdf54e139bff.png",
     "static/media/sur-oculto.png": "/gh-pages/static/media/sur-oculto.99f3762b8101d0479912.png",
     "static/media/portfolio-prode-color.png": "/gh-pages/static/media/portfolio-prode-color.e8915f8900fa898f21ca.png",
     "static/media/perfil-cv.png": "/gh-pages/static/media/perfil-cv.8b364fcd0d1e34e43173.png",
     "static/media/portfolio-detaller-oscuro.png": "/gh-pages/static/media/portfolio-detaller-oscuro.7d7f33f8b7d55baf88b5.png",
     "static/media/triptico-repo-2.png": "/gh-pages/static/media/triptico-repo-2.17a842a3dba5047aa358.png",
+    "static/media/prode-3.png": "/gh-pages/static/media/prode-3.dec70f97307df503211f.png",
     "static/media/triptico-repo-1.png": "/gh-pages/static/media/triptico-repo-1.7f044c5d20c5ba56aeb9.png",
     "static/media/portfolio-blueberries-color.png": "/gh-pages/static/media/portfolio-blueberries-color.980c3cef4f4c9ec3f302.png",
     "static/media/triptico-repo-0.png": "/gh-pages/static/media/triptico-repo-0.bee41be3a566103bcaf1.png",
     "static/media/portfolio-detaller-color.png": "/gh-pages/static/media/portfolio-detaller-color.690e22c91fc98b3d6828.png",
     "static/media/triptico-areas-2.jpg": "/gh-pages/static/media/triptico-areas-2.d47b1a7dd7b5e9a2c0b3.jpg",
     "static/media/triptico-areas-3.jpg": "/gh-pages/static/media/triptico-areas-3.b719e33f7967261f30ff.jpg",
+    "static/media/ohdfi02463f.pdf": "/gh-pages/static/media/ohdfi02463f.c16468d30273280ced7c.pdf",
     "static/media/triptico-insti-2.jpg": "/gh-pages/static/media/triptico-insti-2.b806fa8a3dfb03b3f45c.jpg",
     "static/media/triptico-insti-1.jpg": "/gh-pages/static/media/triptico-insti-1.6ae9b4a709c51c2106b2.jpg",
     "static/media/triptico-areas-1.jpg": "/gh-pages/static/media/triptico-areas-1.a4ae36405f0c99f34d38.jpg",
@@ -54,11 +58,11 @@
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "main.ab7e09fd.css.map": "/gh-pages/static/css/main.ab7e09fd.css.map",
-    "main.a74e0f67.js.map": "/gh-pages/static/js/main.a74e0f67.js.map",
+    "main.70de9e38.js.map": "/gh-pages/static/js/main.70de9e38.js.map",
     "787.c0245b8d.chunk.js.map": "/gh-pages/static/js/787.c0245b8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab7e09fd.css",
-    "static/js/main.a74e0f67.js"
+    "static/js/main.70de9e38.js"
   ]
 }
