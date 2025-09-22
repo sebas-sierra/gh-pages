@@ -1,12 +1,16 @@
-import React from 'react';
-import { Button, Row, Col, Badge, Stack, Card, Image } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Button, Modal, Carousel, Row, Col, Badge, Stack, Card, Image } from 'react-bootstrap';
 
 import labelA from '../../assets/img/portfolio/waterclor/waterclor-mockup.png';
 
 const Waterclor = () => {
+  const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
   return (
     <div className='presentacion'>
-        <Card class='pb-3'>
+        <Card onClick={handleShow} class='pb-3'>
             <Card.Img src={labelA} />
             <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
                 <Card.Title><h3>Etiquetas para envases de producto</h3></Card.Title>
@@ -14,6 +18,16 @@ const Waterclor = () => {
                 <Button variant="primary"> ver mas</Button>
             </Card.ImgOverlay>
         </Card>
+
+        <Modal show={show} onHide={handleClose} size="xl">
+                <Modal.Body>
+                    <Carousel>
+                        <Carousel.Item>
+                            <Image src={labelA} className="d-block w-100" />
+                        </Carousel.Item>
+                    </Carousel>
+                </Modal.Body>
+            </Modal>
     </div>
   )
 }
