@@ -74,6 +74,7 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>FrontEnd</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/waterclor'>Producto</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href='/gh-pages/#/capitulos/recursos'>Recursos</Nav.Link>

@@ -30,6 +30,7 @@ import Bnm from './trabajos/Bnm';
 import DeTaller from './trabajos/DeTaller';
 import Ilustracion from './trabajos/Ilustracion';
 import Editorial from './trabajos/Editorial';
+import Waterclor from './trabajos/Waterclor';
 // import ItemListContainer from './capitulos/ItemListContainer';
 // import ClaseNueve from './capitulos/ClaseNueve';
 import { Routes, Route } from 'react-router-dom'
@@ -91,6 +92,7 @@ const Main = () => {
               <Route path='/trabajos/detaller' element={<DeTaller />} />
               <Route path='/trabajos/ilustracion' element={<Ilustracion />} />
               <Route path='/trabajos/editorial' element={<Editorial />} />
+              <Route path='/trabajos/waterclor' element={<Waterclor />} />
               <Route path='/cart' element={<Cart />} />
               <Route path='/checkout' element={<FormA />} />
               <Route path='/capitulos/customhooks' element={<CustomHooks />}/>

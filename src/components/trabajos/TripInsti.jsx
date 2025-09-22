@@ -15,8 +15,8 @@ const TripInsti = () => {
             <Card onClick={handleShow} class='pb-3'>
                 <Card.Img src={tripInstiA} />
                 <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
-                    <Card.Title><h3>Card title</h3></Card.Title>
-                    <Card.Text>Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta.</Card.Text>
+                    <Card.Title><h3>Triptico informativo servicios BNM</h3></Card.Title>
+                    <Card.Text>Minus itaque optio, nostrum quam autem <br/> cum quis nesciunt sint odio eum aperiam distinctio dicta.</Card.Text>
                     <Button variant="primary"> ver mas</Button>
                </Card.ImgOverlay>
             </Card>

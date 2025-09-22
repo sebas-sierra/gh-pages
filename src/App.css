@@ -114,7 +114,11 @@ body {
 }
 
 .dark .navbar-nav .nav-link.active {
-  color: #bd1d1d;
+  color: #fff;
+}
+
+.dark .navbar-nav .nav-link.show {
+  color: #61dafb;
 }
 
 .dark a:hover {

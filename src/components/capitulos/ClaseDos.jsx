@@ -26,6 +26,7 @@ const ClaseDos = () => {
           <ul>
             <li>a- Abrimos la consola terminal.</li>
             <li>b- Para poder interactuar con ReactJs necesitamos instalar el CLI de ReactJs de manera global. No importa en que carpeta nos ubiquemos para ejecutar este codigo, es indistinto porq la instalacion sera a nivel global. Para acerlo ejecutamos este codigo dentro del terminal para ubicarnos en el escritorio:<br /><br />
+            <code>~ cd -desktop</code><br /><br /><br />
             <SyntaxHighlighter language="javascript" style={atomOneDark}>
             ~ cd -desktop
         </SyntaxHighlighter> 
