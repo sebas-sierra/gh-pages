@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/gh-pages/static/css/main.46295388.css",
-    "main.js": "/gh-pages/static/js/main.084355fc.js",
+    "main.js": "/gh-pages/static/js/main.7619f390.js",
     "static/js/453.e44e1293.chunk.js": "/gh-pages/static/js/453.e44e1293.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/triptico-repo-3.png": "/gh-pages/static/media/triptico-repo-3.7972db92bacd1e9e54af.png",
     "static/media/triptico-repo-2.png": "/gh-pages/static/media/triptico-repo-2.d724c0384d22abd93b0e.png",
     "static/media/triptico-repo-1.png": "/gh-pages/static/media/triptico-repo-1.4696596d4ddfad0e9dde.png",
-    "static/media/waterclor-mockup.png": "/gh-pages/static/media/waterclor-mockup.6ed10b7749444899bbe9.png",
     "static/media/cartuchos-0.png": "/gh-pages/static/media/cartuchos-0.d648c5ccc30635d365c4.png",
     "static/media/triptico-repo-0.png": "/gh-pages/static/media/triptico-repo-0.490f59e6211f806c9648.png",
     "static/media/cartuchos-1.png": "/gh-pages/static/media/cartuchos-1.a8dc826ed7b57360c770.png",
     "static/media/cartuchos-3.png": "/gh-pages/static/media/cartuchos-3.72eb2f14f8b3f0742cbd.png",
     "static/media/portfolio-bnm.png": "/gh-pages/static/media/portfolio-bnm.441d1b864b97f01bbb9a.png",
     "static/media/montania-skate.png": "/gh-pages/static/media/montania-skate.1ed091a5d2bffefbba4d.png",
+    "static/media/waterclor-mockup.png": "/gh-pages/static/media/waterclor-mockup.d97b8d35873d467d5b6b.png",
     "static/media/cartuchos-2.png": "/gh-pages/static/media/cartuchos-2.ee36e1fef29eec7b705c.png",
     "static/media/portfolio-prode-oscuro.png": "/gh-pages/static/media/portfolio-prode-oscuro.040fa08fa4af7613d89c.png",
     "static/media/sur-oculto-mockup-1.png": "/gh-pages/static/media/sur-oculto-mockup-1.2c2a1e90c9685090be85.png",
@@ -60,11 +60,11 @@
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "main.46295388.css.map": "/gh-pages/static/css/main.46295388.css.map",
-    "main.084355fc.js.map": "/gh-pages/static/js/main.084355fc.js.map",
+    "main.7619f390.js.map": "/gh-pages/static/js/main.7619f390.js.map",
     "453.e44e1293.chunk.js.map": "/gh-pages/static/js/453.e44e1293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46295388.css",
-    "static/js/main.084355fc.js"
+    "static/js/main.7619f390.js"
   ]
 }
