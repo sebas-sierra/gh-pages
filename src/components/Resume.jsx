@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { ThemeContext } from '../context/ThemeContext'
-import { Badge, Button, Card, Col, Image, ListGroup, Modal, Row, Spinner } from 'react-bootstrap'
-import Bio from './resume/Bio'
+import React, { useContext, useEffect, useState } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
+import { Badge, Button, Card, Col, Image, ListGroup, Modal, Row, Spinner } from 'react-bootstrap';
+import Bio from './resume/Bio';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import illustrator from '../assets/img/logos-software/Adobe_Illustrator_CC_icon.svg';
 import photoshop from '../assets/img/logos-software/Adobe_Photoshop_CC_icon.svg';
@@ -10,7 +10,7 @@ import indesign from '../assets/img/logos-software/Adobe_InDesign_CC_icon.svg';
 import adobexd from '../assets/img/logos-software/Adobe_XD_CC_icon.svg';
 import figma from '../assets/img/logos-software/Figma-logo.svg';
 import puertagif from '../assets/img/imagenes/paralaweb 2.gif';
-import store from '../assets/img/imagenes/Tienda_Kokiri_OoT.png'
+import store from '../assets/img/imagenes/Tienda_Kokiri_OoT.png';
 import Trabajos from './resume/Trabajos';
 
 const Resume = () => {
@@ -44,7 +44,7 @@ const Resume = () => {
 
     <>
       <Modal show={show} onHide={handleClose}>
-      <Image src={store} className="d-block w-100" />
+        <Image src={store} className="d-block w-100" />
         <Modal.Header closeButton>
           <Modal.Title>Hola bienvenido/a!</Modal.Title>
         </Modal.Header>
@@ -93,8 +93,7 @@ const Resume = () => {
                 <Bio />
               </Row>
             </ListGroup.Item>
-
-
+            
             {/* componente formacion */}
             <ListGroup.Item className='list-group-cv-header'>
               <div className='round-div me-2'><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-book" /></div><h4 className='cv-header-h4'>{texts.edp0}</h4>
@@ -148,7 +147,6 @@ const Resume = () => {
                               <Col className='aplication-logos py-1' xs={2} sm={2} md={3}><Image src={adobexd} rounded></Image></Col>
                               <Col className='aplication-logos py-1' xs={2} sm={2} md={3}><Image src={figma} rounded></Image></Col>
                             </Row>
-
                           </li>
                           <hr />
                           <li>{texts.edp8}</li>
@@ -214,7 +212,6 @@ const Resume = () => {
                     <li>{texts.exp13}</li>
                     <li>{texts.exp14}</li>
                   </ul>
-
                 </Col>
               </Row>
             </ListGroup.Item>

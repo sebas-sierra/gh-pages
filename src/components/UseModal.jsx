@@ -3,6 +3,7 @@ import { Button, Modal, Carousel, Image } from 'react-bootstrap';
 import { ModalContext } from '../context/ModalContext.jsx'
 
 
+
 const UseModal = ({item}) => {
     const { handleShow, handleClose, show } = useContext(ModalContext)
     // const [show, setShow] = useState(false);
@@ -12,7 +13,8 @@ const UseModal = ({item}) => {
         <div>
             {/* <Button onClick={handleShow}>Abrir modal</Button> */}
             <Modal size="lg" show={show} onHide={handleClose} animation={false}>
-                <Modal.Body ><Button onClick={handleClose}>Close</Button>
+                <Modal.Body >
+                    <Button onClick={handleClose}>Close</Button>
                     <Carousel >
                         <Carousel.Item>
                             {/* <ExampleCarouselImage text="First slide" /> */}

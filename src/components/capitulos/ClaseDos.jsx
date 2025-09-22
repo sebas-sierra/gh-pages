@@ -1,5 +1,7 @@
 import React from 'react';
 import { Badge, Card } from 'react-bootstrap';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const ClaseDos = () => {
   return (
@@ -12,7 +14,10 @@ const ClaseDos = () => {
         <p>1- primer paso Diffing, React analiza el codigo antes y luego de una modificacion haciendo un relevamiento de las diferencias.</p>
         <p>2- Segundo paso Reconciliacion, en este paso React hace un merge tomando los cambios en codigo modificado y los añade al codigo original (lo actualiza ).</p>
         <p>Tener en cuenta que ReactJs trabaja dentro de el entorno de NODE, por lo que vamos a necesitar tener instalado NODEJs y NPM (NodePackageManager)que nos va a permitir instalar y desinstalar librerias.</p>
-        <p>En cualquier consolo podemos checkear la version de Node instalada corriendo el comando <code>node --version o node -v</code></p>
+        <p>En cualquier consolo podemos checkear la version de Node instalada corriendo el comando:</p>
+        <SyntaxHighlighter language="javascript" style={atomOneDark}>
+          node --version o node -v<code></code>
+        </SyntaxHighlighter> 
         
         <Card.Title>Crear una aplicacion de ReactJs utilizando CLI (Command Lines Interface)</Card.Title>
         <p>CLI es un metodo que nos permite, mediante el uso de una linea de codigo, darle ordenes a ReactJs como por ejemplo: La creacion de un nuevo proyecto.</p>
@@ -21,7 +26,10 @@ const ClaseDos = () => {
           <ul>
             <li>a- Abrimos la consola terminal.</li>
             <li>b- Para poder interactuar con ReactJs necesitamos instalar el CLI de ReactJs de manera global. No importa en que carpeta nos ubiquemos para ejecutar este codigo, es indistinto porq la instalacion sera a nivel global. Para acerlo ejecutamos este codigo dentro del terminal para ubicarnos en el escritorio:<br /><br />
-              <code>~ cd -desktop</code><br /><br />
+            <SyntaxHighlighter language="javascript" style={atomOneDark}>
+            ~ cd -desktop
+        </SyntaxHighlighter> 
+              
               una vez que el codigo se ejecute nos ubicara dentro del directorio indicado para instalar el CLI de React y atravez de manipulacion poder enviarle instrucciones, como por ejemplo que nos cree un proyecto.<br/><br /><br />
               <code>npm i -g create-react-app</code><br /><br /><br />
               en caso que estemos haciendo la instalacion en una Mac es posible que tengamos un error durante la ejecusion del proceso debido a un problema de permisos. Para solucionarlo agregamos la palabra <code>sudo</code> delante del codigo y lo volvemos a intentar<br/><br /><br />

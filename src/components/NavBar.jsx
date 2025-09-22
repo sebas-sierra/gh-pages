@@ -47,7 +47,6 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseocho'>Clase 8 / Rutas</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasenueve'>Clase 9 / Eventos</NavDropdown.Item>
               {/* <NavDropdown.Item href='/gh-pages/#/capitulos/prod'>Productos</NavDropdown.Item>
-
               <NavDropdown.Item href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/prod/category/decoracion'>Decoracion</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/prod/category/mesas'>Mesa</NavDropdown.Item>
@@ -66,17 +65,15 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/desinstalarvsc'>Desinstalar VSC</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/githubpages'>GitHub-Pages</NavDropdown.Item>
               <NavDropdown.Divider />
-            
             </NavDropdown>
 
             <NavDropdown title='Trabajos destacados' id='basic-nav-dropdown'>
-
               <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>De-Taller</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>Prode</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>Editorial para web</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>FrontEnd</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href='/gh-pages/#/capitulos/recursos'>Recursos</Nav.Link>
@@ -90,10 +87,10 @@ const NavBar = () => {
             <label htmlFor="dark">Oscuro</label> */}
 
             {/* {isInHeader 
-          &&<Nav.Link href='/cart'>
+            &&<Nav.Link href='/cart'>
               <CartWidget></CartWidget>
               </Nav.Link>
-           } */}
+            } */}
 
 
 
@@ -106,7 +103,7 @@ const NavBar = () => {
             <Form >
               <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
             </Form>
-            {show ? <CartWidget/> : <h4></h4>}
+            {show ? <CartWidget/> : <h4> </h4>}
           </Nav>
         </Navbar.Collapse>
         

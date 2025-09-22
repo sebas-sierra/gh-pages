@@ -5,7 +5,7 @@ const ClaseTres = () => {
   return (
     
       <Card className="mb-2">
-        <Card.Header><Badge pill bg="secondary">Clase Nº 3 </Badge><h1>Estructura de archivos, CSS, Bootstrap framework & GitHub</h1></Card.Header>
+        <Card.Header><Badge pill bg="secondary">Clase Nº 3 </Badge><h1>Estructura de archivos, CSS, Bootstrap, GoogleFonts & GitHub</h1></Card.Header>
         <Card.Body>
           <Card.Title>Archivos dentro de la carpeta de mi proyecto:</Card.Title>
           <Card.Text>
@@ -176,7 +176,7 @@ const ClaseTres = () => {
             <li>Haciendo uso del @import para importar directamente la fuente a nuestro archivo css.</li>
           </ul>
           <a href="https://www.geeksforgeeks.org/how-to-use-google-fonts-in-reactjs/">Ver +</a><br />
-          <a href='https://www.google.com'>link a combinaciones de googleFonts</a>
+          <a href='https://www.pagecloud.com/blog/best-google-fonts-pairings#modern'>link a combinaciones de googleFonts</a>
         </Card.Text>
       </Card.Body>
     </Card>
