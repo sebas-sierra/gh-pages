@@ -24,8 +24,15 @@ const Ilustracion = () => {
 
   return (
     <div className='presentacion'>
-      <h1 className='portfolio-titulo'>Ilustración</h1>
-      <p className='portfolio-bajada'>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
+      <div className='presentacion-header'>
+        <h1 className='portfolio-titulo'>Ilustración</h1>
+        <Stack  direction='horizontal' gap={1}><Badge pill bg="secondary"> ilustracion digital </Badge><Badge pill bg="secondary"> photoshop </Badge><Badge pill bg="secondary"> boceto a lapiz </Badge></Stack>
+      </div>
+      <div className='presentacion-body'>
+        <p className='portfolio-bajada'>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
+      </div>
+      
+      
       <Row>
         <div class="w3-row">
           <div class="w3-col m8">

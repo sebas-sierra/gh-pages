@@ -10,24 +10,31 @@ const Waterclor = () => {
 
   return (
     <div className='presentacion'>
-        <Card onClick={handleShow} class='pb-3'>
-            <Card.Img src={labelA} />
-            <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
-                <Card.Title><h3>Etiquetas para envases de producto</h3></Card.Title>
-                <Card.Text>Minus itaque optio, nostrum quam autem cum quis nesciunt  <br/>sint odio eum aperiam distinctio dicta.</Card.Text>
-                <Button variant="primary"> ver mas</Button>
-            </Card.ImgOverlay>
-        </Card>
-
-        <Modal show={show} onHide={handleClose} size="xl">
-                <Modal.Body>
-                    <Carousel>
-                        <Carousel.Item>
-                            <Image src={labelA} className="d-block w-100" />
-                        </Carousel.Item>
-                    </Carousel>
-                </Modal.Body>
-            </Modal>
+      <div className='presentacion-header'>
+        <h1 className='portfolio-titulo'>Etiquetas para envases<br/> de producto</h1>
+        <Stack  direction='horizontal' gap={1}><Badge pill bg="secondary"> etiquetado </Badge><Badge pill bg="secondary"> producto </Badge><Badge pill bg="secondary">sistema grafico</Badge></Stack>
+      </div>
+      <div className='presentacion-body'>
+        <p className='portfolio-bajada'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
+      </div>
+      <Card onClick={handleShow} class='pb-3'>
+        <Card.Img src={labelA} />
+        {/* <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
+          <Card.Title><h3>Etiquetas para envases de producto</h3></Card.Title>
+          <Card.Text>Minus itaque optio, nostrum quam autem cum quis nesciunt  <br/>sint odio eum aperiam distinctio dicta.</Card.Text>
+          <Button variant="primary"> ver mas</Button>
+          </Card.ImgOverlay> */}
+      </Card>
+      
+      <Modal show={show} onHide={handleClose} size="xl">
+        <Modal.Body>
+          <Carousel>
+            <Carousel.Item>
+              <Image src={labelA} className="d-block w-100" />
+            </Carousel.Item>
+          </Carousel>
+        </Modal.Body>
+      </Modal>
     </div>
   )
 }
