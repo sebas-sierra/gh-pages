@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gh-pages/static/css/main.b0128328.css",
-    "main.js": "/gh-pages/static/js/main.ce33cf4d.js",
+    "main.js": "/gh-pages/static/js/main.615733b2.js",
     "static/js/453.e44e1293.chunk.js": "/gh-pages/static/js/453.e44e1293.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/triptico-repo-3.png": "/gh-pages/static/media/triptico-repo-3.7972db92bacd1e9e54af.png",
@@ -26,7 +26,7 @@
     "static/media/portfolio-prode-color.png": "/gh-pages/static/media/portfolio-prode-color.e8915f8900fa898f21ca.png",
     "static/media/perfil-cv.png": "/gh-pages/static/media/perfil-cv.8b364fcd0d1e34e43173.png",
     "static/media/portfolio-detaller-oscuro.png": "/gh-pages/static/media/portfolio-detaller-oscuro.7d7f33f8b7d55baf88b5.png",
-    "static/media/prode-3.png": "/gh-pages/static/media/prode-3.dec70f97307df503211f.png",
+    "static/media/prode-3.png": "/gh-pages/static/media/prode-3.b1eb7c8d3058975aadac.png",
     "static/media/portfolio-blueberries-color.png": "/gh-pages/static/media/portfolio-blueberries-color.980c3cef4f4c9ec3f302.png",
     "static/media/portfolio-detaller-color.png": "/gh-pages/static/media/portfolio-detaller-color.690e22c91fc98b3d6828.png",
     "static/media/triptico-areas-2.jpg": "/gh-pages/static/media/triptico-areas-2.d47b1a7dd7b5e9a2c0b3.jpg",
@@ -60,11 +60,11 @@
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "main.b0128328.css.map": "/gh-pages/static/css/main.b0128328.css.map",
-    "main.ce33cf4d.js.map": "/gh-pages/static/js/main.ce33cf4d.js.map",
+    "main.615733b2.js.map": "/gh-pages/static/js/main.615733b2.js.map",
     "453.e44e1293.chunk.js.map": "/gh-pages/static/js/453.e44e1293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0128328.css",
-    "static/js/main.ce33cf4d.js"
+    "static/js/main.615733b2.js"
   ]
 }
