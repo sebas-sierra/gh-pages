@@ -15,9 +15,9 @@ import Trabajos from './resume/Trabajos';
 
 const Resume = () => {
   const { texts } = useContext(ThemeContext);
-  const [loading, setLoading] = useState(true);
+  const [ loading, setLoading ] = useState(true);
 
-  const [show, setShow] = useState(true);
+  const [ show, setShow ] = useState(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);

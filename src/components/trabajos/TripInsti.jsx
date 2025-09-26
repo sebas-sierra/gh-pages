@@ -12,7 +12,7 @@ const TripInsti = () => {
     return (
         <>
             {/* triptico institucional */}
-            <Card onClick={handleShow} class='pb-3'>
+            <Card onClick={handleShow} className='mb-4'>
                 <Card.Img src={tripInstiA} />
                 <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
                     <Card.Title><h3>Triptico informativo servicios BNM</h3></Card.Title>

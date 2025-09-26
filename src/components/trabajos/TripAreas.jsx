@@ -14,7 +14,7 @@ const TripAreas = () => {
     return (
         <>
             {/* triptico institucional */}
-            <Card onClick={handleShow} class='pb-3'>
+            <Card onClick={handleShow} className='mb-4'>
                 <Card.Img src={tripAreasA}  />
                 <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
                     <Card.Title><h3>Triptico areas de la biblioteca</h3></Card.Title>

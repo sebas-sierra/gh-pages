@@ -14,7 +14,7 @@ const TripRepoA = () => {
     return (
         <>
             {/* triptico institucional */}
-            <Card onClick={handleShow} class='pb-3'>
+            <Card onClick={handleShow} className='mb-4'>
                 <Card.Img src={tripRepoA} />
                 <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
                     <Card.Title><h3>Triptico presentacion Repositorio Institucional</h3></Card.Title>
