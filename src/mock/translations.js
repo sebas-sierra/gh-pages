@@ -2,6 +2,7 @@
 export const translations = {
     esp: {
         nombreReferencia: "texto",
+        bienvenido: "Hola bienvenido/a!" ,
         headerTitle: "Inicio",
         biop0: "Diseñador Gráfico Independiente",
         biop1: "Antes de finalizar mis estudios en la UBA (Universidad de Buenos Aires), comencé mi carrera profesional como diseñador gráfico en la Biblioteca Nacional de Maestros (BNM), institución perteneciente al Ministerio de Educación de la Nacion, ademas en el año 2006 empece a colaborar como ayudante de catedra en la materia Morfologia II de la catedra Pescio de la carrera de DG de la FADU.",
@@ -59,6 +60,7 @@ export const translations = {
     },
     eng: {
         nombreReferencia: "text",
+        bienvenido: "Welcome!",
         headerTitle: "Home",
         biop0: "Freelance Graphic Designer",
         biop1: "Before finishing my studies at the UBA (University of Buenos Aires), I began my professional career as a graphic designer at the 'Biblioteca Nacional de Maestros' also known as BNM (Teacher’s National Library). This institution belongs to 'Ministerio Nacional de Educación'(National’s Education Ministry).",

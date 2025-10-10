@@ -391,7 +391,8 @@ body {
 }
 
 .presentacion {
-  padding: 0px 16px;
+  padding: 0px;
+  /* padding: 0px 16px; */
 }
 
 .presentacion-header {
@@ -424,6 +425,12 @@ h1.portfolio-titulo, p.portfolio-bajada {
   flex-direction: row-reverse;
 }
 
+.highlighterstyles {
+  border-radius: 4px;
+  padding: 1em!important;
+  margin-top: 0.8em;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -452,6 +459,11 @@ h1.portfolio-titulo, p.portfolio-bajada {
   to {
     transform: rotate(360deg);
   }
+}
+
+.apuntes-react {
+  background-image: url("assets/img/imagenes/apuntes-react.png") ;
+  background-position: center center;
 }
 
 .dark .movies-card {

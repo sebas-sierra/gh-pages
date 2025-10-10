@@ -1,38 +1,43 @@
 import React from 'react';
 import { Badge, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const ClaseUno = () => {
+  const codeString1 =`
+  <strong>Title:</strong>
+  <p>Add line numbers</p>
+  `;
   return (
     
-        <Card className="mb-2">
-          <Card.Header><Badge pill bg="secondary">Clase Nº 1 </Badge><h1>Introducción a React</h1></Card.Header>
-            <Card.Body>
-              <p>Bootstrap no es un Framework, sino una Libreria. Esto es lo que lo diferencia de Angular o NextJs que es un framework que usa la libreria de ReactJs, por ejemplo puedo tener un proyecto de JS vanilla e instalarle ReactJs.</p>
-            <Card.Title>Add code snippets in HTML</Card.Title>
-            <code>
-            &lt;strong&gt;Title:&lt;/strong&gt;
-            &lt;p&gt;Add line numbers&lt;/p&gt;
-            </code><br /><br />
-            <Card.Title>Repaso</Card.Title>
-            <ul>
-              <li>Diferencias entre var - let - const</li>
-              <li>Valores primitivos (numeros y strings) VS valores no primitivos (arrays y objetos)</li>
-              <li>Arrow functions</li>
-              <li>Diferencia en el uso de Concatenacion de strings VS Template Literals</li>
-              <li>Metodo de Array SPREAD () y REST</li>
-              <li>Operadores Ternarios / Condicional if - if else</li>
-              <li>Destructuring</li>
-              <li>Metodos de Array</li>
-            </ul>
-            <Card.Title>Recursos</Card.Title>
-            <ul>
-              <li>https://moqups.com/es/templates/wireframes-mockups/</li>
-              <Link to='https://moqups.com/es/templates/wireframes-mockups/'>Mockups</Link>
-            </ul>
-            </Card.Body>
-
-        </Card>
+    <Card className="mb-2">
+      <Card.Header className='apuntes-react'><Badge pill bg="dark">Clase Nº 1 </Badge><h1>Introducción a React</h1></Card.Header>
+      <Card.Body>
+        <p>Bootstrap no es un Framework, sino una Libreria. Esto es lo que lo diferencia de Angular o NextJs que es un framework que usa la libreria de ReactJs, por ejemplo puedo tener un proyecto de JS vanilla e instalarle ReactJs.</p>
+        <Card.Title>Agregar fragmentos de codigo (code snippets) en Html</Card.Title>
+        <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+          &lt;strong&gt;Title:&lt;/strong&gt;
+          &lt;p&gt;Add line numbers&lt;/p&gt;
+        </SyntaxHighlighter>
+        <Card.Title>Repaso</Card.Title>
+        <ul>
+          <li>Diferencias entre var - let - const</li>
+          <li>Valores primitivos (numeros y strings) VS valores no primitivos (arrays y objetos)</li>
+          <li>Arrow functions</li>
+          <li>Diferencia en el uso de Concatenacion de strings VS Template Literals</li>
+          <li>Metodo de Array SPREAD () y REST</li>
+          <li>Operadores Ternarios / Condicional if - if else</li>
+          <li>Destructuring</li>
+          <li>Metodos de Array</li>
+        </ul>
+        <Card.Title>Recursos</Card.Title>
+        <ul>
+          <li>https://moqups.com/es/templates/wireframes-mockups/</li>
+          <Link to='https://moqups.com/es/templates/wireframes-mockups/'>Mockups</Link>
+        </ul>
+      </Card.Body>
+    </Card>
     
   )
 }

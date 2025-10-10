@@ -4,7 +4,7 @@ import { Badge, Card } from 'react-bootstrap'
 const ClaseSiete = () => {
   return (
     <Card className="mb-2">
-      <Card.Header><Badge pill bg="secondary">Clase Nº 7 </Badge><h1>Consumiendo APIs</h1></Card.Header>
+      <Card.Header className='apuntes-react'><Badge pill bg="dark">Clase Nº 7 </Badge><h1>Consumiendo APIs</h1></Card.Header>
       <Card.Body>
         <Card.Title>Solicitud de informacion a un endpoint </Card.Title>
         <Card.Text>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Card, Image, Carousel, Modal } from 'react-bootstrap';
+import { Row, Col, Button, Card, Image, Carousel, Modal } from 'react-bootstrap';
 
 import tripInstiA from '../../assets/img/portfolio/bnm/triptico-insti-0.jpg';
 import tripInstiB from '../../assets/img/portfolio/bnm/triptico-insti-1.jpg';
@@ -11,6 +11,12 @@ const TripInsti = () => {
     const handleShow = () => setShow(true);
     return (
         <>
+        <Row>
+            <Col md={2}></Col>
+            <Col md={8}>
+
+
+            
             {/* triptico institucional */}
             <Card onClick={handleShow} className='mb-4'>
                 <Card.Img src={tripInstiA} />
@@ -37,7 +43,9 @@ const TripInsti = () => {
                         </Carousel.Item>
                     </Carousel>
                 </Modal.Body>
-            </Modal>
+            </Modal></Col>
+            <Col md={2}></Col>
+        </Row>
         </>
     )
 }

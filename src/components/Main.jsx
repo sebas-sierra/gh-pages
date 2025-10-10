@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 // import Col from 'react-bootstrap/Col';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 
 import Home from './Home';
 import ImagenesRs from './capitulos/ImagenesRs';
@@ -53,28 +53,17 @@ const Main = () => {
 
   return (
     <>
-      {/* <Container className='main' mt='4'> */}
       <Container fluid className={theme}>
         <Row className="justify-content-md-center">
-          <Col md={1}></Col>
+          <Col md={2}></Col>
           <Col md={8}>
-            {/* <h1>Main *</h1> */}
             <Routes>
-              {/* ruta para renderizar la home <Route path='/' element={<Home />} /> */}
-              
-              
-              <Route path='/capitulos/imagenesrs' element={<ImagenesRs />} />
               <Route path='/capitulos/claseuno' element={<ClaseUno />} />
               <Route path='/capitulos/clasedos' element={<ClaseDos />} />
               <Route path='/capitulos/clasetres' element={<ClaseTres />} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro />} />
               <Route path='/capitulos/clasecinco' element={<ClaseCinco />} />
               <Route path='/capitulos/claseseis/productos' element={<ClaseSeis />} />
-
-              {/* <Route path='/capitulos/prod' element={<Catalogo />} />
-              <Route path='/capitulos/prod/category/:categoryName' element={<Catalogo />} />
-              <Route path='/capitulos/itemdetail/:idProd' element={<ItemDetailContainer />} /> */}
-
               <Route path='/capitulos/clasesiete' element={<ClaseSiete />} />
               <Route path='/capitulos/claseocho' element={<ClaseOcho />} />
               <Route path='/capitulos/clasenueve' element={<ClaseNueve />} />
@@ -83,31 +72,36 @@ const Main = () => {
               <Route path='/capitulos/clasedoce' element={<ClaseDoce />} />
               <Route path='/capitulos/clasetrece' element={<ClaseTrece />} />
               <Route path='/capitulos/clasecatorce' element={<ClaseCatorce />} />
+
               <Route path='/capitulos/glosario' element={<Glosario />} />
+              <Route path='/capitulos/imagenesrs' element={<ImagenesRs />} />
+              <Route path='/capitulos/customhooks' element={<CustomHooks />}/>
               <Route path='/capitulos/desinstalarvsc' element={<UninstallVSC />} />
-              <Route path='/capitulos/recursos' element={<Recursos />} />
-              <Route path='/trabajos/blueberries' element={<Blueberries />} />
-              <Route path='/trabajos/prode' element={<Prode />} />
-              <Route path='/trabajos/bnm' element={<Bnm />} />
-              <Route path='/trabajos/detaller' element={<DeTaller />} />
-              <Route path='/trabajos/ilustracion' element={<Ilustracion />} />
-              <Route path='/trabajos/editorial' element={<Editorial />} />
-              <Route path='/trabajos/waterclor' element={<Waterclor />} />
+              <Route path='/capitulos/githubpages' element={<GithubPages />}/>
+              
+
+              
               <Route path='/cart' element={<Cart />} />
               <Route path='/checkout' element={<FormA />} />
-              <Route path='/capitulos/customhooks' element={<CustomHooks />}/>
-              <Route path='/capitulos/githubpages' element={<GithubPages />}/>
               <Route path='/capitulos/itemdetail/:idProd' element={<ItemDetailContainer />} />
             </Routes>
           </Col>
-          <Col md={1}></Col>
+          <Col md={2}></Col>
 
           <Routes>
-            
+            {/* ruta para renderizar la home <Route path='/' element={<Resume />} /> */}
             <Route path='/' element={<Resume />} />
             <Route path='/capitulos/prod' element={<Catalogo />} />
             <Route path='/capitulos/prod/category/:categoryName' element={<Catalogo />} />
-            
+
+            <Route path='/trabajos/blueberries' element={<Blueberries />} />
+            <Route path='/trabajos/prode' element={<Prode />} />
+            <Route path='/trabajos/bnm' element={<Bnm />} />
+            <Route path='/trabajos/detaller' element={<DeTaller />} />
+            <Route path='/trabajos/ilustracion' element={<Ilustracion />} />
+            <Route path='/trabajos/editorial' element={<Editorial />} />
+            <Route path='/trabajos/waterclor' element={<Waterclor />} />
+            <Route path='/capitulos/recursos' element={<Recursos />} />
           </Routes>
         </Row>
       </Container>

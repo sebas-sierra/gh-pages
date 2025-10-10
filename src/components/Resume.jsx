@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
-import { Badge, Button, Card, Col, Image, ListGroup, Modal, Row, Spinner } from 'react-bootstrap';
+import { Badge, Button, Card, Col, Form, Image, ListGroup, Modal, Row, Spinner } from 'react-bootstrap';
 import Bio from './resume/Bio';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import illustrator from '../assets/img/logos-software/Adobe_Illustrator_CC_icon.svg';
@@ -14,7 +14,7 @@ import store from '../assets/img/imagenes/Tienda_Kokiri_OoT.png';
 import Trabajos from './resume/Trabajos';
 
 const Resume = () => {
-  const { texts } = useContext(ThemeContext);
+  const { texts, handleLanguage } = useContext(ThemeContext);
   const [ loading, setLoading ] = useState(true);
 
   const [ show, setShow ] = useState(true);
@@ -46,7 +46,11 @@ const Resume = () => {
       <Modal show={show} onHide={handleClose}>
         <Image src={store} className="d-block w-100" />
         <Modal.Header closeButton>
-          <Modal.Title>Hola bienvenido/a!</Modal.Title>
+          <Form.Select size="sm" name="language" onChange={handleLanguage}> 
+              <option value="esp">esp</option>
+              <option value="eng">eng</option>
+            </Form.Select>
+          <Modal.Title>{texts.bienvenido}</Modal.Title>
         </Modal.Header>
         <Modal.Body>Este sitio web, es mi carta de presentacion. Si bien es un proyecto en construccion, con muchas aristas para ser pulidas, te invito a que pases y conozcas algo de mi trabajo. Actualmente mi tiendita de objetos de madera se encuentra en stand by...</Modal.Body>
         <Modal.Footer>

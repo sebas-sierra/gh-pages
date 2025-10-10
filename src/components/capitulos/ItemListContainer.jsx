@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getDocs, query, where } from 'firebase/firestore';
 import { collectionProd } from '../../services/firebaseConfig';
-import { Button, Col, Row} from 'react-bootstrap';
+import { Button, Col, Row, Spinner} from 'react-bootstrap';
 import { Link, Outlet } from 'react-router-dom';
 
 const ItemListContainer = () => {
@@ -149,7 +149,7 @@ const ItemListContainer = () => {
       <>
         <Row className="justify-content-md-center">
           <Col md={1}></Col>
-          <Col md="auto"><h1>Loading...</h1></Col>
+          <Col md="auto"><Spinner animation="grow" variant="secondary" /></Col>
           <Col md={1}></Col>
         </Row>
       </>

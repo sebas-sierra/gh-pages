@@ -1,9 +1,6 @@
 import React, { useContext, useState , useEffect } from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from  'react-bootstrap/Form';
+import { Container, Form, Nav, Navbar, NavDropdown,  } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CartWidget from './CartWidget';
 import { ThemeContext } from '../context/ThemeContext';
 import { CartContext } from '../context/CartContext';
@@ -27,7 +24,9 @@ const NavBar = () => {
     <Navbar fixed="top" className={theme} expand='lg' mb-2 >
       <Container>
         {/* comentada la navbrand <Navbar.Brand href='/gh-pages/#/'>{texts.headerTitle}</Navbar.Brand> */}
-        <Navbar.Toggle aria-controls='navbarScroll' />
+        <Navbar.Toggle aria-controls='navbarScroll' >
+          <FontAwesomeIcon icon="fa-solid fa-fire" className='fa-2x' />
+        </ Navbar.Toggle>
         <Navbar.Collapse id='navbarScroll' >
           <Nav className='me-auto' navbarScroll>
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
@@ -107,11 +106,6 @@ const NavBar = () => {
             {show ? <CartWidget/> : <h4> </h4>}
           </Nav>
         </Navbar.Collapse>
-        
-        
-        
-       
-        
       </Container>
     </Navbar>
   )

@@ -5,7 +5,7 @@ import { Badge, Card } from 'react-bootstrap';
 const ClaseNueve = () => {
   return (
     <Card>
-      <Card.Header><Badge pill bg="secondary">Clase Nº 9 </Badge><h1>Eventos / Formularios</h1></Card.Header>
+      <Card.Header className='apuntes-react'><Badge pill bg="dark">Clase Nº 9 </Badge><h1>Eventos / Formularios</h1></Card.Header>
       <Card.Body>
         <Card.Title>Tipos de eventos</Card.Title>
 

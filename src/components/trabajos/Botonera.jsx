@@ -3,9 +3,10 @@ import { Button, } from 'react-bootstrap'
 
 const Botonera = () => {
   return (
-    <div className='align-content'>
-      <Button className="mb-2">Publicacion anotada</Button>
-      <Button className="mb-2" g>Publicacion original</Button>
+    <div>
+      <Button className="btn btn-sm btn-publicaciones active">Publicacion ilustrada</Button>
+      <Button className="btn btn-sm btn-publicaciones" >Publicacion anotada</Button>
+      <Button className="btn btn-sm btn-publicaciones" >Publicacion original</Button>
     </div>
   )
 }

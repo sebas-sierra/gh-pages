@@ -3,6 +3,8 @@ import { Badge, Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const ClaseCinco = ({ onAdd}) => {
     const [ cantidad, setCantidad ] = useState(1);
@@ -27,7 +29,7 @@ const ClaseCinco = ({ onAdd}) => {
   return (
     
         <Card className="mb-2">
-            <Card.Header><Badge pill bg="secondary">Clase Nº 5 </Badge><h1>Componentes II - Estados y Ciclos de vida</h1></Card.Header>
+            <Card.Header className='apuntes-react'><Badge pill bg="dark">Clase Nº 5 </Badge><h1>Componentes II - Estados y Ciclos de vida</h1></Card.Header>
             <Card.Body>
                 <Card.Title>Introduccion a Eventos en React</Card.Title>
                 <Card.Text>
@@ -51,15 +53,27 @@ const ClaseCinco = ({ onAdd}) => {
                     <ul>
                         <li>
                             <p>Para hacer uso del hook useState hay que importarlo dentro del header del componente donde va a ser implementado (Este hook siempre nos retornara un valor y una funcion que se usa para setear el estado).</p>
-                            <code>import &#123; useState &#125; from 'React';</code><br /><br /> 
+                            <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+                            import &#123; useState &#125; from 'React';
+              </SyntaxHighlighter>
+                            
+                            
                         </li>
                         <li>
                         <p>Para declarar el valor inicial de nuestro estado usamosla siguiente estructura de codigo:</p>
-                        <code> const &#91; nombre-de-mi-estado, setNombre-de-mi-estado &#93; = useState('valor-inicial-de-mi-estado');</code> <br /><br />
+                        <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+                        const &#91; nombre-de-mi-estado, setNombre-de-mi-estado &#93; = useState('valor-inicial-de-mi-estado');
+              </SyntaxHighlighter>
+                        
+                        
                         </li>
                         <li>
                         <p>Ahora podemos usar el seter del estado dentro de una funcion para actualizarlo:</p>
-                        <code> const actualizarEstado = () =&#62; &#123; <br />setNombre-de-mi-estado ('mi-estado-actualizado') <br /> &#125;;</code> <br /><br />
+                        <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+                        const actualizarEstado = () =&#62; &#123; setNombre-de-mi-estado ('mi-estado-actualizado') &#125;;
+              </SyntaxHighlighter>
+                        
+                        
                     <p>De esta manera al ejecutar la funcion 'actualizarEstado' el nuevo valor de 'nombre-de-mi-estado' pasara de ser 'valor-inicial-de-mi-estado' a 'mi-estado-actualizado'.</p>
                         </li>
                     </ul>
@@ -68,6 +82,7 @@ const ClaseCinco = ({ onAdd}) => {
                     
                     
                 </Card.Text>
+
                 <Card.Title>Ejemplo Contador</Card.Title>
                 <InputGroup className="mb-3">
                     <Button disable={cantidad === stock} onClick={sumar} variant="outline-secondary">+</Button>
@@ -102,7 +117,10 @@ const ClaseCinco = ({ onAdd}) => {
                             </ul>
                         </li>
                     </ul>
-                    <code>useEffect( () =&#62; &#123; &#125;, &#91;  &#93;)</code><br /><br />
+                    <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+                    useEffect( () =&#62; &#123; &#125;, &#91;  &#93;)
+              </SyntaxHighlighter>
+                    
                     <p>Todo el codigo dentro del hook useState ejecuta despues del render de mi componente, se comporta como algo similar a las llamadas asincronicas</p>
                 </Card.Text>
             </Card.Body>

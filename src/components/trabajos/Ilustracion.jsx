@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import cartuchos from '../../assets/img/portfolio/ilustracion/cartuchos-4.png';
-import { Badge, Carousel, Image, Modal, Row, Stack } from 'react-bootstrap';
+import { Badge, Carousel, Col, Image, Modal, Row, Stack } from 'react-bootstrap';
 
 import cartuchosA from '../../assets/img/portfolio/ilustracion/cartuchos-3.png';
 import cartuchosB from '../../assets/img/portfolio/ilustracion/cartuchos-2.png';
@@ -24,13 +24,21 @@ const Ilustracion = () => {
 
   return (
     <div className='presentacion'>
-      <div className='presentacion-header'>
-        <h1 className='portfolio-titulo'>Ilustración</h1>
-        <Stack  direction='horizontal' gap={1}><Badge pill bg="secondary"> ilustracion digital </Badge><Badge pill bg="secondary"> photoshop </Badge><Badge pill bg="secondary"> boceto a lapiz </Badge></Stack>
-      </div>
-      <div className='presentacion-body'>
-        <p className='portfolio-bajada'>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
-      </div>
+      <Row>
+        <Col md="2"></Col>
+        <Col md="8">
+          <div className='presentacion-header'>
+            <h1 className='portfolio-titulo'>Ilustración</h1>
+            <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> ilustracion digital </Badge><Badge pill bg="secondary"> photoshop </Badge><Badge pill bg="secondary"> boceto a lapiz </Badge></Stack>
+          </div>
+          <div className='presentacion-body'>
+            <p className='portfolio-bajada'>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
+          </div>
+        </Col>
+        <Col md="2"></Col>
+      </Row>
+
+      
       
       
       <Row>

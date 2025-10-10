@@ -5,7 +5,7 @@ const ClaseOcho = () => {
   return (
     
       <Card>
-        <Card.Header><Badge pill bg="secondary">Clase Nº 8 </Badge><h1>Rutas - react-router-dom</h1></Card.Header>
+        <Card.Header className='apuntes-react'><Badge pill bg="dark">Clase Nº 8 </Badge><h1>Rutas - react-router-dom</h1></Card.Header>
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>

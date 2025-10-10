@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-.editorial {
+.editorial p, h1, h2, h4, hr {
+    color: #333;
+}
 
-    font-family: "lora", serif;
-    font-size: x-large;
+.editorial p {
+
+    font-family: "lora", serif!important;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+.texto-decorrido {
+    text-align: justify;
+    font-size: 1.6rem;
+    text-indent: 6rem;
+    letter-spacing: unset;
+    word-spacing: unset;
+    word-break: unset;
 }
 
 .border-top {
@@ -34,7 +46,10 @@
     font-weight: 700;
     font-style: normal;
     text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
 }
+
 
 .dedicatoria {
     margin: 2rem 0rem;
@@ -43,7 +58,6 @@
     font-weight: 700;
     font-style: normal;
     text-align: center;
-
 }
 
 .italica {
@@ -55,32 +69,69 @@
     font-style: italic;    
 }
 
-.buffon {
+.cita {
+    margin: 5rem 0rem;
+    font-size: x-large;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    
+}
+
+.cita p {
+    font-family: "Libre Bodoni", serif;
+    font-style: italic;
+}
+
+.autor-cita {
     font-family: "lora", serif;
     font-weight: 700;
     text-align: right;
 }
+
 .align-content {
     text-align: right;
 }
-.texto-decorrido {
-    text-align: justify;
-    font-size: 1.6rem;
-    text-indent: 6rem;
-    letter-spacing: unset;
-    word-spacing: unset;
-    word-break: unset;
-}
+
 .frst-pa::first-letter {
     font-size: 3.2rem;
-    // font-weight: 700;
+    font-weight: 700;
     line-height: 2.4rem;
 }
 .img-centrada {
     margin: 5rem 0;
 }
 .img-centrada img{
-    width: 40%;
+    width: 60%;
+}
+
+.btn-publicaciones {
+    font-family: sans-serif;
+    background-color: #e5c9ab!important;
+    color: #212529;
+    border: 0;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-publicaciones.active {
+    background-color: dimgrey!important;
+    color: #fff!important;
+}
+
+.btn-publicaciones:hover {
+    background-color: sienna!important;
+    color: #fff;
+}
+
+.viewer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+    height: 340%;
+    width: 100%;
 }
 
 @media (max-width: 575.98px) {

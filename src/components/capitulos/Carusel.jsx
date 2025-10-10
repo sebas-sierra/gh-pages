@@ -29,7 +29,7 @@ const Carusel = () => {
   }, [])
   return (
     <>
-        <Carousel>
+      <Carousel>
         {items.map((producto) => {
           return (
             <Carousel.Item key={producto.id}>

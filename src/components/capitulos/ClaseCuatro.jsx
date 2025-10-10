@@ -1,11 +1,13 @@
 import React from 'react';
 import { Badge, Card  } from 'react-bootstrap';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const ClaseCuatro = () => {
   return (
     
       <Card className="mb-2">
-        <Card.Header><Badge pill bg="secondary">Clase Nº 4 </Badge><h1>Componentes I / Props & Children</h1></Card.Header>
+        <Card.Header className='apuntes-react'><Badge pill bg="dark">Clase Nº 4 </Badge><h1>Componentes I - Props & Children</h1></Card.Header>
         <Card.Body>
           
           <Card.Title>La principal ventaja de React</Card.Title>
@@ -42,7 +44,8 @@ const ClaseCuatro = () => {
             </code>
           </Card.Text>
           <Card.Text>
-            <p>Otra forma de compartir datos de un componente a otro dentro de mi aplicacion es haciendo uso de los children.</p> <p>Cuando utilizo un componente para envolver otros elementos, es decir abriendo y cerrando el componente por ej: <code>&lt;contenedor&gt; &lt;p&gt; &lt;/p&gt; &lt;/contenedor&gt;</code> estos elementos llegan automaticamente al componente contenedor como una prop llamada CHILDREN. 'Children' es una palabra reservada de React.</p>
+            <p>Otra forma de compartir datos de un componente a otro dentro de mi aplicacion es haciendo uso de los children.</p> 
+            <p>Cuando utilizo un componente para envolver otros elementos, es decir abriendo y cerrando el componente por ej: <code>&lt;contenedor&gt; &lt;p&gt; &lt;/p&gt; &lt;/contenedor&gt;</code> estos elementos llegan automaticamente al componente contenedor como una prop llamada CHILDREN. 'Children' es una palabra reservada de React.</p>
             <p>Este concepto es importante para trabajarhaciendo uso de Context, un tema que se trata deplenoen la CLASE 10 </p>
           </Card.Text>
           <Card.Title>Como usar iconos en React</Card.Title>
@@ -55,9 +58,22 @@ const ClaseCuatro = () => {
           <Card.Title>Como usar imagenes en React</Card.Title>
           <Card.Text>
             <ul>
-              <li>La primer opcion es usando una ruta remota con la etiqueta img <code> &lt;img src= "http://insertar-link-a-la-imagen-deseada"/&gt;</code></li>
-              <li>La segunda opcion es usando imagenes alojadas en la carpeta 'public', en este caso llamo a la imagen como si estuviese parado dentro de la carpeta public <code> &lt;img src= "Nombre-de-la-imagen-deseada"/&gt;</code></li>
-              <li>La tercer opcion es usando una carpeta dentro del recurso src (ruta local). Lo primero es importar la imagen dentro del componente en el que la vamos a usar indicando la ruta de origen y asignandole un nombre <code>import nombre-asignado-a-mi-img from '../../img/mi-img.png'</code> y para implementarla dentro de la app la llamamos como <code>&lt;img src= 'nombre-asignado-a-mi-img' alt=""/&gt;</code>.</li>
+              <li>La primer opcion es usando una ruta remota con la etiqueta img 
+              <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+              &lt;img src= "http://insertar-link-a-la-imagen-deseada"/&gt;
+              </SyntaxHighlighter></li>
+              <li>La segunda opcion es usando imagenes alojadas en la carpeta 'public', en este caso llamo a la imagen como si estuviese parado dentro de la carpeta public 
+              <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+              &lt;img src= "Nombre-de-la-imagen-deseada"/&gt;
+              </SyntaxHighlighter></li>
+              <li>La tercer opcion es usando una carpeta dentro del recurso src (ruta local). Lo primero es importar la imagen dentro del componente en el que la vamos a usar indicando la ruta de origen y asignandole un nombre 
+              <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+              import nombre-asignado-a-mi-img from '../../img/mi-img.png'
+              </SyntaxHighlighter>
+               y para implementarla dentro de la app la llamamos como 
+               <SyntaxHighlighter language="javascript" style={atomOneDark} className='highlighterstyles'>
+               &lt;img src= 'nombre-asignado-a-mi-img' alt=""/&gt;
+              </SyntaxHighlighter></li>
             </ul>
           </Card.Text>
         </Card.Body>
