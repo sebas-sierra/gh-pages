@@ -9,7 +9,7 @@ import TripAreas from './TripAreas';
 const Bnm = () => {
   const { texts } = useContext(ThemeContext);
   return (
-    <div className='presentacion'>
+    <>
       <Row>
         <Col md={2}></Col>
         <Col md={8}>
@@ -28,7 +28,7 @@ const Bnm = () => {
       <TripInsti />
       <TripAreas />
       
-    </div>
+    </>
   )
 }
 

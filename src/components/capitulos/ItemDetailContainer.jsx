@@ -4,7 +4,8 @@ import { products } from '../../mock/products';
 import { useParams } from 'react-router-dom';
 import { collectionProd, db } from '../../services/firebaseConfig';
 import { doc, getDoc } from 'firebase/firestore';
-import { Button } from 'react-bootstrap';
+import { Button, Row, Col, Stack, Spinner } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ItemDetailContainer = () => {
   const [ item, setItem ] = useState({});
@@ -51,18 +52,33 @@ const ItemDetailContainer = () => {
 
   if (loading) {
     return (
-      <div>
-        <h1>Loading...</h1>
-      </div>
+      <>
+        <Row className="justify-content-md-center">
+          <Col md={1}></Col>
+          <Col md={8} className="text-center" ><Spinner animation="grow" variant="secondary" /></Col>
+          <Col md={1}></Col>
+        </Row>
+      </>
     )
   }
 
   return (
-    <>breadcrumb<Button href='/gh-pages/#/capitulos/prod' variant="secondary" size="sm">Volver</Button>
-    <div style={{backgroundColor: "lightblue", marginTop: "20px", padding: "20px", borderRadius: "15px"}}>
-      <ItemDetail item={item}/>
-    </div>
-    </>
+    <Row>
+      <Col md={1}></Col>
+      <Col md={10}>
+        <Stack direction='horizontal'>
+          <Button href='/gh-pages/#' variant="secondary" className="breadcumb" size="sm"><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-house" /></Button>
+          <FontAwesomeIcon className="fa-icono-gris px-3" icon="fa-solid fa-chevron-right" />
+          <Button href='/gh-pages/#/capitulos/prod' variant="secondary" className="breadcumb" size="sm">Productos</Button>
+          <FontAwesomeIcon className="fa-icono-gris px-3" icon="fa-solid fa-chevron-right" />
+          <Button href='/gh-pages/#/capitulos/prod' variant="secondary" className="breadcumb" size="sm">Armarios</Button>
+        </Stack>
+        <hr />
+        {/* <div style={{ marginTop: "20px", padding: "20px", borderRadius: "15px"}}></div> */}
+        <ItemDetail item={item} />
+      </Col>
+      <Col md={1}></Col>
+    </Row>
   )
 }
 

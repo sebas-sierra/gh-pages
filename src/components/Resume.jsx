@@ -10,7 +10,7 @@ import indesign from '../assets/img/logos-software/Adobe_InDesign_CC_icon.svg';
 import adobexd from '../assets/img/logos-software/Adobe_XD_CC_icon.svg';
 import figma from '../assets/img/logos-software/Figma-logo.svg';
 import puertagif from '../assets/img/imagenes/paralaweb 2.gif';
-import store from '../assets/img/imagenes/Tienda_Kokiri_OoT.png';
+import modalintro from '../assets/img/imagenes/modal-resume.png';
 import Trabajos from './resume/Trabajos';
 
 const Resume = () => {
@@ -44,20 +44,28 @@ const Resume = () => {
 
     <>
       <Modal show={show} onHide={handleClose}>
-        <Image src={store} className="d-block w-100" />
-        <Modal.Header closeButton>
-          <Form.Select size="sm" name="language" onChange={handleLanguage}> 
+        <Card>
+          <Card.Img className="modalintro" src={modalintro}></Card.Img>
+          <Card.ImgOverlay> 
+            <Form.Select size="sm" name="language" onChange={handleLanguage} className='mb-4 '>
               <option value="esp">esp</option>
               <option value="eng">eng</option>
             </Form.Select>
-          <Modal.Title>{texts.bienvenido}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Este sitio web, es mi carta de presentacion. Si bien es un proyecto en construccion, con muchas aristas para ser pulidas, te invito a que pases y conozcas algo de mi trabajo. Actualmente mi tiendita de objetos de madera se encuentra en stand by...</Modal.Body>
-        <Modal.Footer>
+          </Card.ImgOverlay>
+        </Card>
+        
+        <Modal.Body>
+          <h2>{texts.bienvenido}</h2>
+          <p>{texts.coveringLetter1}</p>
+          <p>{texts.coveringLetter2}</p>
+          <p>{texts.coveringLetter3}</p>
+        </Modal.Body>
+
+        {/* <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Gracias, vuelva prontos!
+          <FontAwesomeIcon icon="fa-solid fa-xmark" />
           </Button>
-        </Modal.Footer>
+        </Modal.Footer> */}
       </Modal>
 
       <Row>
@@ -89,7 +97,10 @@ const Resume = () => {
 
             {/* componente bio */}
             <ListGroup.Item className='list-group-cv-header'>
-              <div className='round-div me-2'><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" /></div><h4 className='cv-header-h4'>Mini bio</h4>
+              <div className='round-div me-2'>
+                <FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" />
+              </div>
+              <h4 className='cv-header-h4'>Mini bio</h4>
             </ListGroup.Item>
 
             <ListGroup.Item>

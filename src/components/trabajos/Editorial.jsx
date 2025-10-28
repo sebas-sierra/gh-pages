@@ -6,7 +6,7 @@ import logo from '../../assets/img/editorial/logo-mansilla.png'
 import mansilla from '../../assets/img/portfolio/editorial/mansilla-mockup.png'
 const Editorial = () => {
   return (
-    <div className='presentacion'>
+    <>
       <Row>
         <Col md="2"></Col>
         <Col md="8">
@@ -23,14 +23,14 @@ const Editorial = () => {
         <Col md="2"></Col>
       </Row>
       
-      <Card style={{border:'0px'}}>
+      <div className='presentacion'>
         <Card.Img src={mansilla}  />
         {/* <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
           <Card.Title><h3>Triptico areas de la biblioteca</h3></Card.Title>
           <Card.Text>Minus itaque optio, nostrum quam autem  <br/>cum quis nesciunt sint odio eum aperiam distinctio dicta.</Card.Text>
           <Button variant="primary"> ver mas</Button>
         </Card.ImgOverlay> */}
-      </Card> 
+      </div> 
 
       {/* navbar */}
       <div style={{marginBottom:'1rem', backgroundColor: '#FAEBD7', height: '80px'}}><Image src={logo} style={{width:'240px'}}></Image></div>
@@ -64,7 +64,7 @@ const Editorial = () => {
                 <div className='text-center img-centrada'><Image src={vaporcito}></Image></div>
                 <p className='texto-decorrido'>El hombre propone, Dios, o el Otro, dispone. No hay quien no tenga su ananké, prescindiendo de la lucha entre el bien y el mal, que será eterna, como aquellos dos genios de lo bueno y de lo malo: Dios, o el Otro. [No hay quien no tenga su ananké, prescindiendo de la lucha entre el bien y el mal, que será eterna, como aquellos dos genios de lo bueno y de lo malo: Dios, o el Otro.]</p>
                 <p className='texto-decorrido'>Me pusieron en libertad, —si en libertad puede decirse ser desterrado, y todos aquellos castillos en el aire, hechos a la sombra y en las sombras, se desplomaron, zapados por lo inesperado de mi nueva situación.</p>
-                <a href="http://https://www.youtube.com/watch?v=xOy0kVlbhlc">Botones para cambiar el tamaño de fuente</a>
+                {/* <a href="http://https://www.youtube.com/watch?v=xOy0kVlbhlc">Botones para cambiar el tamaño de fuente</a> */}
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Editorial = () => {
 
         <Col md="2"></Col>
       </Row>
-    </div>
+    </>
   )
 }
 

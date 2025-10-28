@@ -41,6 +41,12 @@ body {
 .w3-col.m8 {
   width: 66.66666%;
 }
+
+.modalintro {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
 .dibujo-btn img {
   background-image: url("assets/img/imagenes/portfolio-dibujos-oscuro.png") ;
   background-size: cover;
@@ -75,6 +81,10 @@ body {
 .blueberries-btn img:hover {
   background-image: url("assets/img/imagenes/portfolio-blueberries-color.png") ;
   background-size: cover;
+}
+.btn-trabajos {
+  padding: 0px;
+  border: 0px;
 }
 /* .mt-8 {
   padding-top: 10rem!important;
@@ -198,6 +208,10 @@ body {
   box-shadow: 15px 15px 35px #bebebe42;
 }
 
+.carousel {
+  padding: 0px;
+}
+
 .carousel-indicators [data-bs-target] {
   height: 5px;
   width: 5px;
@@ -288,6 +302,13 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
+}
+
+.fa-icono-gris { color: #b9b5b5!important; }
+
+.breadcumb { 
+  background-color: #b9b5b5;
+  border: 0px;
 }
 
 .footer {

@@ -23,7 +23,7 @@ const Ilustracion = () => {
   const handleShowut = () => setShowut(true);
 
   return (
-    <div className='presentacion'>
+    <>
       <Row>
         <Col md="2"></Col>
         <Col md="8">
@@ -37,16 +37,13 @@ const Ilustracion = () => {
         </Col>
         <Col md="2"></Col>
       </Row>
-
-      
-      
       
       <Row>
-        <div class="w3-row">
-          <div class="w3-col m8">
-            <img src={surocultoA} onClick={handleShow} width="100%" overflow="hidden" alt=" "/>
-          </div>
-          <div class="w3-col m4" style={{paddingTop: "200px"}}>
+        <Col md="7">
+          <img src={surocultoA} onClick={handleShow} width="100%" overflow="hidden" alt=" " />
+        </Col>
+        <Col md="4">
+          <div style={{ paddingTop: "200px" }}>
             <h2 className='portfolio-titulo' >Sur Oculto</h2>
             <hr />
             <Stack direction="horizontal" gap={2}>
@@ -55,14 +52,15 @@ const Ilustracion = () => {
             </Stack><br />
             <p>Esta ilustracion surgio como idea de poster para la banda cordobeza SUR OCULTO. Su sonido que, en mi opinion rescata cositas de diversos generos como el hardcore, el jazz y funk invitan a la exploracion sensorial y la introspeccion. Un tesoro oculto entre tanta oferta musical.</p>
           </div>
-        </div>
+        </Col>
+        <Col md="1"></Col>
       </Row>
       
-
       <Row>
-        <div class="w3-row">
-          <div class="w3-col m5" style={{paddingTop: "200px"}}>
-            <h2  className='portfolio-titulo text-end'>Ultimos Cartuchos</h2>
+        <Col md="1"></Col>
+        <Col md="4">
+          <div style={{ paddingTop: "200px" }}>
+            <h2 className='portfolio-titulo text-end'>Ultimos Cartuchos</h2>
             <hr />
             <Stack direction="horizontal" gap={2} className="hstack-reverse">
               <Badge pill bg="dark"> boceto a lapiz </Badge>
@@ -71,19 +69,19 @@ const Ilustracion = () => {
             </Stack><br />
             <p className='text-end'>Reir, equivocarse y aprender. Una de Libi y una de Culi. La Radio fue una gran compañia a lo largo de mi vida y descubrir UC me demostro siempre hay lugar para la innovación lúdica, tomandose las cosas de forma profesional sin resignar imaginación ni creatividad.</p>
           </div>
-          <div class="w3-col m7">
-            <img src={cartuchos} onClick={handleShowut} alt='' style={{width:"100%"}}/>
-          </div>
-        </div>
+        </Col>
+        <Col md="7">
+          <img src={cartuchos} onClick={handleShowut} alt='' style={{ width: "100%" }} />
+        </Col>
       </Row>
 
       <Row>
-        <div class="w3-row">
-          <div class="w3-col m7">
-            <img src={skate} alt='' style={{width:"100%"}}/>
-          </div>
-          <div class="w3-col m5" style={{paddingTop: "200px"}}>
-            <h2  className='portfolio-titulo'>Skate</h2>
+        <Col md="7">
+          <img src={skate} alt='' style={{ width: "100%" }} />
+        </Col>
+        <Col md="4">
+          <div style={{ paddingTop: "200px" }}>
+            <h2 className='portfolio-titulo'>Skate</h2>
             <hr />
             <Stack direction="horizontal" gap={2}>
               <Badge pill bg="dark"> boceto a lapiz </Badge>
@@ -91,23 +89,24 @@ const Ilustracion = () => {
             </Stack><br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
           </div>
-        </div>
+        </Col>
+        <Col md="1"></Col>
       </Row>
-      
+
       <Modal size="lg" show={show} onHide={handleClose}>
         <Modal.Body >
           <Carousel>
             <Carousel.Item>
               <Image src={surocultoB} className="d-block w-100" />
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <Image src={surocultoC} className="d-block w-100" />
             </Carousel.Item>
           </Carousel>
         </Modal.Body>
       </Modal>
-      
+
       <Modal size="lg" show={showut} onHide={handleCloseut}>
         <Modal.Body >
           <Carousel>
@@ -119,7 +118,7 @@ const Ilustracion = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <Image src={cartuchosB} className="d-block w-100" />
               <Carousel.Caption>
@@ -127,7 +126,7 @@ const Ilustracion = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <Image src={cartuchosC} className="d-block w-100" />
               <Carousel.Caption>
@@ -135,7 +134,7 @@ const Ilustracion = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <Image src={cartuchosD} className="d-block w-100" />
               <Carousel.Caption>
@@ -143,11 +142,11 @@ const Ilustracion = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
-          
+
           </Carousel>
         </Modal.Body>
       </Modal>
-    </div>
+    </>
   )
 }
 

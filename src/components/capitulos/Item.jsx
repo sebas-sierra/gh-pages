@@ -39,6 +39,29 @@ const Item = ({ producto }) => {
         </Card.Body>
       </Card>
 
+      {/* <Card>
+        <Card.Img src={producto.img} width="200px" alt="" variant="top"/>
+        <Card.ImgOverlay>
+          <Badge bg="success">{producto.category}</Badge>
+          <div className='rating'>
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-solid fa-star" />
+              <FontAwesomeIcon icon="fa-regular fa-star" />
+              <span> 4 / 5</span>
+          </div>
+        </Card.ImgOverlay>
+        
+        <Card.Body>
+          <Card.Title>Special title treatment</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+        </Card.Body>
+      </Card> */}
+
       {/* <div>
         <div className='movies-card'>
 

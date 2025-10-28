@@ -5,8 +5,7 @@ import { Badge, Col, Row } from 'react-bootstrap'
 
 const Blueberries = () => {
   return (
-    <div className='presentacion'>
-      <Row>
+    <>      <Row>
         <Col md="2"></Col>
         <Col md="8">
           <div className='presentacion-header'>
@@ -22,8 +21,9 @@ const Blueberries = () => {
         </Col>
         <Col md="2"></Col>
       </Row>
-      
-    </div>
+    <div className='presentacion'>  
+    </div></>
+
   )
 }
 

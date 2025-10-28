@@ -63,7 +63,7 @@ const Main = () => {
               <Route path='/capitulos/clasetres' element={<ClaseTres />} />
               <Route path='/capitulos/clasecuatro' element={<ClaseCuatro />} />
               <Route path='/capitulos/clasecinco' element={<ClaseCinco />} />
-              <Route path='/capitulos/claseseis/productos' element={<ClaseSeis />} />
+              <Route path='/capitulos/claseseis' element={<ClaseSeis />} />
               <Route path='/capitulos/clasesiete' element={<ClaseSiete />} />
               <Route path='/capitulos/claseocho' element={<ClaseOcho />} />
               <Route path='/capitulos/clasenueve' element={<ClaseNueve />} />
@@ -79,16 +79,15 @@ const Main = () => {
               <Route path='/capitulos/desinstalarvsc' element={<UninstallVSC />} />
               <Route path='/capitulos/githubpages' element={<GithubPages />}/>
               
-
-              
               <Route path='/cart' element={<Cart />} />
               <Route path='/checkout' element={<FormA />} />
-              <Route path='/capitulos/itemdetail/:idProd' element={<ItemDetailContainer />} />
+              
             </Routes>
           </Col>
           <Col md={2}></Col>
 
           <Routes>
+            <Route path='/capitulos/itemdetail/:idProd' element={<ItemDetailContainer />} />
             {/* ruta para renderizar la home <Route path='/' element={<Resume />} /> */}
             <Route path='/' element={<Resume />} />
             <Route path='/capitulos/prod' element={<Catalogo />} />

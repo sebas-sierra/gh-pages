@@ -1,6 +1,7 @@
 import { React, useContext, useState, useEffect } from 'react';
 import { CartContext } from '../../context/CartContext';
 import { Button, Image, Row, Col, Card, Table } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Cart = () => {
     const [ vacio, setVacio ] = useState(true);
@@ -35,7 +36,7 @@ const Cart = () => {
                                 <td><Card.Title>{prod.title}</Card.Title> <Card.Text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quo impedit accusantium aspernatur dolorem facilis repellat incidunt quasi ducimus iste vel, iusto doloribus quidem officia eum eius totam dolore nulla?</Card.Text></td>
                                 <td><Card.Text>{prod.cantidad}</Card.Text></td>
                                 <td>${prod.price}.-</td>
-                                <td><Button onClick={() => deleteOne(prod.id)}>Eliminar producto</Button></td>
+                                <td><Button onClick={() => deleteOne(prod.id)}><FontAwesomeIcon icon="fa-solid fa-xmark" /></Button></td>
                             </tr>
                         )
                     })}

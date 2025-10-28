@@ -3,6 +3,9 @@ export const translations = {
     esp: {
         nombreReferencia: "texto",
         bienvenido: "Hola bienvenido/a!" ,
+        coveringLetter1: "Este sitio web, es mi carta de presentacion. Si bien es un proyecto en construcción, con muchas aristas para ser pulidas, te invito a que pases y conozcas algo de mi trabajo.",
+        coveringLetter2: "El código de esta pagina fue escrito usando React, HTML, CSS y la librería Bootstrap.", 
+        coveringLetter3: "Actualmente mi tiendita de objetos de madera se encuentra en modo standby...",
         headerTitle: "Inicio",
         biop0: "Diseñador Gráfico Independiente",
         biop1: "Antes de finalizar mis estudios en la UBA (Universidad de Buenos Aires), comencé mi carrera profesional como diseñador gráfico en la Biblioteca Nacional de Maestros (BNM), institución perteneciente al Ministerio de Educación de la Nacion, ademas en el año 2006 empece a colaborar como ayudante de catedra en la materia Morfologia II de la catedra Pescio de la carrera de DG de la FADU.",
@@ -61,6 +64,9 @@ export const translations = {
     eng: {
         nombreReferencia: "text",
         bienvenido: "Welcome!",
+        coveringLetter1: "This website, is my covering letter. Although this is a working progress project, with many points to be worked on, feel free to check out some projects i've developed.",
+        coveringLetter2: "This website's code has been written using React, HTML, CSS and the Bootstrap library.",
+        coveringLetter3: "Currently, my woodworking objects shop is on standby...",
         headerTitle: "Home",
         biop0: "Freelance Graphic Designer",
         biop1: "Before finishing my studies at the UBA (University of Buenos Aires), I began my professional career as a graphic designer at the 'Biblioteca Nacional de Maestros' also known as BNM (Teacher’s National Library). This institution belongs to 'Ministerio Nacional de Educación'(National’s Education Ministry).",
