@@ -32,7 +32,6 @@ const Footer = () => {
             <li className="footer-link"><a href='/gh-pages/#/trabajos/editorial'>Frontend</a></li>
             <li className="footer-link"><a href='/gh-pages/#/trabajos/waterclor'>Etiquetas</a></li>
             <li className="footer-link"><a href='/gh-pages/#/trabajos/prode'>UX / UI</a></li>
-            <li className="footer-link"><a href="http://">link 4</a></li>
           </ul>
         </Col>
         <Col col={3}>
