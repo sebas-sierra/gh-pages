@@ -82,7 +82,7 @@ const Resume = () => {
                       <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
                       <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
                       <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#Hasta que lo hagas consciente,lo inconsciente dirigira tu vida y lo llamaras 'destino'. - C. Jung</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.quote} - C. Jung</h6></ListGroup.Item>
                     </ListGroup>
                   </div>
                 </Col>

@@ -188,13 +188,13 @@ body {
 }
 
 .dark .form-select {
-  background-color: #1e1e1e;
-}
-
-.dark .form-select {
   background-color: #242424;
   color: #fff;
   border: none;
+}
+
+.dark .table {
+  background-color: #242424!important;
 }
 
 /* dark theme end */

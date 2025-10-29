@@ -69,13 +69,13 @@ const NavBar = () => {
             <NavDropdown title='Trabajos destacados' id='basic-nav-dropdown'>
               <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>De-Taller</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>Prode</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item>
+              {/* <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item> */}
               <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>FrontEnd</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/waterclor'>Producto</NavDropdown.Item>
             </NavDropdown>
-
+            
             <Nav.Link href='/gh-pages/#/capitulos/recursos'>Recursos</Nav.Link>
             
             

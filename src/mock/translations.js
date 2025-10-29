@@ -2,6 +2,7 @@
 export const translations = {
     esp: {
         nombreReferencia: "texto",
+        quote: "Hasta que lo hagas consciente, lo inconsciente dirigira tu vida y lo llamaras 'destino'.",
         bienvenido: "Hola bienvenido/a!" ,
         coveringLetter1: "Este sitio web, es mi carta de presentacion. Si bien es un proyecto en construcción, con muchas aristas para ser pulidas, te invito a que pases y conozcas algo de mi trabajo.",
         coveringLetter2: "El código de esta pagina fue escrito usando React, HTML, CSS y la librería Bootstrap.", 
@@ -63,6 +64,7 @@ export const translations = {
     },
     eng: {
         nombreReferencia: "text",
+        quote: "Until you make the unconscious conscious, it will direct your life and you will call it 'fate'.",
         bienvenido: "Welcome!",
         coveringLetter1: "This website, is my covering letter. Although this is a working progress project, with many points to be worked on, feel free to check out some projects i've developed.",
         coveringLetter2: "This website's code has been written using React, HTML, CSS and the Bootstrap library.",
