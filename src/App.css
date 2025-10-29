@@ -316,6 +316,24 @@ body {
   background-color: #000;
   padding: 40px 0 80px;
 }
+.footer-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+.footer-link, .footer-link a {
+  font-size: 14px;
+  padding: 8px 0px;
+  color: #7e7f80;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  color: #fff;
+}
+.footer-icon {
+  margin-right: 10px;
+}
 .footer ul {
   list-style: none;
   color: #fff;
