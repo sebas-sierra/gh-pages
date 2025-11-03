@@ -307,8 +307,14 @@ body {
 .fa-icono-gris { color: #b9b5b5!important; }
 
 .breadcumb { 
-  background-color: #b9b5b5;
-  border: 0px;
+  border: 1px solid #dbd9d9;
+  color: #b9b5b5;
+  background-color: #fff;
+}
+.breadcumb:hover {
+  background-color: #dbd9d9;
+  color: #7e7f80;
+  border: 1px solid #dbd9d9;
 }
 
 .footer {
@@ -589,6 +595,10 @@ h1.portfolio-titulo, p.portfolio-bajada {
 .movies-card .details .rating span {
   color: #fff;
 } 
+
+.rating-star {
+  color: #bd1d1d;
+}
 
 .movies-card .details .tags {
   margin-top: 5px;

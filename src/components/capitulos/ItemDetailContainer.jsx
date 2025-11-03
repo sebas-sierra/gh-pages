@@ -67,11 +67,11 @@ const ItemDetailContainer = () => {
       <Col md={1}></Col>
       <Col md={10}>
         <Stack direction='horizontal'>
-          <Button href='/gh-pages/#' variant="secondary" className="breadcumb" size="sm"><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-house" /></Button>
+          <Button href='/gh-pages/#' className="breadcumb" size="sm"><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-house" /></Button>
           <FontAwesomeIcon className="fa-icono-gris px-3" icon="fa-solid fa-chevron-right" />
-          <Button href='/gh-pages/#/capitulos/prod' variant="secondary" className="breadcumb" size="sm">Productos</Button>
+          <Button href='/gh-pages/#/capitulos/prod' className="breadcumb" size="sm">Productos</Button>
           <FontAwesomeIcon className="fa-icono-gris px-3" icon="fa-solid fa-chevron-right" />
-          <Button href='/gh-pages/#/capitulos/prod' variant="secondary" className="breadcumb" size="sm">Armarios</Button>
+          <Button href='/gh-pages/#/capitulos/prod' className="breadcumb" size="sm">Armarios</Button>
         </Stack>
         <hr />
         {/* <div style={{ marginTop: "20px", padding: "20px", borderRadius: "15px"}}></div> */}
