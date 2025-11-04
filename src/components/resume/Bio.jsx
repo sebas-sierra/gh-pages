@@ -1,10 +1,10 @@
-import React, { useContext } from 'react'
-import { ThemeContext } from '../../context/ThemeContext'
-import { Button, Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap'
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeContext';
+import { Button, Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 import Contacto from './Contacto';
 import perfil from '../../assets/img/imagenes/perfil-cv.png';
-import tag from '../../assets/img/imagenes/tag-cv.png'
-import cv from '../../assets/files/ohdfi02463f.pdf'
+import tag from '../../assets/img/imagenes/tag-cv.png';
+import cv from '../../assets/files/ohdfi02463f.pdf';
 
 const Bio = () => {
     const {texts} = useContext (ThemeContext)
@@ -13,10 +13,11 @@ const Bio = () => {
             <Col md={5} >
                 <Card className='card-noborder'>
                     <Card.Img src={perfil}></Card.Img>
+                    
                     <div style={{position:'relative', border:'0px'}}>
                         <Card.Img src={tag}></Card.Img>
-                        <Button style={{position: 'absolute', right: '-20px', top: '260px'}} href={cv} download='cv-sebastiansierra.pdf'>
-                            Descargar CV formato PDF
+                        <Button style={{position: 'absolute', right: '-8px', top: '260px'}} href={cv} download='cv-sebastiansierra.pdf'>
+                            {texts.download}
                         </Button>
                     </div>
                     {/* <Card.ImgOverlay>
@@ -31,7 +32,7 @@ const Bio = () => {
             <Col md={7} >
                 <ListGroup>
                     <ListGroupItem className='listgroupitem-padding'>
-                        <h4>Biografia</h4>
+                        {/* <h4>Biografia</h4> */}
                         <Card className='card-noborder'>
                             <Card.Body  className='listgroupcard-padding'>
                                 <Card.Title>{texts.biop0}</Card.Title>

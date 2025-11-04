@@ -24,8 +24,8 @@ const ItemDetail = ({item}) => {
           <Card.Img src={item.img}  width="100%" alt={item.title} />
           <Card.ImgOverlay>
             <Stack direction='horizontal' gap={1}>
-              <Badge bg="dark">{item.category}</Badge>
-              <Badge bg="success">15% off</Badge>
+            <a href='/gh-pages/#/capitulos/prod/category/furniture'><Badge bg="dark">{item.category}</Badge></a>
+            <a href="http://"><Badge bg="success">15% off</Badge></a>
               
             </Stack>
           </Card.ImgOverlay>
@@ -36,13 +36,16 @@ const ItemDetail = ({item}) => {
       <Col md={5}>
         <h1 className='portfolio-titulo'>{item.title}</h1>
         <Stack direction='horizontal' gap={1}>
-          <Badge pill bg="secondary">{item.category}</Badge>
+          <a href='/gh-pages/#/capitulos/prod/category/furniture'><Badge pill bg="secondary">{item.category}</Badge></a>
           <div className="ms-auto"><h4>${item.price}.-</h4></div>
         </Stack>
         
-        <p className='portfolio-bajada pt-4 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique suscipit maiores commodi laborum numquam est obcaecati deleniti velit neque voluptate assumenda, illum cum totam quaerat quos quo vitae labore.
-          Placeat neque, itaque libero pariatur, rerum, doloribus nihil similique minus assumenda maiores aut hic amet corporis repellendus. Eligendi libero accusamus fugit atque minus aut reiciendis, perferendis nobis, animi odio nostrum.</p>
-        <Contador stock={item.stock} onAdd={onAdd}></Contador>
+        <p className='portfolio-bajada pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique suscipit maiores commodi laborum numquam est obcaecati deleniti velit neque voluptate assumenda, illum cum totam quaerat quos quo vitae labore.
+          Placeat neque, itaque libero pariatur, rerum, doloribus nihil similique minus assumenda maiores aut hic amet corporis repellendus.</p>
+          <p className='portfolio-bajada pt-4 text-justify'>Dimensiones: 60 x 40 x 35cm</p>
+        <hr />
+        <Contador stock={item.stock} onAdd={onAdd} ></Contador>
+        <hr />
       </Col>
       
       <UseModal item={item}/>

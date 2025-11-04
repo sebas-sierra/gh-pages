@@ -39,27 +39,19 @@ const Item = ({ producto }) => {
         </Card.Body>
       </Card> */}
 
-      <Card>
+      <Card  className='store-card'>
         <Card.Img src={producto.img} width="200px" alt="" variant="top"/>
         <Card.ImgOverlay>
           <Badge bg="success">{producto.category}</Badge>
-          <div className='rating-star'>
-              <FontAwesomeIcon icon="fa-solid fa-star" />
-              <FontAwesomeIcon icon="fa-solid fa-star" />
-              <FontAwesomeIcon icon="fa-solid fa-star" />
-              <FontAwesomeIcon icon="fa-solid fa-star" />
-              <FontAwesomeIcon icon="fa-regular fa-star" />
-              <span> 4 / 5</span>
-          </div>
         </Card.ImgOverlay>
         
         <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
-          <Card.Text>
+          <Card.Title className='store-card-title'>{producto.title}</Card.Title>
+          <Card.Text class='store-card-text'>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-        <Button className="stretched-link" href={`/gh-pages/#/capitulos/itemdetail/${producto.id}` }>Ver más</Button>
+        <a className="stretched-link" href={`/gh-pages/#/capitulos/itemdetail/${producto.id}` }></a>
         </Card.Body>
       </Card>
 

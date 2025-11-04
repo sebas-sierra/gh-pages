@@ -464,6 +464,8 @@ h1, .portfolio-titulo {
 
 h1.portfolio-titulo, p.portfolio-bajada {
   color: #7e7f80;
+  text-align: justify;
+  line-break: loose;
 }
 
 .hstack-reverse {
@@ -514,6 +516,33 @@ h1.portfolio-titulo, p.portfolio-bajada {
 .dark .movies-card {
   box-shadow: 15px 15px 35px #131313;
 }
+.store-card {
+  border: 0px;
+}
+.store-card img {
+  opacity: 0.5;
+}
+
+.store-card-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 0px 0px 0px;
+  color: #7e7f80;
+}
+
+.store-card-text {
+  color: #7e7f80;
+
+}
+
+.store-card:hover img {
+  opacity: 1.0;
+}
+
+.store-card:hover {
+  background-color: #e9ebeb;
+}
 
 .movies-card {
   /* width: 300px;
@@ -524,6 +553,8 @@ h1.portfolio-titulo, p.portfolio-bajada {
   position: relative;
   border: 0px;
 }
+
+
 
 .movies-card .poster{
   position: relative;

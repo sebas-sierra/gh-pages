@@ -2,17 +2,20 @@
 export const translations = {
     esp: {
         nombreReferencia: "texto",
+        dg: "Diseño Gráfico",
         quote: "Hasta que lo hagas consciente, lo inconsciente dirigira tu vida y lo llamaras 'destino'.",
         bienvenido: "Hola bienvenido/a!" ,
         coveringLetter1: "Este sitio web, es mi carta de presentacion. Si bien es un proyecto en construcción, con muchas aristas para ser pulidas, te invito a que pases y conozcas algo de mi trabajo.",
         coveringLetter2: "El código de esta pagina fue escrito usando React, HTML, CSS y la librería Bootstrap.", 
         coveringLetter3: "Actualmente mi tiendita de objetos de madera se encuentra en modo standby...",
         headerTitle: "Inicio",
+        download: "Descargar CV",
         biop0: "Diseñador Gráfico Independiente",
         biop1: "Antes de finalizar mis estudios en la UBA (Universidad de Buenos Aires), comencé mi carrera profesional como diseñador gráfico en la Biblioteca Nacional de Maestros (BNM), institución perteneciente al Ministerio de Educación de la Nacion, ademas en el año 2006 empece a colaborar como ayudante de catedra en la materia Morfologia II de la catedra Pescio de la carrera de DG de la FADU.",
         biop2: "Principalmente con un perfil orientado a la producción de piezas gráficas impresas para reforzar la identidad gráfica, material destinado a los usuarios y para las diferentes actividades de capacitación organizadas por la institución. Luego, con el tiempo, la confianza y la experiencia, mis tareas fueron mutando a la creación de banners estáticos y animados para el sitio web de esta institución y algunos de sus subproyectos. Posteriormente, con conocimientos adquiridos en HTML y CSS, comencé a participar en el desarrollo del aspecto gráfico de varios productos web y a colaborar en el desarrollo de la interfaz de usuario para el sitio web principal de la institución.",
         biop3: "Después de un tiempo, ya establecido en mi actividad, decidí emprender mi camino como freelance. Tengo experiencia trabajando con varios software del paquete Adobe (Illustrator, Photoshop, Animate (antes conocido como Flash), Indesign, After Effects), armado de originales para impresión; también manejo los lenguajes de programación HTML, CSS y cuento con conocimientos de Javascript, además he desarrollado prototipos en Figma.",
         biop4: "Soy una persona dispuesta a adquirir nuevos conocimientos y aprender cada día. Actualmente estoy aprendiendo a trabajar con la librería React, pensando en construir un perfil profesional orientado al desarrollo de SPA (Single-page applications). Me gusta trabajar en un buen ambiente laboral, con buenas relaciones y confianza. Tengo un perfil versatil y soy capaz de trabajar en varias tareas. Tengo un buen nivel de inglés, puedo escribir, hablarlo y comprender textos en este idioma.",
+        contact: "Contacto",
 
         edp0: "Formacion",
         edp1: "Título universitario:",
@@ -61,20 +64,31 @@ export const translations = {
         exp19: "Prototipado de aplicaciones web.",
         exp20: "",
 
+        works: "Trabajos",
+
+        footertxt1: "PROYECTOS RECIENTES",
+        footertxt2: "CONTACTO",
+        footertxt3: "Este sitio fue construido usando las siguientes tecnologias:",
+        footertxt4: "Esta página se actualizó por última vez el 4 nov 2025.",
+        footertxt5: "La dirección de mail se copio correctamente al portapapeles.",
+    
     },
     eng: {
         nombreReferencia: "text",
+        dg: "Graphic Design",
         quote: "Until you make the unconscious conscious, it will direct your life and you will call it 'fate'.",
         bienvenido: "Welcome!",
         coveringLetter1: "This website, is my covering letter. Although this is a working progress project, with many points to be worked on, feel free to check out some projects i've developed.",
         coveringLetter2: "This website's code has been written using React, HTML, CSS and the Bootstrap library.",
         coveringLetter3: "Currently, my woodworking objects shop is on standby...",
         headerTitle: "Home",
+        download: "Download CV",
         biop0: "Freelance Graphic Designer",
         biop1: "Before finishing my studies at the UBA (University of Buenos Aires), I began my professional career as a graphic designer at the 'Biblioteca Nacional de Maestros' also known as BNM (Teacher’s National Library). This institution belongs to 'Ministerio Nacional de Educación'(National’s Education Ministry).",
         biop2: "Mainly with a profile oriented to the production of printed graphic pieces to reinforce the graphic identity, material intended for users and for the different training activities organized by the institution. Then, with time, confidence and experience, my tasks were mutating to the creation of static and animated banners for this institution's website and some of its sub-proyects. Later, with knowledge acquired in HTML and CSS, I began to participate in the development of the graphic aspect of several web products and to collaborate in the development of the user interface for the institution's main website.",
         biop3: "After a while, having established myself in my activity, I decided to start my path as a freelancer. I have experience at working with Adobe Software Package (Illustrator, Photoshop, Animate (formerly known as Flash), Indesign, After Effects), creating originals for printing; I also handle the programming languages ​​HTML, CSS and basic experience with Javascript, I have also developed prototypes in the Figma application.",
         biop4: "I am a person willing to acquire new knowledge and learn every day. I am currently learning to work with the React library, thinking of building a professional profile oriented to the development of SPA (Single-page applications). I like to work in a good work environment, with good relationships and trust. I have a versatile profile and I am able to work on several tasks. I have a good level of English, I can write, speak and understand texts in this language.",
+        contact: "Contact",
         
         edp0: "Education",
         edp1: "College degree:",
@@ -122,5 +136,13 @@ export const translations = {
         exp18: "Style corrections in editorial design pieces.",
         exp19: "Prototyping web applications.",
         exp20: "",
+
+        works: "Works",
+
+        footertxt1: "RECENT PROYECTS",
+        footertxt2: "CONTACT",
+        footertxt3: "This site was built using the following technologies:",
+        footertxt4: "The last update for this website was relased on 4 Nov 2025.",
+        footertxt5: "The email address was successfully copied to the clipboard.",
     },
 };

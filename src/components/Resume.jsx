@@ -79,10 +79,10 @@ const Resume = () => {
                   <div className='cv-header'>
                     <ListGroup>
                       <ListGroup.Item className='list-group-cv-separador'><FontAwesomeIcon icon="fa-solid fa-fire" className='fa-8x' /></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#Diseñador Gráfico</h6></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.quote} - C. Jung</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg}</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg}</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg}</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#"{texts.quote}" - C. Jung</h6></ListGroup.Item>
                     </ListGroup>
                   </div>
                 </Col>
@@ -233,7 +233,7 @@ const Resume = () => {
 
             {/* componente trabajos */}
             <ListGroup.Item className='list-group-cv-header'>
-              <div className='round-div me-2'><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" /></div><h4 className='cv-header-h4'>Trabajos</h4>
+              <div className='round-div me-2'><FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" /></div><h4 className='cv-header-h4'>{texts.works}</h4>
             </ListGroup.Item>
 
             <ListGroup.Item className='list-group-cv-grilla'>
