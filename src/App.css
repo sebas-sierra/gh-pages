@@ -544,6 +544,10 @@ h1.portfolio-titulo, p.portfolio-bajada {
   background-color: #e9ebeb;
 }
 
+.landing-modal label {
+  color: #e9ebeb;
+}
+
 .movies-card {
   /* width: 300px;
   height: 400px; */
