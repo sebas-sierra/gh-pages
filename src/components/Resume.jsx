@@ -14,8 +14,9 @@ import modalintro from '../assets/img/imagenes/modal-resume.png';
 import Trabajos from './resume/Trabajos';
 
 const Resume = () => {
-  const { texts, handleLanguage } = useContext(ThemeContext);
+  const { texts, handleLanguage, language } = useContext(ThemeContext);
   const [ loading, setLoading ] = useState(true);
+  const themeLanguage = language === 'esp' ? 'esp' : 'eng';
 
   const [ show, setShow ] = useState(true);
 
@@ -47,10 +48,9 @@ const Resume = () => {
         <Card>
           <Card.Img className="modalintro" src={modalintro}></Card.Img>
           <Card.ImgOverlay> 
-            <Form.Select size="sm" name="language" onChange={handleLanguage} className='mb-4 '>
-              <option value="esp">esp</option>
-              <option value="eng">eng</option>
-            </Form.Select>
+          <Form >
+              <Form.Check inline className='form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
+            </Form>
           </Card.ImgOverlay>
         </Card>
         

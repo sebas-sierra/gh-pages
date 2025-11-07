@@ -4,7 +4,7 @@ export const products = [
         title: 'Robots',
         price: 2500,
         stock: 8,
-        category: 'decoracion',
+        category: 'objetos',
         img: 'https://res.cloudinary.com/dw4lpeb7n/image/upload/v1684528518/de-taller/robots-detaller_lqyqzm.jpg',
     },
     {
@@ -20,7 +20,7 @@ export const products = [
         title: 'Estante',
         price: 2500,
         stock: 6,
-        category: 'decoracion',
+        category: 'objetos',
         img: 'https://res.cloudinary.com/dw4lpeb7n/image/upload/v1684528352/de-taller/estante-triangular_jrubs1.jpg',
     },
     {

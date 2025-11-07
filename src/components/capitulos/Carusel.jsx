@@ -2,7 +2,7 @@ import { React, useEffect, useState } from 'react';
 import { Carousel, Image } from 'react-bootstrap';
 import { getDocs } from 'firebase/firestore';
 import { collectionProd } from '../../services/firebaseConfig';
-import banner from '../../assets/img/portfolio/de-taller/banner-de-taller-2.png'
+import banner from '../../assets/img/portfolio/de-taller/banner-store-detaller.png'
 
 const Carusel = () => {
   const [ items, setItems ] = useState([]);
@@ -35,10 +35,10 @@ const Carusel = () => {
           return (
             <Carousel.Item key={producto.id}>
                 <Image src={banner} className="d-block w-100 h-25"/>
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                     <h3>{producto.title}</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
             </Carousel.Item>)
           })}
       </Carousel>

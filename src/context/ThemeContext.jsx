@@ -8,6 +8,7 @@ const ThemeProvider = ({children})  => {
 
     const[ theme, setTheme ] = useState(initialTheme);
     const[ language, setLanguage] = useState(initialLanguage);
+  
     const[ texts, setTexts] = useState(translations[language])
   
     const handleTheme = (e) => {
@@ -20,20 +21,20 @@ const ThemeProvider = ({children})  => {
     }
   
     const handleLanguage = (e) => {
-      if (e.target.value === 'esp') {
-        setLanguage('esp');
-        setTexts(translations.esp);
-        console.log(texts.headerTitle);
-      } else {
+      if (language === 'esp') {
         setLanguage('eng');
         setTexts(translations.eng);
+        console.log(texts.headerTitle);
+      } else {
+        setLanguage('esp');
+        setTexts(translations.esp);
         console.log(texts.headerTitle);
       }
   
     };
 
     return (
-        <ThemeContext.Provider value={{ theme, handleTheme, texts, handleLanguage}}>
+        <ThemeContext.Provider value={{ theme, handleTheme, texts, handleLanguage,language}}>
             {children}
         </ThemeContext.Provider>
     )

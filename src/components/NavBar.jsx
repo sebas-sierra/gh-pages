@@ -7,8 +7,9 @@ import { CartContext } from '../context/CartContext';
 
 
 const NavBar = () => {
-  const { theme, handleTheme, texts, handleLanguage } = useContext(ThemeContext)
+  const { theme, handleTheme, texts, handleLanguage, language } = useContext(ThemeContext)
   const themeMode = theme === 'light' ? 'light' : 'dark';
+  const themeLanguage = language === 'esp' ? 'esp' : 'eng';
   const [ show, setShow ] = useState(false);
   const { totalUnidades } = useContext(CartContext)
     useEffect (() => {
@@ -96,12 +97,15 @@ const NavBar = () => {
 
           </Nav>
           <Nav>
-            <Form.Select size="sm" name="language" onChange={handleLanguage}> 
+            {/* <Form.Select size="sm" name="language" onChange={handleLanguage}> 
               <option value="esp">esp</option>
               <option value="eng">eng</option>
-            </Form.Select>
+            </Form.Select> */}
             <Form >
               <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
+            </Form>
+            <Form >
+              <Form.Check inline className='form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
             </Form>
             {show ? <CartWidget/> : <h4> </h4>}
           </Nav>
