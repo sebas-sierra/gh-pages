@@ -14,7 +14,7 @@ const UseModal = ({item}) => {
             {/* <Button onClick={handleShow}>Abrir modal</Button> */}
             <Modal size="lg" show={show} onHide={handleClose} animation={false}>
                 <Modal.Body >
-                    <Button onClick={handleClose}>Close</Button>
+                    {/* <Button onClick={handleClose}>Close</Button> */}
                     <Carousel >
                         <Carousel.Item>
                             {/* <ExampleCarouselImage text="First slide" /> */}

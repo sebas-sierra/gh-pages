@@ -48,7 +48,7 @@ const Resume = () => {
         <Card>
           <Card.Img className="modalintro" src={modalintro}></Card.Img>
           <Card.ImgOverlay> 
-          <Form >
+          <Form style={{float: 'right',}}>
               <Form.Check inline className='landing-modal form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
             </Form>
           </Card.ImgOverlay>

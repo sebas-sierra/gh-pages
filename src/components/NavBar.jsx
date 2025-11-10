@@ -42,7 +42,7 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecuatro'>Clase 4 / Props y children</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasecinco'>Clase 5 / Estados y ciclos de vida</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href='/gh-pages/#/capitulos/claseseis/productos'>Clase 6 / Promises</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/capitulos/claseseis'>Clase 6 / Promises</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasesiete'>Clase 7 / APIs</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseocho'>Clase 8 / Rutas</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasenueve'>Clase 9 / Eventos</NavDropdown.Item>

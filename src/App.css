@@ -147,12 +147,12 @@ body {
 }
 
 .dark .list-group-cv .list-group-cv-separador {
-  border-bottom: #1e1e1e 1px solid;
+  border-bottom: #6c757d 1px solid;
 }
 
 .dark .list-group-cv .list-group-cv-header {
-  border-top:  #1e1e1e 1px solid;
-  border-bottom:  #1e1e1e 1px solid;
+  border-top:  #6c757d 1px solid;
+  border-bottom:  #6c757d 1px solid;
 }
 
 .dark .round-div, .dark .card{
@@ -306,6 +306,12 @@ body {
 
 .fa-icono-gris { color: #b9b5b5!important; }
 
+.breadcrumb-container {
+  padding-bottom: 12px;
+  border-bottom: #6c757d 1px solid;
+  margin-bottom: 12px;
+}
+
 .breadcumb { 
   border: 1px solid #dbd9d9;
   color: #b9b5b5;
@@ -315,6 +321,18 @@ body {
   background-color: #dbd9d9;
   color: #7e7f80;
   border: 1px solid #dbd9d9;
+}
+
+.dark .breadcumb {
+  border: 1px solid #7e7f80;
+  color: #7e7f80;
+  background-color: #242424;
+}
+
+.dark .breadcumb:hover {
+  background-color: #7e7f80;
+  color: #242424;
+  border: 1px solid #7e7f80;
 }
 
 .footer {
@@ -516,6 +534,11 @@ h1.portfolio-titulo, p.portfolio-bajada {
 .dark .movies-card {
   box-shadow: 15px 15px 35px #131313;
 }
+
+.dark .apuntes-react h1 {
+  color: #b9b5b5;
+}
+
 .store-card {
   border: 0px;
 }
