@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gh-pages/static/css/main.119008b8.css",
-    "main.js": "/gh-pages/static/js/main.731c2190.js",
+    "main.js": "/gh-pages/static/js/main.edfddba7.js",
     "static/js/453.e44e1293.chunk.js": "/gh-pages/static/js/453.e44e1293.chunk.js",
     "static/media/paralaweb 2.gif": "/gh-pages/static/media/paralaweb 2.31cef02583e39db9b7e1.gif",
     "static/media/triptico-repo-3.png": "/gh-pages/static/media/triptico-repo-3.7972db92bacd1e9e54af.png",
@@ -71,11 +71,11 @@
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "main.119008b8.css.map": "/gh-pages/static/css/main.119008b8.css.map",
-    "main.731c2190.js.map": "/gh-pages/static/js/main.731c2190.js.map",
+    "main.edfddba7.js.map": "/gh-pages/static/js/main.edfddba7.js.map",
     "453.e44e1293.chunk.js.map": "/gh-pages/static/js/453.e44e1293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119008b8.css",
-    "static/js/main.731c2190.js"
+    "static/js/main.edfddba7.js"
   ]
 }
