@@ -22,7 +22,7 @@ const Waterclor = () => {
             <Stack direction='horizontal' gap={1}><Badge pill bg="dark">illustrator</Badge><Badge pill bg="dark">photoshop</Badge><Badge pill bg="dark">indesign</Badge></Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
+            <p className='portfolio-bajada'>En este caso toco abordar el diseño de etiquetas para envase de producto. El logo fue porporcionado por el cliente y la premisa fue priorizar el reconocimiento a primera vista y la diferenciación de las tres variedades de producto (cloro granulado disolución rapida, cloro granulado disolucíon lenta, pastillas multiacción) a traves de una etiqueta de diseño minimalista que transmita una identidad limpia, moderna y profesional.</p>
           </div>
 
           <Card class='pb-3' className='mb-4'>

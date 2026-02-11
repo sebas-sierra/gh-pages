@@ -1,8 +1,8 @@
 import React, { useContext, useState , useEffect } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 import { Container, Form, Nav, Navbar, NavDropdown,  } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CartWidget from './CartWidget';
-import { ThemeContext } from '../context/ThemeContext';
 import { CartContext } from '../context/CartContext';
 
 
@@ -32,10 +32,10 @@ const NavBar = () => {
           <Nav className='me-auto' navbarScroll>
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
             {/* <Nav.Link href='/gh-pages/#/resume'>Curriculum Vitae</Nav.Link> */}
-            <Nav.Link href='/gh-pages/#/'>Curriculum Vitae</Nav.Link>
-            <Nav.Link href='/gh-pages/#/capitulos/prod'>Store</Nav.Link>
+            <Nav.Link href='/gh-pages/#/'>{texts.navbar0}</Nav.Link>
+            <Nav.Link href='/gh-pages/#/capitulos/prod'>{texts.navbar1}</Nav.Link>
             
-            <NavDropdown title='Apuntes React' id='navbarScrollingDropdown'>
+            <NavDropdown title={`${texts.navbar2}`} id='navbarScrollingDropdown'>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseuno'>Clase 1 / Intro</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasedos'>Clase 2 / Crear proyecto</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasetres'>Clase 3 / Archivos y librerias</NavDropdown.Item>
@@ -67,7 +67,7 @@ const NavBar = () => {
               <NavDropdown.Divider />
             </NavDropdown>
 
-            <NavDropdown title='Trabajos destacados' id='basic-nav-dropdown'>
+            <NavDropdown title={`${texts.navbar3}`} id='basic-nav-dropdown'>
               <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>De-Taller</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>Prode</NavDropdown.Item>
               {/* <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item> */}
@@ -77,7 +77,7 @@ const NavBar = () => {
               <NavDropdown.Item href='/gh-pages/#/trabajos/waterclor'>Producto</NavDropdown.Item>
             </NavDropdown>
             
-            <Nav.Link href='/gh-pages/#/capitulos/recursos'>Recursos</Nav.Link>
+            <Nav.Link href='/gh-pages/#/capitulos/recursos'>{texts.navbar4}</Nav.Link>
             
             
 

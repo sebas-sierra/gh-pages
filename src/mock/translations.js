@@ -1,6 +1,11 @@
 //este objeto representa un diccionario para nuestra App, puede estar en un archivo JSON independiente o en una API
 export const translations = {
     esp: {
+        navbar0: "Acerca de mi",
+        navbar1: "Tienda",
+        navbar2: "Apuntes React",
+        navbar3: "Trabajos Destacados",
+        navbar4: "Recursos",
         nombreReferencia: "texto",
         dg: "Diseño Gráfico",
         quote: "Hasta que lo hagas consciente, lo inconsciente dirigira tu vida y lo llamaras 'destino'.",
@@ -69,11 +74,16 @@ export const translations = {
         footertxt1: "PROYECTOS RECIENTES",
         footertxt2: "CONTACTO",
         footertxt3: "Este sitio fue construido usando las siguientes tecnologias:",
-        footertxt4: "Esta página se actualizó por última vez el 4 nov 2025.",
+        footertxt4: "Ultima actualización: 11 feb 2026.",
         footertxt5: "La dirección de mail se copio correctamente al portapapeles.",
     
     },
     eng: {
+        navbar0: "About me",
+        navbar1: "Store",
+        navbar2: "React notes",
+        navbar3: "Featured works",
+        navbar4: "Resources",
         nombreReferencia: "text",
         dg: "Graphic Design",
         quote: "Until you make the unconscious conscious, it will direct your life and you will call it 'fate'.",
@@ -142,7 +152,7 @@ export const translations = {
         footertxt1: "RECENT PROYECTS",
         footertxt2: "CONTACT",
         footertxt3: "This site was built using the following technologies:",
-        footertxt4: "The last update for this website was relased on 4 Nov 2025.",
+        footertxt4: "Last update: Feb. 11, 2026",
         footertxt5: "The email address was successfully copied to the clipboard.",
     },
 };

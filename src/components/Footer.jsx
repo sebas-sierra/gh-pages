@@ -45,7 +45,7 @@ const Footer = () => {
 
         <Col md={3}>
           <ul>
-            <li><h6 className="footer-header">{texts.footertxt2}</h6></li>
+            <li><h6 className="footer-header">{texts.footertxt2}</h6> </li>
             <li className="footer-link"><a href='http://www.linkedin.com/in/sebastian-sierra-48796923'>LinkedIn</a></li>
             <li className="footer-link"><a href='https://www.behance.net/sebasierra'>Behance</a></li>
             <CopyToClipboard text="gerardosebastiansierra@gmail.com"><li className="footer-link" onClick={() => setShow(true)}>

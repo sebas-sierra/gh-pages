@@ -16,7 +16,7 @@ const Editorial = () => {
             <Stack direction='horizontal' gap={1}><Badge pill bg="dark">javascript</Badge><Badge pill bg="dark">html</Badge><Badge pill bg="dark">css</Badge><Badge pill bg="dark">bootstrap</Badge></Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>En un principio el desafio de este proyecto se centraba en dar formato a los textos mostrados en la web, eso incluia un seleccion tipografica que trasmita el espiritu de la publicacion original de los textos, definir una grilla para maniular el ritmo de lectura, establecer un tamaño de cuerpo para los textos y titulos, y un interlineado que permita un ritmo de lectura fluido y relajado. A medida que se avanzo en la resolucion del aspecto editorial del sitio se volvio necesario hacer cambio globales en la diseño de la intefaz.</p>
+            <p className='portfolio-bajada'>En un principio el desafio de este proyecto se centraba en dar formato a los textos mostrados en la web, eso incluia un seleccion tipografica que trasmita el espiritu de la publicacion original de los textos, definir una grilla para manipular el ritmo de lectura, establecer un tamaño de cuerpo para los textos y titulos, y un interlineado que permita un ritmo de lectura fluido y relajado. A medida que se avanzo en la resolución del aspecto editorial del sitio se volvio necesario hacer cambio globales en el diseño de la intefaz.</p>
             <Button variant="outline-primary" href='https://iech.ddns.net/loschacosdemansilla/landing.html'>link al proyecto</Button>
           </div>
         </Col>

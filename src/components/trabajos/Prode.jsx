@@ -15,7 +15,7 @@ const Prode = () => {
             <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> ux / ui </Badge><Badge pill bg="secondary">github</Badge><Badge pill bg="secondary">javascript</Badge><Badge pill bg="secondary">html</Badge><Badge pill bg="secondary">css</Badge><Badge pill bg="secondary">bootstrap</Badge><Badge pill bg="secondary"> coding</Badge></Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>Proyecto final para el curso de Javascript de CODERHOUSE. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
+            <p className='portfolio-bajada'>Proyecto final para el curso de Javascript de CODERHOUSE. El objetivo principal del proyecto consistía en desarrollar un simulador de aplicación donde se ponga en funcionamiento la interacción entre lenguajes HTML, CSS y JavaScript con el fin de definir elementos destinados a la captura de datos haciendo uso de formularios, inputs y/o botones  a través de la manipulación del DOM.</p>
             <Button variant="outline-primary" href='https://sebas-sierra.github.io/entrega-final/'>link al prode</Button>
           </div>
           {/* <img src={prode1} width="100%" overflow="hidden"/> */}

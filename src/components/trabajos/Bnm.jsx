@@ -18,7 +18,7 @@ const Bnm = () => {
             <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> diseño folleteria </Badge><Badge pill bg="secondary"> branding </Badge><Badge pill bg="secondary"> diseño institucional</Badge></Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque optio, nostrum quam autem cum quis nesciunt sint odio eum aperiam distinctio dicta. Consequuntur alias earum veniam voluptatibus adipisci facilis.</p>
+            <p className='portfolio-bajada'>Pequeño muestrario de piezas que he tenido la suerte de producir durante el período en que me desempeñe como diseñador gráfico para la Biblioteca Nacional de Maestros.</p>
           </div>
         </Col>
         <Col md={2}></Col>
