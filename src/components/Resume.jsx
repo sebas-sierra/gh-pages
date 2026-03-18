@@ -9,7 +9,7 @@ import after from '../assets/img/logos-software/Adobe_After_Effects_CC_icon.svg'
 import indesign from '../assets/img/logos-software/Adobe_InDesign_CC_icon.svg';
 import adobexd from '../assets/img/logos-software/Adobe_XD_CC_icon.svg';
 import figma from '../assets/img/logos-software/Figma-logo.svg';
-import puertagif from '../assets/img/imagenes/paralaweb 2.gif';
+import puertagif from '../assets/img/imagenes/puerta-baja.gif';
 import modalintro from '../assets/img/imagenes/modal-resume.png';
 import Trabajos from './resume/Trabajos';
 

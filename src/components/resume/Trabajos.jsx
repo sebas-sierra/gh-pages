@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Table } from 'react-bootstrap'
-import blueberries from '../../assets/img/imagenes/portfolio-blueberries-vacio.png';
 import prode from '../../assets/img/portfolio/prode/banner-prode.png';
 import mansilla from '../../assets/img/portfolio/editorial/banner-mansilla.png';
 import detaller from '../../assets/img/portfolio/de-taller/banner-de-taller.png';
@@ -46,36 +45,6 @@ const Trabajos = () => {
 
     </Table>
 
-  
-  // -- Grilla de imagenes --
-  // <div class="w3-row">
-  //   <div class="w3-col m4">
-  //     <a href='/gh-pages/#/trabajos/detaller' className='detaller-btn'><img src={detaller} alt='' style={{width:"100%"}}/></a>
-  //   </div>
-
-  //   <div class="w3-col m8">
-  //     <div class="w3-row">
-  //       <div class="w3-col m5">
-  //         <a href='/gh-pages/#/trabajos/prode' className='prode-btn'><img src={prode} alt='' style={{width:"100%"}}/></a>
-  //       </div>
-  //       <div class="w3-col m7">
-  //         <a href='/gh-pages/#/trabajos/blueberries' className='blueberries-btn'><img src={blueberries} alt='' style={{width:"100%"}}/></a>
-  //       </div>
-  //     </div>
-
-  //     <div class="w3-row">
-  //       <div class="w3-col m8">
-  //         <a href='/gh-pages/#/trabajos/bnm'><img src={bnm} alt='' style={{width:"100%"}}/></a>
-  //       </div>
-
-  //       <div class="w3-col m4"> 
-  //         <a href='/gh-pages/#/trabajos/ilustracion' className='dibujo-btn'><img src={dibujos} alt='' style={{width:"100%"}}/></a>
-  //       </div>
-  //     </div>
-  //   </div>
-
-  // </div>
-    
   )
 }
 

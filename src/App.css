@@ -47,41 +47,6 @@ body {
   border-bottom-left-radius: 0px;
 }
 
-.dibujo-btn img {
-  background-image: url("assets/img/imagenes/portfolio-dibujos-oscuro.png") ;
-  background-size: cover;
-}
-.dibujo-btn img:hover {
-  background-image: url("assets/img/imagenes/portfolio-dibujos.png") ;
-  background-size: cover;
-}
-.detaller-btn img {
-  background-image: url("assets/img/imagenes/portfolio-detaller-oscuro.png") ;
-  background-size: cover;
-  transition: background-image 0.3s ease-in-out;
-}
-.detaller-btn img:hover {
-  background-image: url("assets/img/imagenes/portfolio-detaller-color.png") ;
-  background-size: cover;
-}
-.prode-btn img {
-  background-image: url("assets/img/imagenes/portfolio-prode-oscuro.png") ;
-  background-size: cover;
-  transition: background-image 0.3s ease-in-out;
-}
-.prode-btn img:hover {
-  background-image: url("assets/img/imagenes/portfolio-prode-color.png") ;
-  background-size: cover;
-}
-.blueberries-btn img {
-  background-image: url("assets/img/imagenes/portfolio-blueberries-oscuro.png") ;
-  background-size: cover;
-  transition: background-image 0.3s ease-in-out;
-}
-.blueberries-btn img:hover {
-  background-image: url("assets/img/imagenes/portfolio-blueberries-color.png") ;
-  background-size: cover;
-}
 .btn-trabajos {
   padding: 0px;
   border: 0px;

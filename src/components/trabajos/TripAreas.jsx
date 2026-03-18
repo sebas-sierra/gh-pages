@@ -16,40 +16,38 @@ const TripAreas = () => {
         <Row>
             <Col md={2}></Col>
             <Col md={8}>
-
-                
-            
-            {/* triptico institucional */}
-            <Card onClick={handleShow} className='mb-4'>
-                <Card.Img src={tripAreasA}  />
-                <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
-                    <Card.Title><h3>Triptico areas de la biblioteca</h3></Card.Title>
-                    <Card.Text>Minus itaque optio, nostrum quam autem  <br/>cum quis nesciunt sint odio eum aperiam distinctio dicta.</Card.Text>
-                    <Button variant="primary"> ver mas</Button>
-               </Card.ImgOverlay>
-            </Card>
+                {/* triptico institucional */}
+                <Card onClick={handleShow} className='mb-4'>
+                    <Card.Img src={tripAreasA}  />
+                    <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
+                        <Card.Title><h3>Triptico areas de la biblioteca</h3></Card.Title>
+                        <Card.Text>Minus itaque optio, nostrum quam autem  <br/>cum quis nesciunt sint odio eum aperiam distinctio dicta.</Card.Text>
+                        <Button variant="primary"> ver mas</Button>
+                    </Card.ImgOverlay>
+                </Card>
                            
-            <Modal show={show} onHide={handleClose} size="lg">
-                <Modal.Body>
-                    <Carousel>
-                        <Carousel.Item>
-                            <Image src={tripAreasA} className="d-block w-100" />
-                        </Carousel.Item>
+                <Modal show={show} onHide={handleClose} size="lg">
+                    <Modal.Body>
+                        <Carousel>
+                            <Carousel.Item>
+                                <Image src={tripAreasA} className="d-block w-100" />
+                            </Carousel.Item>
 
-                        <Carousel.Item>
-                            <Image src={tripAreasB} className="d-block w-100" />
-                        </Carousel.Item>
+                            <Carousel.Item>
+                                <Image src={tripAreasB} className="d-block w-100" />
+                            </Carousel.Item>
 
-                        <Carousel.Item>
-                            <Image src={tripAreasC} className="d-block w-100" />
-                        </Carousel.Item>
+                            <Carousel.Item>
+                                <Image src={tripAreasC} className="d-block w-100" />
+                            </Carousel.Item>
 
-                        <Carousel.Item>
-                            <Image src={tripAreasD} className="d-block w-100" />
-                        </Carousel.Item>
-                    </Carousel>
-                </Modal.Body>
-            </Modal></Col>
+                            <Carousel.Item>
+                                <Image src={tripAreasD} className="d-block w-100" />
+                            </Carousel.Item>
+                        </Carousel>
+                    </Modal.Body>
+                </Modal>
+            </Col>
             <Col md={2}></Col>
         </Row>
         </>
