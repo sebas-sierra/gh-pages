@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.80711c73.css",
-    "main.js": "/gh-pages/static/js/main.54389a3a.js",
+    "main.css": "/gh-pages/static/css/main.79d9e087.css",
+    "main.js": "/gh-pages/static/js/main.b7b1b8f9.js",
     "static/js/453.e44e1293.chunk.js": "/gh-pages/static/js/453.e44e1293.chunk.js",
     "static/media/vinyl-bateas-slide.png": "/gh-pages/static/media/vinyl-bateas-slide.7c37a80a41d4c4298d22.png",
     "static/media/vinyl-case-slide.png": "/gh-pages/static/media/vinyl-case-slide.fc97b7cbddba8857d160.png",
@@ -64,12 +64,12 @@
     "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
-    "main.80711c73.css.map": "/gh-pages/static/css/main.80711c73.css.map",
-    "main.54389a3a.js.map": "/gh-pages/static/js/main.54389a3a.js.map",
+    "main.79d9e087.css.map": "/gh-pages/static/css/main.79d9e087.css.map",
+    "main.b7b1b8f9.js.map": "/gh-pages/static/js/main.b7b1b8f9.js.map",
     "453.e44e1293.chunk.js.map": "/gh-pages/static/js/453.e44e1293.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80711c73.css",
-    "static/js/main.54389a3a.js"
+    "static/css/main.79d9e087.css",
+    "static/js/main.b7b1b8f9.js"
   ]
 }
