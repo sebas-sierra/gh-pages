@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.d499ca3a.css",
-    "main.js": "/gh-pages/static/js/main.0a22b3ab.js",
+    "main.css": "/gh-pages/static/css/main.80711c73.css",
+    "main.js": "/gh-pages/static/js/main.54389a3a.js",
     "static/js/453.e44e1293.chunk.js": "/gh-pages/static/js/453.e44e1293.chunk.js",
+    "static/media/vinyl-bateas-slide.png": "/gh-pages/static/media/vinyl-bateas-slide.7c37a80a41d4c4298d22.png",
+    "static/media/vinyl-case-slide.png": "/gh-pages/static/media/vinyl-case-slide.fc97b7cbddba8857d160.png",
     "static/media/cartuchos-3.png": "/gh-pages/static/media/cartuchos-3.05c68b70e6cd02977224.png",
     "static/media/puerta-baja.gif": "/gh-pages/static/media/puerta-baja.28495fb6d120956e42ae.gif",
     "static/media/banner-mansilla.png": "/gh-pages/static/media/banner-mansilla.cd60bb27b1f49fcae668.png",
@@ -45,6 +47,7 @@
     "static/media/triptico-areas-0.jpg": "/gh-pages/static/media/triptico-areas-0.4c86a35a054bdd601a8a.jpg",
     "static/media/triptico-insti-0.jpg": "/gh-pages/static/media/triptico-insti-0.485e115ba6a63ac00dd3.jpg",
     "static/media/ohdfi02463f.pdf": "/gh-pages/static/media/ohdfi02463f.002c196e9dafe005e92b.pdf",
+    "static/media/jahjsxa5466ds.pdf": "/gh-pages/static/media/jahjsxa5466ds.636d8473149b9b381264.pdf",
     "static/media/tag-cv.png": "/gh-pages/static/media/tag-cv.3820ae5811395d1497ce.png",
     "static/media/logo-mansilla.png": "/gh-pages/static/media/logo-mansilla.f22ccc4d2eef0a4a3f79.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
@@ -61,12 +64,12 @@
     "static/media/Adobe_InDesign_CC_icon.svg": "/gh-pages/static/media/Adobe_InDesign_CC_icon.914f694e4b0583f19f406d6fb77ae7d7.svg",
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
-    "main.d499ca3a.css.map": "/gh-pages/static/css/main.d499ca3a.css.map",
-    "main.0a22b3ab.js.map": "/gh-pages/static/js/main.0a22b3ab.js.map",
+    "main.80711c73.css.map": "/gh-pages/static/css/main.80711c73.css.map",
+    "main.54389a3a.js.map": "/gh-pages/static/js/main.54389a3a.js.map",
     "453.e44e1293.chunk.js.map": "/gh-pages/static/js/453.e44e1293.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d499ca3a.css",
-    "static/js/main.0a22b3ab.js"
+    "static/css/main.80711c73.css",
+    "static/js/main.54389a3a.js"
   ]
 }
