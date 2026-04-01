@@ -36,7 +36,7 @@ const Bnm = () => {
         <Col md={2}></Col>
         <Col md={8}>
           <div className='presentacion-header'>
-            <h1 className='portfolio-titulo'>Biblioteca Nacional<br />de Maestros {texts.edp0}</h1>
+            <h1 className='portfolio-titulo'>Biblioteca Nacional<br />de Maestros</h1>
             <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> diseño folleteria </Badge><Badge pill bg="secondary"> branding </Badge><Badge pill bg="secondary"> diseño institucional</Badge></Stack>
           </div>
           <div className='presentacion-body'>

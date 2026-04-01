@@ -554,7 +554,10 @@ h1.portfolio-titulo, p.portfolio-bajada {
 }
 
 .store-card {
-  border: 0px;
+  border: 20px;
+  color: #fff;
+  background-color: #1d00db;
+
 }
 .store-card img {
   opacity: 0.5;
@@ -565,12 +568,11 @@ h1.portfolio-titulo, p.portfolio-bajada {
   font-weight: 700;
   text-transform: uppercase;
   padding: 12px 0px 0px 0px;
-  color: #7e7f80;
+  /* color: #fff; */
 }
 
 .store-card-text {
-  color: #7e7f80;
-
+  /* color: #fff; */
 }
 
 .store-card:hover img {
@@ -578,7 +580,8 @@ h1.portfolio-titulo, p.portfolio-bajada {
 }
 
 .store-card:hover {
-  background-color: #e9ebeb;
+  color: #1d00db;
+  background-color: #fff;
 }
 
 .landing-modal label {

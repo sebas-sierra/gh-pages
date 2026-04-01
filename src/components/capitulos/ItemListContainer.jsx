@@ -163,9 +163,9 @@ const ItemListContainer = () => {
     <Col md="auto">
       <br />
       <div className="d-flex gap-2 mb-2">
-      <Button variant="outline-primary" href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
-      <Button variant="outline-primary" href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
-      <Button variant="outline-primary" href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
+      <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
+      <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
+      <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
       </div>   
       <br />
       {/* <Link to={'/capitulos/prod'} >Todos</Link>
