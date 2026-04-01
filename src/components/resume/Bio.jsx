@@ -1,13 +1,28 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import { Button, Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 import Contacto from './Contacto';
 import perfil from '../../assets/img/imagenes/perfil-cv.png';
 import tag from '../../assets/img/imagenes/tag-cv.png';
 import cv from '../../assets/files/ohdfi02463f.pdf';
+import cvEng from '../../assets/files/jahjsxa5466ds.pdf';
 
 const Bio = () => {
-    const {texts} = useContext (ThemeContext)
+    const {texts, download} = useContext (ThemeContext)
+    
+    const [ mostrar, setMostrar ] = useState (false)
+
+    useEffect(()=>{
+    if ( download === 'file-esp'){
+        setMostrar(true)
+    } else {
+        setMostrar(false)
+    }
+    }, [download])
+
+    
+
+
     return (
         <>
             <Col md={5} >
@@ -16,9 +31,17 @@ const Bio = () => {
                     
                     <div style={{position:'relative', border:'0px'}}>
                         <Card.Img src={tag}></Card.Img>
+                        { mostrar ? 
+                        
                         <Button style={{position: 'absolute', right: '-8px', top: '260px'}} href={cv} download='cv-sebastiansierra.pdf'>
                             {texts.download}
                         </Button>
+                        :
+                        <Button style={{position: 'absolute', right: '-8px', top: '260px'}} href={cvEng} download='cv-sebastiansierra.pdf'>
+                            {texts.download}
+                        </Button>
+                        }
+                        
                     </div>
                     {/* <Card.ImgOverlay>
                         <div className='img-overlay-cv'>

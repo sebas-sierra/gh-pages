@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Row, Col, Button, Card, Image, Carousel, Modal } from 'react-bootstrap';
+import React, { useState, useEffect } from 'react';
+import { Row, Col, Button, Card, Image, Carousel, Modal, Spinner } from 'react-bootstrap';
 
 import tripInstiA from '../../assets/img/portfolio/bnm/triptico-insti-0.jpg';
 import tripInstiB from '../../assets/img/portfolio/bnm/triptico-insti-1.jpg';
@@ -9,6 +9,28 @@ const TripInsti = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000)
+    }, []);
+
+
+    if (loading) {
+        return (
+            <>
+                <Row className="justify-content-md-center" style={{ marginBottom: '150px' }}>
+                    <Col md={1}></Col>
+                    <Col md={8} className="text-center" ><Spinner animation="grow" variant="secondary" /></Col>
+                    <Col md={1}></Col>
+                </Row>
+            </>
+        )
+    }
+
     return (
         <>
         <Row>

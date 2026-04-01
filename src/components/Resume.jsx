@@ -48,7 +48,7 @@ const Resume = () => {
         <Card>
           <Card.Img className="modalintro" src={modalintro}></Card.Img>
           <Card.ImgOverlay> 
-          <Form style={{float: 'right',}}>
+            <Form style={{float: 'right',}}>
               <Form.Check inline className='landing-modal form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
             </Form>
           </Card.ImgOverlay>
@@ -60,12 +60,6 @@ const Resume = () => {
           <p>{texts.coveringLetter2}</p>
           <p>{texts.coveringLetter3}</p>
         </Modal.Body>
-
-        {/* <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-          <FontAwesomeIcon icon="fa-solid fa-xmark" />
-          </Button>
-        </Modal.Footer> */}
       </Modal>
 
       <Row>

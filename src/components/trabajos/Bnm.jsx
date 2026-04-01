@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import { Badge, Col, Row, Stack } from 'react-bootstrap';
+import React, { useContext, useEffect, useState } from 'react';
+import { Badge, Col, Row, Stack, Spinner } from 'react-bootstrap';
 import { ThemeContext } from '../../context/ThemeContext'
 
 import TripRepo from './TripRepo';
@@ -8,6 +8,28 @@ import TripAreas from './TripAreas';
 
 const Bnm = () => {
   const { texts } = useContext(ThemeContext);
+  // const [ loading, setLoading ] = useState(true);
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000)
+  // }, []);
+
+
+  // if (loading) {
+  //   return (
+  //     <>
+  //       <Row className="justify-content-md-center">
+  //         <Col md={1}></Col>
+  //         <Col md={8} className="text-center" ><Spinner animation="grow" variant="secondary" /></Col>
+  //         <Col md={1}></Col>
+  //       </Row>
+  //     </>
+  //   )
+  // }
+
+
   return (
     <>
       <Row>

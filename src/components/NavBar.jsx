@@ -5,9 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CartWidget from './CartWidget';
 import { CartContext } from '../context/CartContext';
 
+import { lightfair } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
 
 const NavBar = () => {
-  const { theme, handleTheme, texts, handleLanguage, language } = useContext(ThemeContext)
+  const { theme, handleTheme, texts, handleLanguage, language, storeTheme } = useContext(ThemeContext)
   const themeMode = theme === 'light' ? 'light' : 'dark';
   const themeLanguage = language === 'esp' ? 'esp' : 'eng';
   const [ show, setShow ] = useState(false);
@@ -19,7 +21,17 @@ const NavBar = () => {
           setShow(false)
         }
       }, [totalUnidades])
-  
+
+  const [ mostrar, setMostrar ] = useState(true);
+
+      useEffect (() => {
+        if (theme === 'store') {
+          setMostrar(false)
+        } else {
+          setMostrar(true)
+        }
+      }, [theme])
+
   return (
     /*<Navbar expand='lg' className={isInHeader ? 'bg-body-tertiary' : 'footer'}>*/
     <Navbar fixed="top" className={theme} expand='lg' mb-2 >
@@ -33,7 +45,7 @@ const NavBar = () => {
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
             {/* <Nav.Link href='/gh-pages/#/resume'>Curriculum Vitae</Nav.Link> */}
             <Nav.Link href='/gh-pages/#/'>{texts.navbar0}</Nav.Link>
-            <Nav.Link href='/gh-pages/#/capitulos/prod'>{texts.navbar1}</Nav.Link>
+            <Nav.Link href='/gh-pages/#/capitulos/prod'onClick={storeTheme} >{texts.navbar1}</Nav.Link>
             
             <NavDropdown title={`${texts.navbar2}`} id='navbarScrollingDropdown'>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseuno'>Clase 1 / Intro</NavDropdown.Item>
@@ -101,9 +113,11 @@ const NavBar = () => {
               <option value="esp">esp</option>
               <option value="eng">eng</option>
             </Form.Select> */}
+            { mostrar ?
             <Form >
               <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
-            </Form>
+            </Form> : <h4></h4>
+            }
             <Form >
               <Form.Check inline className='form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
             </Form>

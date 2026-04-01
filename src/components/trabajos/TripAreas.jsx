@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Row, Col, Button, Card, CardText, Carousel, Image, Modal } from 'react-bootstrap';
+import React, { useState, useEffect } from 'react';
+import { Row, Col, Button, Card, CardText, Carousel, Image, Modal, Spinner } from 'react-bootstrap';
 
 import tripAreasA from '../../assets/img/portfolio/bnm/triptico-areas-0.jpg';
 import tripAreasB from '../../assets/img/portfolio/bnm/triptico-areas-1.jpg';
@@ -11,6 +11,26 @@ const TripAreas = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 2500)
+    }, []);
+
+
+    if (loading) {
+        return (
+            <>
+                <Row className="justify-content-md-center" style={{ marginBottom: '150px' }}>
+                    <Col md={1}></Col>
+                    <Col md={8} className="text-center" ><Spinner animation="grow" variant="secondary" /></Col>
+                    <Col md={1}></Col>
+                </Row>
+            </>
+        )
+    }
     return (
         <>
         <Row>

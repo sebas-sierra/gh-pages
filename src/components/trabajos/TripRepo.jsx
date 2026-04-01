@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button, Card, Carousel, Image, Modal, Row, Col } from 'react-bootstrap'
+import React, { useState, useEffect } from 'react';
+import { Button, Card, Carousel, Image, Modal, Row, Spinner, Col } from 'react-bootstrap'
 
 import tripRepoA from '../../assets/img/portfolio/bnm/triptico-repo-0.png';
 import tripRepoB from '../../assets/img/portfolio/bnm/triptico-repo-1.png';
@@ -10,6 +10,27 @@ const TripRepoA = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const [ loading, setLoading ] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500)
+  }, []);
+
+
+  if (loading) {
+    return (
+      <>
+        <Row className="justify-content-md-center" style={{ marginBottom: '150px' }}>
+          <Col md={1}></Col>
+          <Col md={8} className="text-center" ><Spinner animation="grow" variant="secondary" /></Col>
+          <Col md={1}></Col>
+        </Row>
+      </>
+    )
+  }
     
     return (
         <>
