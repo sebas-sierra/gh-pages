@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gh-pages/static/css/main.79d9e087.css",
-    "main.js": "/gh-pages/static/js/main.b7b1b8f9.js",
+    "main.js": "/gh-pages/static/js/main.6a2468ae.js",
     "static/js/453.e44e1293.chunk.js": "/gh-pages/static/js/453.e44e1293.chunk.js",
     "static/media/vinyl-bateas-slide.png": "/gh-pages/static/media/vinyl-bateas-slide.7c37a80a41d4c4298d22.png",
     "static/media/vinyl-case-slide.png": "/gh-pages/static/media/vinyl-case-slide.fc97b7cbddba8857d160.png",
     "static/media/cartuchos-3.png": "/gh-pages/static/media/cartuchos-3.05c68b70e6cd02977224.png",
+    "static/media/de-taller-grilla_maqueta-2.png": "/gh-pages/static/media/de-taller-grilla_maqueta-2.ca12ac718761bf4f6753.png",
     "static/media/puerta-baja.gif": "/gh-pages/static/media/puerta-baja.28495fb6d120956e42ae.gif",
     "static/media/banner-mansilla.png": "/gh-pages/static/media/banner-mansilla.cd60bb27b1f49fcae668.png",
-    "static/media/de-taller-tote-bag.png": "/gh-pages/static/media/de-taller-tote-bag.b44ec86fe523f8011d2c.png",
     "static/media/cartuchos-1.png": "/gh-pages/static/media/cartuchos-1.d260c42903185c444edb.png",
     "static/media/montania-skate.png": "/gh-pages/static/media/montania-skate.ee3318e41e9825b2a08a.png",
     "static/media/triptico-repo-3.png": "/gh-pages/static/media/triptico-repo-3.1d46c1b730a413f8be05.png",
@@ -20,7 +20,6 @@
     "static/media/waterclor-mockup-1.png": "/gh-pages/static/media/waterclor-mockup-1.00cb02d0fad9dc5dea08.png",
     "static/media/sur-oculto-mockup-1.png": "/gh-pages/static/media/sur-oculto-mockup-1.6cdfbd09faa612ec41b0.png",
     "static/media/sur-oculto-mockup-2.png": "/gh-pages/static/media/sur-oculto-mockup-2.c7258011344eb8f9d71b.png",
-    "static/media/de-taller-flyer.png": "/gh-pages/static/media/de-taller-flyer.ab547093da7ffd77b42c.png",
     "static/media/banner-prode.png": "/gh-pages/static/media/banner-prode.990227d107f7568bc6c0.png",
     "static/media/triptico-repo-1.png": "/gh-pages/static/media/triptico-repo-1.fce66d9528f2d7814bd9.png",
     "static/media/triptico-repo-0.png": "/gh-pages/static/media/triptico-repo-0.605992d1179de969df95.png",
@@ -35,6 +34,8 @@
     "static/media/perfil-cv.png": "/gh-pages/static/media/perfil-cv.8b364fcd0d1e34e43173.png",
     "static/media/banner-waterclor.png": "/gh-pages/static/media/banner-waterclor.1d34469b6eda0cda9da7.png",
     "static/media/banner-de-taller.png": "/gh-pages/static/media/banner-de-taller.81c1dce49fa375a1cbd2.png",
+    "static/media/de-taller-totebag_mockup.png": "/gh-pages/static/media/de-taller-totebag_mockup.b8e799ecdc67533fb7d6.png",
+    "static/media/de-taller-totebagazul_mockup.png": "/gh-pages/static/media/de-taller-totebagazul_mockup.48aff6a7b4c41be41c5a.png",
     "static/media/prode-3.png": "/gh-pages/static/media/prode-3.b1eb7c8d3058975aadac.png",
     "static/media/apuntes-react.png": "/gh-pages/static/media/apuntes-react.57a0ab4f820eaf91f954.png",
     "static/media/triptico-areas-2.jpg": "/gh-pages/static/media/triptico-areas-2.d47b1a7dd7b5e9a2c0b3.jpg",
@@ -48,13 +49,15 @@
     "static/media/triptico-insti-0.jpg": "/gh-pages/static/media/triptico-insti-0.485e115ba6a63ac00dd3.jpg",
     "static/media/ohdfi02463f.pdf": "/gh-pages/static/media/ohdfi02463f.002c196e9dafe005e92b.pdf",
     "static/media/jahjsxa5466ds.pdf": "/gh-pages/static/media/jahjsxa5466ds.636d8473149b9b381264.pdf",
+    "static/media/detaller-marca-desgloce.png": "/gh-pages/static/media/detaller-marca-desgloce.96172b7d501dc317e723.png",
     "static/media/tag-cv.png": "/gh-pages/static/media/tag-cv.3820ae5811395d1497ce.png",
+    "static/media/detaller-marca.png": "/gh-pages/static/media/detaller-marca.60fda38caa3f3c4f6870.png",
     "static/media/logo-mansilla.png": "/gh-pages/static/media/logo-mansilla.f22ccc4d2eef0a4a3f79.png",
     "static/media/cast4.jpg": "/gh-pages/static/media/cast4.de852447b7b06ef26985.jpg",
-    "static/media/de-taller-h.png": "/gh-pages/static/media/de-taller-h.f03fe744ca60763bfa3f.png",
     "static/media/cast1.jpg": "/gh-pages/static/media/cast1.357ee3dea8745342a8e9.jpg",
     "static/media/de-taller-trasparente.png": "/gh-pages/static/media/de-taller-trasparente.8ae742897203e399fe06.png",
     "static/media/cast2.jpg": "/gh-pages/static/media/cast2.1e96a37512a3111c2415.jpg",
+    "static/media/paleta-color.png": "/gh-pages/static/media/paleta-color.2e7fbad4e1775acaf371.png",
     "static/media/cast5.jpg": "/gh-pages/static/media/cast5.ee250bd26a08c85dca89.jpg",
     "static/media/cast3.jpg": "/gh-pages/static/media/cast3.ee777720bb4beb52e436.jpg",
     "static/media/Adobe_Photoshop_CC_icon.svg": "/gh-pages/static/media/Adobe_Photoshop_CC_icon.21b3c1e00213c9613773022511f98503.svg",
@@ -65,11 +68,11 @@
     "index.html": "/gh-pages/index.html",
     "static/media/Adobe_Illustrator_CC_icon.svg": "/gh-pages/static/media/Adobe_Illustrator_CC_icon.c10daee19031ea6063f9722c7543e7f1.svg",
     "main.79d9e087.css.map": "/gh-pages/static/css/main.79d9e087.css.map",
-    "main.b7b1b8f9.js.map": "/gh-pages/static/js/main.b7b1b8f9.js.map",
+    "main.6a2468ae.js.map": "/gh-pages/static/js/main.6a2468ae.js.map",
     "453.e44e1293.chunk.js.map": "/gh-pages/static/js/453.e44e1293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79d9e087.css",
-    "static/js/main.b7b1b8f9.js"
+    "static/js/main.6a2468ae.js"
   ]
 }
