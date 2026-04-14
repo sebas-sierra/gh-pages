@@ -43,13 +43,6 @@ const Bio = () => {
                         }
                         
                     </div>
-                    {/* <Card.ImgOverlay>
-                        <div className='img-overlay-cv'>
-                        <Card.Title><h2>Sebastián Sierra</h2></Card.Title>
-                        <Card.Text><h4>{texts.biop0}</h4></Card.Text>
-                        <Button href='#'>Descargar cv formato PDF</Button>
-                        </div>
-                    </Card.ImgOverlay> */}
                 </Card>
             </Col>
             <Col md={7} >

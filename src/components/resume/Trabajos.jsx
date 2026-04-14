@@ -26,12 +26,12 @@ const Trabajos = () => {
           <td><Button className="btn-trabajos" variant="primary" size="lg" href='/gh-pages/#/trabajos/prode'><img src={prode} alt='' style={{width:"100%"}}/></Button></td>
         </tr>
         <tr>
-          <td>Ilustracion</td>
-          <td><Button className="btn-trabajos" variant="primary" size="lg" href='/gh-pages/#/trabajos/ilustracion'><img src={ilustracion} alt='' style={{width:"100%"}}/></Button></td>
-        </tr>
-        <tr>
           <td>Biblioteca Nacional de Maestros</td>
           <td><Button className="btn-trabajos" variant="primary" size="lg" href='/gh-pages/#/trabajos/bnm'><img src={bnm} alt='' style={{width:"100%"}}/></Button></td>
+        </tr>
+        <tr>
+          <td>Ilustracion</td>
+          <td><Button className="btn-trabajos" variant="primary" size="lg" href='/gh-pages/#/trabajos/ilustracion'><img src={ilustracion} alt='' style={{width:"100%"}}/></Button></td>
         </tr>
         <tr>
           <td>Frontend</td>

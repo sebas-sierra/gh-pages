@@ -22,7 +22,7 @@ export const translations = {
         biop4: "Soy una persona dispuesta a adquirir nuevos conocimientos y aprender cada día. Actualmente estoy aprendiendo a trabajar con la librería React, pensando en construir un perfil profesional orientado al desarrollo de SPA (Single-page applications). Me gusta trabajar en un buen ambiente laboral, con buenas relaciones y confianza. Tengo un perfil versatil y soy capaz de trabajar en varias tareas. Tengo un buen nivel de inglés, puedo escribir, hablarlo y comprender textos en este idioma.",
         contact: "Contacto",
 
-        edp0: "Formacion",
+        edp0: "Formación",
         edp1: "Título universitario:",
         edp1a: "2010",
         edp2: "Diseñador Gráfico",
@@ -69,12 +69,12 @@ export const translations = {
         exp19: "Prototipado de aplicaciones web.",
         exp20: "",
 
-        works: "Trabajos",
+        works: "Trabajos Destacados",
 
         footertxt1: "PROYECTOS RECIENTES",
         footertxt2: "CONTACTO",
         footertxt3: "Este sitio fue construido usando las siguientes tecnologias:",
-        footertxt4: "Ultima actualización: 1 Abril 2026.",
+        footertxt4: "Ultima actualización: 14 Abril 2026.",
         footertxt5: "La dirección de mail se copio correctamente al portapapeles.",
     
     },
@@ -147,12 +147,12 @@ export const translations = {
         exp19: "Prototyping web applications.",
         exp20: "",
 
-        works: "Works",
+        works: "Featured Works",
 
         footertxt1: "RECENT PROYECTS",
         footertxt2: "CONTACT",
         footertxt3: "This site was built using the following technologies:",
-        footertxt4: "Last update: Apr. 1, 2026",
+        footertxt4: "Last update: Apr. 14, 2026",
         footertxt5: "The email address was successfully copied to the clipboard.",
     },
 };

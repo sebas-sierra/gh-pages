@@ -45,8 +45,21 @@ const NavBar = () => {
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
             {/* <Nav.Link href='/gh-pages/#/resume'>Curriculum Vitae</Nav.Link> */}
             <Nav.Link href='/gh-pages/#/'>{texts.navbar0}</Nav.Link>
-            <Nav.Link href='/gh-pages/#/capitulos/prod'onClick={storeTheme} >{texts.navbar1}</Nav.Link>
+
+            <NavDropdown title={`${texts.navbar3}`} id='basic-nav-dropdown'>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>De-Taller</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>Prode</NavDropdown.Item>
+              {/* <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item> */}
+              <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>FrontEnd</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/waterclor'>Producto</NavDropdown.Item>
+            </NavDropdown>
+
+            <Nav.Link href='/gh-pages/#/capitulos/prod' onClick={storeTheme} >{texts.navbar1}</Nav.Link>
             
+            <Nav.Link>|</Nav.Link>
+
             <NavDropdown title={`${texts.navbar2}`} id='navbarScrollingDropdown'>
               <NavDropdown.Item href='/gh-pages/#/capitulos/claseuno'>Clase 1 / Intro</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/capitulos/clasedos'>Clase 2 / Crear proyecto</NavDropdown.Item>
@@ -79,15 +92,7 @@ const NavBar = () => {
               <NavDropdown.Divider />
             </NavDropdown>
 
-            <NavDropdown title={`${texts.navbar3}`} id='basic-nav-dropdown'>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>De-Taller</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>Prode</NavDropdown.Item>
-              {/* <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item> */}
-              <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>FrontEnd</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/waterclor'>Producto</NavDropdown.Item>
-            </NavDropdown>
+            
             
             <Nav.Link href='/gh-pages/#/capitulos/recursos'>{texts.navbar4}</Nav.Link>
             
@@ -109,19 +114,16 @@ const NavBar = () => {
 
           </Nav>
           <Nav>
-            {/* <Form.Select size="sm" name="language" onChange={handleLanguage}> 
-              <option value="esp">esp</option>
-              <option value="eng">eng</option>
-            </Form.Select> */}
             { mostrar ?
-            <Form >
-              <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
-            </Form> : <h4></h4>
+              <Form >
+                <Form.Check inline className='form-check-inline-menu' type="switch" name="theme" id="light" onClick={handleTheme} value="light" label={`${themeMode}`}/>
+              </Form> : <h4></h4>
             }
-            <Form >
-              <Form.Check inline className='form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
-            </Form>
-            {show ? <CartWidget/> : <h4> </h4>}
+              <Form >
+                <Form.Check inline className='form-check-inline-menu' type="switch" name="texts" id="esp" onClick={handleLanguage} value="esp" label={`${themeLanguage}`}/>
+              </Form>
+            { show ? <CartWidget/> : <h4> </h4>
+            }
           </Nav>
         </Navbar.Collapse>
       </Container>
