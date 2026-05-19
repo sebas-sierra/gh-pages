@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Row, Col, Button, Card, CardText, Carousel, Image, Modal, Spinner } from 'react-bootstrap';
 
 import tripAreasA from '../../assets/img/portfolio/bnm/triptico-areas-0.jpg';
 import tripAreasB from '../../assets/img/portfolio/bnm/triptico-areas-1.jpg';
 import tripAreasC from '../../assets/img/portfolio/bnm/triptico-areas-2.jpg';
 import tripAreasD from '../../assets/img/portfolio/bnm/triptico-areas-3.jpg';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const TripAreas = () => {
+    const {texts} = useContext(ThemeContext)
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -37,13 +39,13 @@ const TripAreas = () => {
             <Col md={2}></Col>
             <Col md={8}>
                 {/* triptico institucional */}
-                <Card onClick={handleShow} className='mb-4'>
-                    <Card.Img src={tripAreasA}  />
-                    <Card.ImgOverlay width='250px' style={{marginRight: '300px'}}>
-                        <Card.Title><h3>Triptico areas de la biblioteca</h3></Card.Title>
-                        <Card.Text>Minus itaque optio, nostrum quam autem  <br/>cum quis nesciunt sint odio eum aperiam distinctio dicta.</Card.Text>
+                <Card onClick={handleShow} className='mb-5'>
+                    <Card.Body>
+                        <Card.Title><h3>{texts.bnm3a}</h3></Card.Title>
+                        <Card.Text>{texts.bnm3b}</Card.Text>
                         <Button variant="primary"> ver mas</Button>
-                    </Card.ImgOverlay>
+                    </Card.Body>
+                    <Card.Img variant="bottom" src={tripAreasA}  />
                 </Card>
                            
                 <Modal show={show} onHide={handleClose} size="lg">

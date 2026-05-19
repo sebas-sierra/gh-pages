@@ -40,6 +40,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='navbarScroll' >
           <FontAwesomeIcon icon="fa-solid fa-fire" className='fa-2x' />
         </ Navbar.Toggle>
+
         <Navbar.Collapse id='navbarScroll' >
           <Nav className='me-auto' navbarScroll>
             {/* <Nav.Link href='/pokeapi'>PokeApi</Nav.Link> */}
@@ -47,11 +48,11 @@ const NavBar = () => {
             <Nav.Link href='/gh-pages/#/'>{texts.navbar0}</Nav.Link>
 
             <NavDropdown title={`${texts.navbar3}`} id='basic-nav-dropdown'>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>De-Taller</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>Prode</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/detaller'>Branding</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/prode'>UX / UI </NavDropdown.Item>
               {/* <NavDropdown.Item href='/gh-pages/#/trabajos/blueberries'>Blueberries</NavDropdown.Item> */}
-              <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>BNM</NavDropdown.Item>
-              <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustracion</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/bnm'>DG Institucional</NavDropdown.Item>
+              <NavDropdown.Item href='/gh-pages/#/trabajos/ilustracion'>Ilustración</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/editorial'>FrontEnd</NavDropdown.Item>
               <NavDropdown.Item href='/gh-pages/#/trabajos/waterclor'>Producto</NavDropdown.Item>
             </NavDropdown>

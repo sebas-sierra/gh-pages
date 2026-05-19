@@ -159,24 +159,23 @@ const ItemListContainer = () => {
   return (
     <>
     <Row className="justify-content-md-center">
-    <Col md={1}></Col>
-    <Col md="auto">
-      <br />
-      <div className="d-flex gap-2 mb-2">
-      <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
-      <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
-      <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
-      </div>   
-      <br />
-      {/* <Link to={'/capitulos/prod'} >Todos</Link>
-      <Link to={'/capitulos/prod/category/furniture'} >Furniture</Link>
-      <Link to={'/capitulos/prod/category/decoracion'} >Objetos</Link>
-      <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link>
-      <br /><br /> */}
-      <Outlet/>
-      
-    </Col>
-    <Col md={1}></Col>
+      <Col md={1}></Col>
+      <Col md="auto">
+        <br />
+        <div className="d-flex gap-2 mb-2">
+          <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/furniture'>Furniture</Button>
+          <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/decoracion'>Objetos</Button>
+          <Button variant="outline-light" href='/gh-pages/#/capitulos/prod/category/mesas'>Mesas</Button>
+        </div>   
+        <br />
+        {/* <Link to={'/capitulos/prod'} >Todos</Link>
+        <Link to={'/capitulos/prod/category/furniture'} >Furniture</Link>
+        <Link to={'/capitulos/prod/category/decoracion'} >Objetos</Link>
+        <Link to={'/capitulos/prod/category/mesas'} >Mesas</Link>
+        <br /><br /> */}
+        <Outlet/>
+      </Col>
+      <Col md={1}></Col>
     </Row>
     <ItemList items={items} />
     </>

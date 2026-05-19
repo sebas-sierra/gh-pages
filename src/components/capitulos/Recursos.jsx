@@ -1,11 +1,13 @@
 import React from 'react';
-import { Card, Col,  Button, Row  } from 'react-bootstrap'
+import { Card, Col,  Button, Row  } from 'react-bootstrap';
+import NuevoCV from '../resume/NuevoCV.jsx'
 
 const Recursos = () => {
   return (
     <Row>
       <Col md="2"></Col>
       <Col md="8">
+        <NuevoCV/>
         <Card>
           <Card.Header>
             <h1>Recursos</h1>
@@ -30,7 +32,6 @@ const Recursos = () => {
                 <li>e-mail: - - - - - - -</li>
                 <li>tel: (011) 4552-1185</li>
               </ul>
-
             </Card.Text>
 
             <Card.Title>IMPRESUR</Card.Title>
@@ -48,8 +49,6 @@ const Recursos = () => {
       </Col>
       <Col md="2"></Col>
     </Row>
-
-    
   )
 }
 

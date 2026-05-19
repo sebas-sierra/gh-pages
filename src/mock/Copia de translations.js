@@ -7,23 +7,19 @@ export const translations = {
         navbar3: "Trabajos Destacados",
         navbar4: "Recursos",
         nombreReferencia: "texto",
-        dg1: "Diseño Gráfico",
-        dg2: "Branding + Diseño Digital + UI",
-        dg3: "HTML + CSS",
+        dg: "Diseño Gráfico",
         quote: "Hasta que lo hagas consciente, lo inconsciente dirigira tu vida y lo llamaras 'destino'.",
         bienvenido: "Hola bienvenido/a!" ,
         coveringLetter1: "Este sitio web, es mi carta de presentacion. Si bien es un proyecto en construcción, con muchas aristas para ser pulidas, te invito a que pases y conozcas algo de mi trabajo.",
         coveringLetter2: "El código de esta pagina fue escrito usando React, HTML, CSS y la librería Bootstrap.", 
         coveringLetter3: "Actualmente mi tiendita de objetos de madera se encuentra en modo standby...",
-
         headerTitle: "Inicio",
         download: "Descargar CV",
-        biop0: "Diseñador Gráfico | Perfil integral en diseño y desarrollo web",
-        biop1: "Inicié mi carrera profesional antes de finalizar mis estudios en Diseño Gráfico en la UBA, desempeñándome en la Biblioteca Nacional de Maestros (Ministerio de Educación de la Nación). Paralelamente, en 2006 me incorporé como ayudante de cátedra en Morfología II (Cátedra Pescio, FADU-UBA).",
-        biop2: "Mi experiencia inicial estuvo orientada al diseño de piezas gráficas impresas, enfocadas en el fortalecimiento de la identidad institucional y la comunicación de actividades y capacitaciones. Con el tiempo, amplié mis responsabilidades hacia el entorno digital, desarrollando banners estáticos y animados, y participando en proyectos web institucionales.",
-        biop3: "A partir de la incorporación de conocimientos en HTML y CSS, comencé a colaborar en el diseño visual y la interfaz de usuario de distintos productos digitales, incluyendo el sitio principal de la institución.",
-        biop4: "Actualmente me desempeño como diseñador freelance, con experiencia en herramientas del ecosistema Adobe (Illustrator, Photoshop, InDesign, After Effects, Animate), armado de originales para impresión y prototipado en Figma. También cuento con conocimientos en HTML, CSS y JavaScript, y me encuentro en formación en React, con el objetivo de especializarme en el desarrollo de aplicaciones SPA.",
-        biop5: "Me destaco por mi versatilidad, capacidad de adaptación y enfoque en el aprendizaje continuo. Valoro el trabajo en equipo, los entornos colaborativos y la construcción de relaciones profesionales basadas en la confianza. Cuento con nivel intermedio-avanzado de idioma inglés, con experiencia en lectura de documentación técnica y comunicación en entornos digitales",
+        biop0: "Diseñador Gráfico Independiente",
+        biop1: "Antes de finalizar mis estudios en la UBA (Universidad de Buenos Aires), comencé mi carrera profesional como diseñador gráfico en la Biblioteca Nacional de Maestros (BNM), institución perteneciente al Ministerio de Educación de la Nacion, ademas en el año 2006 empece a colaborar como ayudante de catedra en la materia Morfologia II de la catedra Pescio de la carrera de DG de la FADU.",
+        biop2: "Principalmente con un perfil orientado a la producción de piezas gráficas impresas para reforzar la identidad gráfica, material destinado a los usuarios y para las diferentes actividades de capacitación organizadas por la institución. Luego, con el tiempo, la confianza y la experiencia, mis tareas fueron mutando a la creación de banners estáticos y animados para el sitio web de esta institución y algunos de sus subproyectos. Posteriormente, con conocimientos adquiridos en HTML y CSS, comencé a participar en el desarrollo del aspecto gráfico de varios productos web y a colaborar en el desarrollo de la interfaz de usuario para el sitio web principal de la institución.",
+        biop3: "Después de un tiempo, ya establecido en mi actividad, decidí emprender mi camino como freelance. Tengo experiencia trabajando con varios software del paquete Adobe (Illustrator, Photoshop, Animate (antes conocido como Flash), Indesign, After Effects), armado de originales para impresión; también manejo los lenguajes de programación HTML, CSS y cuento con conocimientos de Javascript, además he desarrollado prototipos en Figma.",
+        biop4: "Soy una persona dispuesta a adquirir nuevos conocimientos y aprender cada día. Actualmente estoy aprendiendo a trabajar con la librería React, pensando en construir un perfil profesional orientado al desarrollo de SPA (Single-page applications). Me gusta trabajar en un buen ambiente laboral, con buenas relaciones y confianza. Tengo un perfil versatil y soy capaz de trabajar en varias tareas. Tengo un buen nivel de inglés, puedo escribir, hablarlo y comprender textos en este idioma.",
         contact: "Contacto",
 
         edp0: "Formación",
@@ -43,8 +39,7 @@ export const translations = {
         edp7: "Habilidades:",
         edp8: "Diseño Web: HTML5, CCS3, Sass, Bootstrap, GitHub. Experiencia desarrollando aplicaciones SPA en ReactJs",
         edp9: "Diseño UX/UI: Conocimientos de Usabilidad, Accesibilidad y Arquitectura de la Información. Diseño web adaptable.",
-        edp10: "Idiomas",
-        edp10a: "Nivel avanzado de inglés, con sólida comprensión lectora, capacidad de interpretación y habilidad para comunicarme eficazmente tanto de forma escrita como oral.",
+        edp10: "Idiomas: Buen dominio del idioma inglés, tanto hablado como escrito.",
         edp11: "Herramientas de diseño y diseño web: dominio de Adobe Creative Suite, que incluye Photoshop, Illustrator, After Effects, InDesign, Adobe XD, Figma.",
         
         edp12: "Otros:",
@@ -76,38 +71,10 @@ export const translations = {
 
         works: "Trabajos Destacados",
 
-        detaller0a: "Sistema de identidad de marca",
-        detaller0b: " es un emprendimiento propio iniciado en 2013, enfocado en el diseño y producción de objetos de madera, como vitrinas, lámparas y exhibidores para discos de vinilo. Los productos se desarrollan a partir de madera recuperada, incorporando en algunas piezas intervenciones gráficas mediante serigrafía.",
-        detaller0c: "Variantes de marca:",
-        detaller0d: "Paleta de colores:",
-        detaller0e: "Aplicación de marca:",
-        detaller0f: "Tiendita de-Taller",
-
-        bnm0a: "BIBLIOTECA NACIONAL DE MAESTROS",
-        bnm0b: "Pequeño muestrario de piezas producidas durante el período en que me desempeñe como diseñador gráfico para la Biblioteca Nacional de Maestros.",
-        bnm1a: "Triptico presentacion Repositorio Institucional",
-        bnm1b: "Esta pieza fue desarrollada para promover el uso del Repositorio Institucional del Ministerio de Educación, donde la comunidad educativa puede consultar y acceder a contenidos y producciones intelectuales del organismo.",
-        bnm2a: "Triptico informativo servicios BNM",
-        bnm2b: "El propósito de esta pieza fue dar a conocer la oferta de servicios de la biblioteca —en modalidad virtual y presencial— junto con la documentación requerida para su utilización.",
-        bnm3a: "Triptico areas de la biblioteca",
-        bnm3b: "Pieza de comunicación orientada a visibilizar las diferentes áreas que conforman la biblioteca, promover su recorrido e informar sobre los servicios que se brindan en cada una.",
-
-        prode0a: "PROTOTIPO INTERACTIVO DE APP",
-        prode0b: "Proyecto final para el curso de Javascript de CODERHOUSE. El objetivo principal del proyecto consistía en desarrollar un simulador de aplicación donde se ponga en funcionamiento la interacción entre lenguajes HTML, CSS y JavaScript con el fin de definir elementos destinados a la captura de datos haciendo uso de formularios, inputs y/o botones a través de la manipulación del DOM.",
-
-        ux0a: "INTERFAZ EDITORIAL Y SISTEMA TIPOGRAFICO",
-        ux0b: "Inicialmente, el objetivo del proyecto se centró en mejorar la legibilidad de los textos mostrados en la web. Esto implicó seleccionar una tipografía acorde con el tono de la publicación original, definir un sistema de cuadrícula para estructurar la jerarquía del contenido y el flujo de lectura, y establecer escalas tipográficas e interlineado que garantice una experiencia de lectura fluida y relajada. A medida que se avanzo en la resolución del aspecto editorial del sitio, se hizo necesario implementar cambios globales en el diseño de la interfaz. Estos cambios mejoraron la coherencia general entre la estructura del contenido, la jerarquía visual y la experiencia del usuario.",
-
-        label0a: "Etiquetas para envases de producto",
-        label0b: "En este caso, me tocó abordar el diseño de etiquetas para envases de producto. El logo fue proporcionado por el cliente y la premisa fue priorizar el reconocimiento a primera vista y la diferenciación de las tres variedades de producto (cloro granulado de disolución rápida, cloro granulado de disolución lenta y pastillas multiacción), a través de una etiqueta de diseño minimalista que transmita una identidad limpia, moderna y profesional.",
-
-        badge0: "branding",
-
-
         footertxt1: "PROYECTOS RECIENTES",
         footertxt2: "CONTACTO",
         footertxt3: "Este sitio fue construido usando las siguientes tecnologias:",
-        footertxt4: "Ultima actualización: 19 de Mayo 2026.",
+        footertxt4: "Ultima actualización: 14 Abril 2026.",
         footertxt5: "La dirección de mail se copio correctamente al portapapeles.",
     
     },
@@ -147,11 +114,11 @@ export const translations = {
         edp6a: "Web Development under HTML 5 and CSS3 standards",
         edp6b: "From the Ministry of Culture and University Extension, FRBA (Buenos Aires Regional Faculty), UTN (National Technological University).",
         
+        
         edp7: "Skills:",
         edp8: "Web Design: HTML5, CCS3, Sass, basic level of PHP, Bootstrap Framework, GitHub. Basic experience developing SPA applications in ReactJs.",
         edp9: "UX/UI Design: Knowledge of Usability, Accessibility and Information Architecture. Responsive web design.",
-        edp10: "Languages:",
-        edp10a: "Advanced English proficiency, with strong reading comprehension, interpretation skills, and the ability to communicate effectively in both written and spoken contexts.",
+        edp10: "Language: Good English language skills, both spoken and written.",
         edp11: "Design and Web Design tools: Proficiency in Adobe Creative Suite this includes Photoshop, Illustrator, After Effects, InDesign, Adobe XD, Figma.",
         edp12: "Others:",
         edp13: "Proficiency creating originals for offset printing, screen printing, flexography and digital printing, files for CNC cutting, cutting plotter and laser cutting.",
@@ -182,35 +149,10 @@ export const translations = {
 
         works: "Featured Works",
 
-        detaller0a: "Brand identity system",
-        detaller0b: " is a self-initiated venture launched in 2013, focused on the design and production of wooden objects such as display cabinets, lamps, and vinyl record displays. The products are made using reclaimed wood, with some pieces incorporating graphic interventions through screen printing.",
-        detaller0c: "Brand variations:",
-        detaller0d: "Color palette:",
-        detaller0e: "Brand aplication:",
-        detaller0f: "de-Taller Store",
-
-        bnm0a: "NATIONAL TEACHER'S LIBRARY",
-        bnm0b: "Small selection of pieces produced during my work period as a graphic designer at the National Teacher's Library.",
-        bnm1a: "",
-        bnm1b: "This piece was developed to facilitate access to the Ministry of Education’s Institutional Repository, enabling the educational community to consult and utilize the organization’s content and intellectual outputs.",
-        bnm2a: "",
-        bnm2b: "The objective of this piece was to communicate the library’s service offerings—both virtual and on-site—along with the required documentation for access and utilization.",
-        bnm3a: "",
-        bnm3b: "This communication piece was designed to showcase the library’s functional areas, guide users through their exploration, and provide detailed information on the services available in each sector.",
-
-        prode0a: "INTERACTIVE APP PROTOTYPE",
-        prode0b: "Final project for the JavaScript course at Coderhouse. The main objective was to develop an application simulator demonstrating the integration of HTML, CSS, and JavaScript, focusing on building elements for data capture through forms, inputs, and buttons via DOM manipulation.",
-
-        ux0a: "Editorial Interface & Typography System",
-        ux0b: "Initially, the project focused on improving the readability of web-based text content. This involved selecting typography aligned with the tone of the original publication, defining a grid system to structure content hierarchy and reading flow, and establishing type scales and line spacing to ensure an accessible and comfortable reading experience. As the editorial layer evolved, it became necessary to implement global changes to the interface design. Changes that improved overall consistency between content structure, visual hierarchy, and user experience.",
-
-        label0a: "Product Label Design",
-        label0b: "In this project, I was responsible for designing product packaging labels. The logo was provided by the client, and the main objective was to prioritize immediate visual recognition and clearly differentiate between the three product variants (fast-dissolving granular chlorine, slow-dissolving granular chlorine, and multi-action tablets) through a minimalist label design that conveys a clean, modern, and professional identity.",
-
         footertxt1: "RECENT PROYECTS",
         footertxt2: "CONTACT",
         footertxt3: "This site was built using the following technologies:",
-        footertxt4: "Last update: May 19, 2026",
+        footertxt4: "Last update: Apr. 14, 2026",
         footertxt5: "The email address was successfully copied to the clipboard.",
     },
 };

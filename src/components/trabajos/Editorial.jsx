@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Badge, Button, Card, Col, Row, Stack, Image, Container} from 'react-bootstrap'
 import Botonera from './Botonera';
 import vaporcito from '../../assets/img/editorial/vaporcito.jpg'
 import logo from '../../assets/img/editorial/logo-mansilla.png'
 import mansilla from '../../assets/img/portfolio/editorial/mansilla-mockup.png'
+import { ThemeContext } from '../../context/ThemeContext';
 const Editorial = () => {
+  const {texts} = useContext(ThemeContext)
   return (
     <>
       <Row>
@@ -12,11 +14,20 @@ const Editorial = () => {
         <Col md="8">
           <div className='presentacion-header'>
             <h1 className='portfolio-titulo'>Los Chacos de Mansilla</h1>
-            <Stack direction='horizontal' gap={1} className='pb-2'><Badge pill bg="secondary"> ux / ui </Badge><Badge pill bg="secondary"> coding</Badge><Badge pill bg="secondary">github</Badge></Stack>
-            <Stack direction='horizontal' gap={1}><Badge pill bg="dark">javascript</Badge><Badge pill bg="dark">html</Badge><Badge pill bg="dark">css</Badge><Badge pill bg="dark">bootstrap</Badge></Stack>
+            <Stack direction='horizontal' gap={1} className='pb-2'>
+              <Badge pill bg="secondary"> frontend </Badge>
+              <Badge pill bg="secondary"> ux / ui </Badge>
+              <Badge pill bg="secondary"> coding</Badge>
+              <Badge pill bg="secondary">github</Badge>
+            </Stack>
+            <Stack direction='horizontal' gap={1}>
+              <Badge pill bg="dark">javascript</Badge>
+              <Badge pill bg="dark">html</Badge>
+              <Badge pill bg="dark">css</Badge>
+            </Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>En un principio el desafio de este proyecto se centraba en dar formato a los textos mostrados en la web, eso incluia un seleccion tipografica que trasmita el espiritu de la publicacion original de los textos, definir una grilla para manipular el ritmo de lectura, establecer un tamaño de cuerpo para los textos y titulos, y un interlineado que permita un ritmo de lectura fluido y relajado. A medida que se avanzo en la resolución del aspecto editorial del sitio se volvio necesario hacer cambio globales en el diseño de la intefaz.</p>
+            <p className='portfolio-bajada'>{texts.ux0b}</p>
             <Button variant="outline-primary" href='https://loschacosdemansilla.iech-conicet.gob.ar/landing.html'>link al proyecto</Button>
           </div>
         </Col>

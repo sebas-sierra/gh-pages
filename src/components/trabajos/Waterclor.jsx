@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Button, Modal, Carousel, Row, Col, Badge, Stack, Card, Image } from 'react-bootstrap';
 
 import labelA from '../../assets/img/portfolio/waterclor/waterclor-mockup-1.png';
 import labelB from '../../assets/img/portfolio/waterclor/waterclor-mockup-2.png';
 import labelC from '../../assets/img/portfolio/waterclor/waterclor-mockup-3.png';
 import labelD from '../../assets/img/portfolio/waterclor/waterclor-mockup-5.png';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Waterclor = () => {
+  const {texts} = useContext (ThemeContext)
   const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -17,12 +19,21 @@ const Waterclor = () => {
         <Col md="2"></Col>
         <Col md="8">
           <div className='presentacion-header'>
-            <h1 className='portfolio-titulo'>Etiquetas para envases<br /> de producto</h1>
-            <Stack direction='horizontal' gap={1} className='pb-2'><Badge pill bg="secondary"> etiquetado </Badge><Badge pill bg="secondary"> producto </Badge><Badge pill bg="secondary">sistema grafico</Badge></Stack>
-            <Stack direction='horizontal' gap={1}><Badge pill bg="dark">illustrator</Badge><Badge pill bg="dark">photoshop</Badge><Badge pill bg="dark">indesign</Badge></Stack>
+            <h1 className='portfolio-titulo'>{texts.label0a}</h1>
+            <Stack direction='horizontal' gap={1} className='pb-2'>
+              <Badge pill bg="secondary">etiquetas</Badge>
+              <Badge pill bg="secondary">producto</Badge>
+              <Badge pill bg="secondary">sistema grafico</Badge>
+            </Stack>
+            <Stack direction='horizontal' gap={1}>
+              <Badge pill bg="dark">illustrator</Badge>
+              <Badge pill bg="dark">photoshop</Badge>
+              <Badge pill bg="dark">indesign</Badge>
+            </Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>En este caso toco abordar el diseño de etiquetas para envase de producto. El logo fue porporcionado por el cliente y la premisa fue priorizar el reconocimiento a primera vista y la diferenciación de las tres variedades de producto (cloro granulado disolución rapida, cloro granulado disolucíon lenta, pastillas multiacción) a traves de una etiqueta de diseño minimalista que transmita una identidad limpia, moderna y profesional.</p>
+            <p className='portfolio-bajada'>{texts.label0b}</p>
+            
           </div>
 
           <Card class='pb-3' className='mb-4'>

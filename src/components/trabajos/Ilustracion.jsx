@@ -10,6 +10,7 @@ import cartuchosD from '../../assets/img/portfolio/ilustracion/cartuchos-0.png';
 import surocultoA from '../../assets/img/portfolio/ilustracion/sur-oculto.png';
 import surocultoB from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup-1.png';
 import surocultoC from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup-2.png';
+import surocultoD from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup-3.png';
 
 import skate from '../../assets/img/portfolio/ilustracion/montania-skate.png';
 
@@ -50,7 +51,7 @@ const Ilustracion = () => {
               <Badge pill bg="dark"> ilustracion digital </Badge>
               <Badge pill bg="dark"> photoshop </Badge>
             </Stack><br />
-            <p>Esta ilustracion surgio como idea de poster para la banda cordobeza SUR OCULTO. Su sonido que, en mi opinion rescata cositas de diversos generos como el hardcore, el jazz y funk invitan a la exploracion sensorial y la introspeccion. Un tesoro oculto entre tanta oferta musical.</p>
+            <p>Esta ilustracion surgio como idea de poster para la banda cordobeza SUR OCULTO. Su sonido que, en mi opinion rescata cositas de diversos generos como el hardcore, el jazz y el funk e invitan a la exploración sensorial y la introspección. Un tesoro oculto entre tanta oferta musical.</p>
           </div>
         </Col>
         <Col md="1"></Col>
@@ -87,7 +88,7 @@ const Ilustracion = () => {
               <Badge pill bg="dark"> boceto a lapiz </Badge>
               <Badge pill bg="dark"> acrilico en tabla de skate </Badge>
             </Stack><br />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic? Enim, corporis ut quibusdam eum, accusantium aliquid quidem temporibus corrupti, perferendis id dolore hic autem itaque? Praesentium ratione veritatis dolor.</p>
+            <p>Los paisajes del sur argentino, un vieja tabla de skate reciclada, el dibujo como medio de expresion. Elementos/ herramientas que definen identidad y formas de ver el mundo. </p>
           </div>
         </Col>
         <Col md="1"></Col>
@@ -96,13 +97,19 @@ const Ilustracion = () => {
       <Modal size="lg" show={show} onHide={handleClose}>
         <Modal.Body >
           <Carousel>
-            <Carousel.Item>
-              <Image src={surocultoB} className="d-block w-100" />
-            </Carousel.Item>
 
             <Carousel.Item>
               <Image src={surocultoC} className="d-block w-100" />
             </Carousel.Item>
+
+            <Carousel.Item>
+              <Image src={surocultoB} className="d-block w-100" />
+            </Carousel.Item>
+            
+            <Carousel.Item>
+              <Image src={surocultoD} className="d-block w-100" />
+            </Carousel.Item>
+            
           </Carousel>
         </Modal.Body>
       </Modal>
@@ -110,39 +117,21 @@ const Ilustracion = () => {
       <Modal size="lg" show={showut} onHide={handleCloseut}>
         <Modal.Body >
           <Carousel>
-
             <Carousel.Item>
               <Image src={cartuchosA} className="d-block w-100" />
-              <Carousel.Caption>
-                <h3>dvfvsz</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <Image src={cartuchosB} className="d-block w-100" />
-              <Carousel.Caption>
-                <h3>dfvdfv</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <Image src={cartuchosC} className="d-block w-100" />
-              <Carousel.Caption>
-                <h3>vfvfd</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <Image src={cartuchosD} className="d-block w-100" />
-              <Carousel.Caption>
-                <h3>bkglbg</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
-
           </Carousel>
         </Modal.Body>
       </Modal>

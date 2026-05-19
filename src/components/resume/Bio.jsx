@@ -8,27 +8,22 @@ import cv from '../../assets/files/ohdfi02463f.pdf';
 import cvEng from '../../assets/files/jahjsxa5466ds.pdf';
 
 const Bio = () => {
-    const {texts, download} = useContext (ThemeContext)
-    
+    const { texts, download } = useContext (ThemeContext)
     const [ mostrar, setMostrar ] = useState (false)
 
     useEffect(()=>{
-    if ( download === 'file-esp'){
-        setMostrar(true)
-    } else {
-        setMostrar(false)
-    }
+        if ( download === 'file-esp'){
+            setMostrar(true)
+        } else {
+            setMostrar(false)
+        }
     }, [download])
-
     
-
-
     return (
         <>
             <Col md={5} >
                 <Card className='card-noborder'>
                     <Card.Img src={perfil}></Card.Img>
-                    
                     <div style={{position:'relative', border:'0px'}}>
                         <Card.Img src={tag}></Card.Img>
                         { mostrar ? 
@@ -41,14 +36,12 @@ const Bio = () => {
                             {texts.download}
                         </Button>
                         }
-                        
                     </div>
                 </Card>
             </Col>
             <Col md={7} >
                 <ListGroup>
                     <ListGroupItem className='listgroupitem-padding'>
-                        {/* <h4>Biografia</h4> */}
                         <Card className='card-noborder'>
                             <Card.Body  className='listgroupcard-padding'>
                                 <Card.Title>{texts.biop0}</Card.Title>
@@ -57,6 +50,7 @@ const Bio = () => {
                                     {texts.biop2}<br/><br/>
                                     {texts.biop3}<br/><br/>
                                     {texts.biop4}<br/><br/>
+                                    {texts.biop5}<br/><br/>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -72,10 +72,10 @@ const Resume = () => {
                 <Col md={4}>
                   <div className='cv-header'>
                     <ListGroup>
-                      <ListGroup.Item className='list-group-cv-separador'><FontAwesomeIcon icon="fa-solid fa-fire" className='fa-8x' /></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg}</h6></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg}</h6></ListGroup.Item>
-                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg}</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><FontAwesomeIcon icon="fa-solid fa-fire" className='fa-8x fire-movement' /></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg1}</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg2}</h6></ListGroup.Item>
+                      <ListGroup.Item className='list-group-cv-separador'><h6>#{texts.dg3}</h6></ListGroup.Item>
                       <ListGroup.Item className='list-group-cv-separador'><h6>#"{texts.quote}" - C. Jung</h6></ListGroup.Item>
                     </ListGroup>
                   </div>
@@ -94,7 +94,7 @@ const Resume = () => {
               <div className='round-div me-2'>
                 <FontAwesomeIcon className="fa-icono " icon="fa-solid fa-user" />
               </div>
-              <h4 className='cv-header-h4'>Mini bio</h4>
+              <h4 className='cv-header-h4'>Perfil Profesional</h4>
             </ListGroup.Item>
 
             <ListGroup.Item>
@@ -160,8 +160,6 @@ const Resume = () => {
                           <hr />
                           <li>{texts.edp8}</li>
                           <li>{texts.edp9}</li>
-                          <hr />
-                          <li>{texts.edp10}</li>
                         </ul>
                       </Card.Text>
                     </Card.Body>
@@ -178,6 +176,17 @@ const Resume = () => {
                           <li>{texts.edp13}</li>
                           <li>{texts.edp14}</li>
                           <li>{texts.edp15}</li>
+                        </ul>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+
+                  <Card className='m-b4'>
+                    <Card.Body>
+                      <Card.Title><h6>{texts.edp10}</h6></Card.Title>
+                      <Card.Text>
+                        <ul>
+                          <li>{texts.edp10a}</li>
                         </ul>
                       </Card.Text>
                     </Card.Body>
