@@ -82,6 +82,9 @@ export const translations = {
         detaller0d: "Paleta de colores:",
         detaller0e: "Aplicación de marca:",
         detaller0f: "Tiendita de-Taller",
+        
+        prode0a: "PROTOTIPO INTERACTIVO DE APP",
+        prode0b: "Proyecto final para el curso de Javascript de CODERHOUSE. El objetivo principal del proyecto consistía en desarrollar un simulador de aplicación donde se ponga en funcionamiento la interacción entre lenguajes HTML, CSS y JavaScript con el fin de definir elementos destinados a la captura de datos haciendo uso de formularios, inputs y/o botones a través de la manipulación del DOM.",
 
         bnm0a: "BIBLIOTECA NACIONAL DE MAESTROS",
         bnm0b: "Pequeño muestrario de piezas producidas durante el período en que me desempeñe como diseñador gráfico para la Biblioteca Nacional de Maestros.",
@@ -92,8 +95,8 @@ export const translations = {
         bnm3a: "Triptico areas de la biblioteca",
         bnm3b: "Pieza de comunicación orientada a visibilizar las diferentes áreas que conforman la biblioteca, promover su recorrido e informar sobre los servicios que se brindan en cada una.",
 
-        prode0a: "PROTOTIPO INTERACTIVO DE APP",
-        prode0b: "Proyecto final para el curso de Javascript de CODERHOUSE. El objetivo principal del proyecto consistía en desarrollar un simulador de aplicación donde se ponga en funcionamiento la interacción entre lenguajes HTML, CSS y JavaScript con el fin de definir elementos destinados a la captura de datos haciendo uso de formularios, inputs y/o botones a través de la manipulación del DOM.",
+        ilustracion0a: "ILUSTRACION",
+        ilustracion1a: "En esta sección reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comisión son reflejo del ideas disparadas por consumos culturales que captaron mi atención.",
 
         ux0a: "INTERFAZ EDITORIAL Y SISTEMA TIPOGRAFICO",
         ux0b: "Inicialmente, el objetivo del proyecto se centró en mejorar la legibilidad de los textos mostrados en la web. Esto implicó seleccionar una tipografía acorde con el tono de la publicación original, definir un sistema de cuadrícula para estructurar la jerarquía del contenido y el flujo de lectura, y establecer escalas tipográficas e interlineado que garantice una experiencia de lectura fluida y relajada. A medida que se avanzo en la resolución del aspecto editorial del sitio, se hizo necesario implementar cambios globales en el diseño de la interfaz. Estos cambios mejoraron la coherencia general entre la estructura del contenido, la jerarquía visual y la experiencia del usuario.",
@@ -107,7 +110,7 @@ export const translations = {
         footertxt1: "PROYECTOS RECIENTES",
         footertxt2: "CONTACTO",
         footertxt3: "Este sitio fue construido usando las siguientes tecnologias:",
-        footertxt4: "Ultima actualización: 19 de Mayo 2026.",
+        footertxt4: "Ultima actualización: 26 de Mayo 2026.",
         footertxt5: "La dirección de mail se copio correctamente al portapapeles.",
     
     },
@@ -191,15 +194,18 @@ export const translations = {
 
         bnm0a: "NATIONAL TEACHER'S LIBRARY",
         bnm0b: "Small selection of pieces produced during my work period as a graphic designer at the National Teacher's Library.",
-        bnm1a: "",
+        bnm1a: "Tri-fold brochure presentation for 'Repositorio Institucional'",
         bnm1b: "This piece was developed to facilitate access to the Ministry of Education’s Institutional Repository, enabling the educational community to consult and utilize the organization’s content and intellectual outputs.",
-        bnm2a: "",
+        bnm2a: "Tri-fold brochure 'BNM services'",
         bnm2b: "The objective of this piece was to communicate the library’s service offerings—both virtual and on-site—along with the required documentation for access and utilization.",
-        bnm3a: "",
+        bnm3a: "Tri-fold brochure presenting the differents library's sections",
         bnm3b: "This communication piece was designed to showcase the library’s functional areas, guide users through their exploration, and provide detailed information on the services available in each sector.",
 
         prode0a: "INTERACTIVE APP PROTOTYPE",
         prode0b: "Final project for the JavaScript course at Coderhouse. The main objective was to develop an application simulator demonstrating the integration of HTML, CSS, and JavaScript, focusing on building elements for data capture through forms, inputs, and buttons via DOM manipulation.",
+
+        ilustracion0a: "ILLUSTRATION",
+        ilustracion1a: "In this section, I gathered a series of drawings/illustrations about things I consider myself a fan of. Although these are not commissioned works, they reflect ideas sparked by cultural influences that captured my attention.",
 
         ux0a: "Editorial Interface & Typography System",
         ux0b: "Initially, the project focused on improving the readability of web-based text content. This involved selecting typography aligned with the tone of the original publication, defining a grid system to structure content hierarchy and reading flow, and establishing type scales and line spacing to ensure an accessible and comfortable reading experience. As the editorial layer evolved, it became necessary to implement global changes to the interface design. Changes that improved overall consistency between content structure, visual hierarchy, and user experience.",
@@ -210,7 +216,7 @@ export const translations = {
         footertxt1: "RECENT PROYECTS",
         footertxt2: "CONTACT",
         footertxt3: "This site was built using the following technologies:",
-        footertxt4: "Last update: May 19, 2026",
+        footertxt4: "Last update: May 26, 2026",
         footertxt5: "The email address was successfully copied to the clipboard.",
     },
 };

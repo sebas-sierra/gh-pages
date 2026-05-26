@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import cartuchos from '../../assets/img/portfolio/ilustracion/cartuchos-4.png';
 import { Badge, Carousel, Col, Image, Modal, Row, Stack } from 'react-bootstrap';
 
@@ -13,10 +13,12 @@ import surocultoC from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup
 import surocultoD from '../../assets/img/portfolio/ilustracion/sur-oculto-mockup-3.png';
 
 import skate from '../../assets/img/portfolio/ilustracion/montania-skate.png';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Ilustracion = () => {
-  const [show, setShow] = useState(false);
-  const [showut, setShowut] = useState(false);
+  const { texts } = useContext(ThemeContext)
+  const [ show, setShow ] = useState(false);
+  const [ showut, setShowut ] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleCloseut = () => setShowut(false);
@@ -29,11 +31,11 @@ const Ilustracion = () => {
         <Col md="2"></Col>
         <Col md="8">
           <div className='presentacion-header'>
-            <h1 className='portfolio-titulo'>Ilustración</h1>
+            <h1 className='portfolio-titulo'>{texts.ilustracion0a}</h1>
             <Stack direction='horizontal' gap={1}><Badge pill bg="secondary"> ilustracion digital </Badge><Badge pill bg="secondary"> photoshop </Badge><Badge pill bg="secondary"> boceto a lapiz </Badge></Stack>
           </div>
           <div className='presentacion-body'>
-            <p className='portfolio-bajada'>En esta seccion reuni una serie de dibujos/ ilustraciones sobre cosas de las que me declaro fan. Si bien no son trabajos realizados por comision son reflejo del ideas disparadas por consumos culturales que captaron mi atencion.</p>
+            <p className='portfolio-bajada'>{texts.ilustracion1a}</p>
           </div>
         </Col>
         <Col md="2"></Col>

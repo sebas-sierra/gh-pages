@@ -24,6 +24,14 @@ body {
   pointer-events: none;
 }
 
+/* .showDesktop {
+  display: block;
+} */
+
+.showSmartphone {
+  display: none;
+}
+
 .list-group-cv-grilla {
   padding: 0rem;
   padding-top: 1rem;
@@ -800,5 +808,21 @@ img.rounded-start.card-img.img-fluid {
   }
   .listgroupitem-padding, .listgroupcard-padding {
     padding: 0px ;
+  }
+  .showDesktop {
+    display: none;
+  }
+  .showSmartphone {
+    display: block;
+  }
+  .switchSmartphone {
+    display: inline-flex;
+    flex-direction: inherit;
+  }
+  .portfolio-titulo {
+    max-width: 80%;
+  }
+  .store-slide .carousel-inner {
+    height: 230px!important;
   }
 }

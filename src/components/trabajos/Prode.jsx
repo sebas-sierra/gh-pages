@@ -32,7 +32,7 @@ const Prode = () => {
           </div>
           {/* <img src={prode1} width="100%" overflow="hidden"/> */}
 
-          <Card class='pb-3' className='mb-4'>
+          <Card class='pb-3' className='mb-4'  style={{ border: 'none'}}>
             <Card.Img src={prode1} />
             <Card.ImgOverlay width='240px' style={{ marginLeft: '400px', marginTop: "280px" }}>
               <Card.Text>
