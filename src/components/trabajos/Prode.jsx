@@ -34,7 +34,7 @@ const Prode = () => {
 
           <Card class='pb-3' className='mb-4'  style={{ border: 'none'}}>
             <Card.Img src={prode1} />
-            <Card.ImgOverlay width='240px' style={{ marginLeft: '400px', marginTop: "280px" }}>
+            <Card.ImgOverlay className='tarjetaProde'>
               <Card.Text>
                 <img src={prode0} width="60%" overflow="hidden" className='mb-4 mt-4'/>
                 <p className='portfolio-bajada'>App de pronósticos y competencia lúdica basada en resultados de partidos de fútbol, que combina entretenimiento, análisis deportivo y juego.</p>

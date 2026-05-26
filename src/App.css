@@ -791,6 +791,11 @@ img.rounded-start.card-img.img-fluid {
     padding-right: calc(var(--bs-gutter-x) * .2);
     padding-left: calc(var(--bs-gutter-x) * .2);
   }
+
+.tarjetaProde {
+  margin-left: 400px; 
+  margin-top: 280px; 
+}
   
 @media (max-width: 767.98px) { 
   .list-group-cv .cv-header {
@@ -820,9 +825,20 @@ img.rounded-start.card-img.img-fluid {
     flex-direction: inherit;
   }
   .portfolio-titulo {
-    max-width: 80%;
+    max-width: 90%;
   }
   .store-slide .carousel-inner {
     height: 230px!important;
+  }
+  td {
+    display: block;
+  }
+  .tarjetaProde {
+    position: relative;
+    margin-left: 0; 
+    margin-top: 0; 
+  }
+  .light.container-fluid {
+    padding-bottom: 10rem!important;
   }
 }
