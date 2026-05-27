@@ -110,7 +110,7 @@ export const translations = {
         footertxt1: "PROYECTOS RECIENTES",
         footertxt2: "CONTACTO",
         footertxt3: "Este sitio fue construido usando las siguientes tecnologias:",
-        footertxt4: "Ultima actualización: 26 de Mayo 2026.",
+        footertxt4: "Ultima actualización: 27 de Mayo 2026.",
         footertxt5: "La dirección de mail se copio correctamente al portapapeles.",
     
     },
@@ -216,7 +216,7 @@ export const translations = {
         footertxt1: "RECENT PROYECTS",
         footertxt2: "CONTACT",
         footertxt3: "This site was built using the following technologies:",
-        footertxt4: "Last update: May 26, 2026",
+        footertxt4: "Last update: May 27, 2026",
         footertxt5: "The email address was successfully copied to the clipboard.",
     },
 };
