@@ -132,7 +132,7 @@ body {
 .light.container-fluid {
   padding-top: 10rem!important;
   padding-bottom: 20rem!important;
-  background-color: #fff;
+  background-color: #fff!important;
   color: #000;
 }
 
@@ -146,7 +146,7 @@ body {
 .dark.container-fluid {
   padding-top: 10rem!important;
   padding-bottom: 20rem!important;
-  background-color: #242424;
+  background-color: #242424!important;
   color: #fff;
 }
 
