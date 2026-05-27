@@ -225,6 +225,8 @@ body {
 }
 
 .dark .table {
+  --bs-table-color: #fff!important;
+  --bs-table-bg: #242424!important;
   background-color: #242424!important;
 }
 
