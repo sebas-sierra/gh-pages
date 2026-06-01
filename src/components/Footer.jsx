@@ -30,11 +30,11 @@ const Footer = () => {
           <Col>
       <div className='footer-logo'><a href="">logo 1</a></div></Col></Row> */}
       <Row >
-        <Col md={6}>
-          <a href='/gh-pages/#/capitulos/prod'><img src={detallerFooter} alt="de-taller" style={{width:"80%"}}/></a>
+        <Col md={6} className="footer-col">
+          <a href='/gh-pages/#/capitulos/prod'><img src={detallerFooter} alt="de-taller" style={{width:"65%"}}/></a>
         </Col>
 
-        <Col md={3}>
+        <Col md={3} className="footer-col">
           <ul>
             <li><h6 className="footer-header">{texts.footertxt1}</h6></li>
             <li className="footer-link"><a href='/gh-pages/#/trabajos/editorial'>Frontend</a></li>
@@ -43,7 +43,7 @@ const Footer = () => {
           </ul>
         </Col>
 
-        <Col md={3}>
+        <Col md={3} className="footer-col">
           <ul>
             <li><h6 className="footer-header">{texts.footertxt2}</h6> </li>
             <li className="footer-link"><a href='http://www.linkedin.com/in/sebastian-sierra-48796923'>LinkedIn</a></li>

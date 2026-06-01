@@ -843,4 +843,10 @@ img.rounded-start.card-img.img-fluid {
   .light.container-fluid {
     padding-bottom: 10rem!important;
   }
+  .footer-col {
+    padding-bottom: 30px;
+  }
+  .light.container-fluid {
+    padding-top: 5rem!important;
+  }
 }

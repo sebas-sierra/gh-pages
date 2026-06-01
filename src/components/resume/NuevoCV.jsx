@@ -568,6 +568,23 @@ Porque:
 
 <p>📩 Abierto a oportunidades laborales y proyectos freelance (remoto o presencial)</p>
 
+<p>→  Te invito a que conozcas algo de mi trabajo
+
+➡️</p>
+
+<hr />
+<p>I am a graphic designer specialized in branding, digital design, and web interface development, combining visual communication with front-end knowledge (HTML, CSS, and basic JavaScript).</p>
+
+<p>I started my career at the National Teachers Library (Ministry of Education of Argentina), where I developed institutional communication pieces, visual identity systems, and graphic materials for different media. Over time, I expanded my profile toward the digital environment, participating in website and microsite design, as well as collaborating in user interface development.</p>
+
+<p>Currently, I work as a freelance designer, creating visual solutions for social media, branding, and digital products. I have experience in editorial design, motion graphics, and graphic production.</p>
+
+<p>I work with tools such as Adobe Creative Cloud, Figma, and WordPress, and I also have knowledge of front-end development and responsive design.</p>
+
+<p>📩 Open to job opportunities and freelance projects (remote or on-site)
+
+→ Feel free to check out some of my work ➡️</p>
+
 <h6>💼 3. EXPERIENCIA (formato clave)</h6>
 Diseñador Gráfico
 

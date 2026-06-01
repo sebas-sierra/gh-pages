@@ -39,7 +39,7 @@ const NavBar = () => {
         {/* comentada la navbrand <Navbar.Brand href='/gh-pages/#/'>{texts.headerTitle}</Navbar.Brand> */}
         <div>
           <Navbar.Toggle aria-controls='navbarScroll' >
-            <FontAwesomeIcon icon="fa-solid fa-fire" className='fa-2x' />
+            {/* <FontAwesomeIcon icon="fa-solid fa-fire" className='fa-2x' /> */}
           </ Navbar.Toggle>
           <Nav className='showSmartphone switchSmartphone'>
             { mostrar ?
@@ -104,7 +104,7 @@ const NavBar = () => {
               <NavDropdown.Divider />
             </NavDropdown>
             
-            {/* <Nav.Link href='/gh-pages/#/capitulos/recursos'>{texts.navbar4}</Nav.Link> */}
+            <Nav.Link href='/gh-pages/#/capitulos/recursos'>{texts.navbar4}</Nav.Link>
           </Nav>
 
           <Nav className='showDesktop'>
