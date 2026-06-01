@@ -104,7 +104,7 @@ const NavBar = () => {
               <NavDropdown.Divider />
             </NavDropdown>
             
-            <Nav.Link href='/gh-pages/#/capitulos/recursos'>{texts.navbar4}</Nav.Link>
+            {/* <Nav.Link href='/gh-pages/#/capitulos/recursos'>{texts.navbar4}</Nav.Link> */}
           </Nav>
 
           <Nav className='showDesktop'>
