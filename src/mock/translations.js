@@ -84,7 +84,8 @@ export const translations = {
         detaller0f: "Tiendita de-Taller",
         
         prode0a: "PROTOTIPO INTERACTIVO DE APP",
-        prode0b: "Proyecto final para el curso de Javascript de CODERHOUSE. El objetivo principal del proyecto consistía en desarrollar un simulador de aplicación donde se ponga en funcionamiento la interacción entre lenguajes HTML, CSS y JavaScript con el fin de definir elementos destinados a la captura de datos haciendo uso de formularios, inputs y/o botones a través de la manipulación del DOM.",
+        prode0b: "Proyecto final para el curso de Javascript de CODERHOUSE.", 
+        prode0c: "El objetivo principal del proyecto consistía en desarrollar un simulador de aplicación donde se ponga en funcionamiento la interacción entre lenguajes HTML, CSS y JavaScript con el fin de definir elementos como formulario, inputs y botones que permitan la interacción de los usuarios con el contenido de la aplicación.",
 
         bnm0a: "BIBLIOTECA NACIONAL DE MAESTROS",
         bnm0b: "Pequeño muestrario de piezas producidas durante el período en que me desempeñe como diseñador gráfico para la Biblioteca Nacional de Maestros.",
@@ -202,7 +203,8 @@ export const translations = {
         bnm3b: "This communication piece was designed to showcase the library’s functional areas, guide users through their exploration, and provide detailed information on the services available in each sector.",
 
         prode0a: "INTERACTIVE APP PROTOTYPE",
-        prode0b: "Final project for the JavaScript course at Coderhouse. The main objective was to develop an application simulator demonstrating the integration of HTML, CSS, and JavaScript, focusing on building elements for data capture through forms, inputs, and buttons via DOM manipulation.",
+        prode0b: "Final project for the JavaScript course at Coderhouse.", 
+        prode0c: "The main objective was to develop an application simulator demonstrating the integration of HTML, CSS, and JavaScript, focusing on building elements for data capture through forms, inputs, and buttons via DOM manipulation.",
 
         ilustracion0a: "ILLUSTRATION",
         ilustracion1a: "In this section, I gathered a series of drawings/illustrations about things I consider myself a fan of. Although these are not commissioned works, they reflect ideas sparked by cultural influences that captured my attention.",

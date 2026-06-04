@@ -28,6 +28,7 @@ const Prode = () => {
           </div>
           <div className='presentacion-body'>
             <p className='portfolio-bajada'>{texts.prode0b}</p>
+            <p className='portfolio-bajada'>{texts.prode0c}</p>
             {/* <Button variant="outline-primary" href='https://sebas-sierra.github.io/entrega-final/'>link al proyecto</Button> */}
           </div>
           {/* <img src={prode1} width="100%" overflow="hidden"/> */}

@@ -46,7 +46,7 @@ const Ilustracion = () => {
           <img src={surocultoA} onClick={handleShow} width="100%" overflow="hidden" alt=" " />
         </Col>
         <Col md="4">
-          <div style={{ paddingTop: "200px" }}>
+          <div>
             <h2 className='portfolio-titulo' >Sur Oculto</h2>
             <hr />
             <Stack direction="horizontal" gap={2}>
@@ -59,23 +59,23 @@ const Ilustracion = () => {
         <Col md="1"></Col>
       </Row>
       
-      <Row>
-        <Col md="1"></Col>
+      <Row className='reversa'>
+        <Col md="7">
+          <img src={cartuchos} onClick={handleShowut} alt='' style={{ width: "100%" }} />
+        </Col>
         <Col md="4">
-          <div style={{ paddingTop: "200px" }}>
-            <h2 className='portfolio-titulo text-end'>Ultimos Cartuchos</h2>
+          <div>
+            <h2 className='portfolio-titulo'>Ultimos Cartuchos</h2>
             <hr />
-            <Stack direction="horizontal" gap={2} className="hstack-reverse">
+            <Stack direction="horizontal" gap={2}>
               <Badge pill bg="dark"> boceto a lapiz </Badge>
               <Badge pill bg="dark"> ilustracion digital </Badge>
               <Badge pill bg="dark"> photoshop </Badge>
             </Stack><br />
-            <p className='text-end'>Reir, equivocarse y aprender. Una de Libi y una de Culi. La Radio fue una gran compañia a lo largo de mi vida y descubrir UC me demostro siempre hay lugar para la innovación lúdica, tomandose las cosas de forma profesional sin resignar imaginación ni creatividad.</p>
+            <p>Reir, equivocarse y aprender. Una de Libi y una de Culi. La Radio fue una gran compañia a lo largo de mi vida y descubrir UC me demostro siempre hay lugar para la innovación lúdica, tomandose las cosas de forma profesional sin resignar imaginación ni creatividad.</p>
           </div>
         </Col>
-        <Col md="7">
-          <img src={cartuchos} onClick={handleShowut} alt='' style={{ width: "100%" }} />
-        </Col>
+        <Col md="1"></Col>
       </Row>
 
       <Row>
@@ -83,7 +83,7 @@ const Ilustracion = () => {
           <img src={skate} alt='' style={{ width: "100%" }} />
         </Col>
         <Col md="4">
-          <div style={{ paddingTop: "200px" }}>
+          <div>
             <h2 className='portfolio-titulo'>Skate</h2>
             <hr />
             <Stack direction="horizontal" gap={2}>
