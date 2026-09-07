@@ -44,7 +44,7 @@ const Resume = () => {
   return (
 
     <>
-      <Modal show={show} onHide={handleClose}>
+      {/* <Modal show={show} onHide={handleClose}>
         <Card>
           <Card.Img className="modalintro" src={modalintro}></Card.Img>
           <Card.ImgOverlay> 
@@ -60,7 +60,7 @@ const Resume = () => {
           <p>{texts.coveringLetter2}</p>
           <p>{texts.coveringLetter3}</p>
         </Modal.Body>
-      </Modal>
+      </Modal> */}
 
       <Row>
         <Col md={1}></Col>
